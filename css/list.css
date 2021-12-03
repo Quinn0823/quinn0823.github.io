@@ -65,15 +65,15 @@
     text-align: center;
     text-decoration: none;
 }
-#list ul li a:hover #list ul li ul li a:hover{
+#list ul li a:hover, #list ul li ul li a:hover{
     text-decoration: none;
     color: #0066ff;
 }
-#list ul li a.music, #list ul li ul li a.music.active {
+#list ul li a.music{
     font-family: Microsoft Yahei, "Helvetica Neue", Helvetica, Hiragino Sans GB, WenQuanYi Micro Hei, sans-serif;
     color: #FA233B;
 }
-#list ul li a.music:hover, #list ul li ul li a.music:hover{
+#list ul li a.music:hover, #list ul li ul li a.music:hover, #list ul li ul li a.music.active {
     color: #FA233B;
 }
 #list ul li ul li a {
