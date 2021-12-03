@@ -1,0 +1,26 @@
+* {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+    font-family: sans-serif;
+}
+
+main {
+    display: grid;
+    place-items: center;
+}
+
+.container {
+    text-align: center;
+}
+
+h1 {
+    font-size: 72px;
+    color: white;
+}
+
+h2 {
+    color: hsl(0deg, 0%, 80%);
+    font-size: 18px;
+    margin-top: 18px;
+}
