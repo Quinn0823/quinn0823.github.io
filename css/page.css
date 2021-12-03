@@ -16,7 +16,7 @@ body {
     hsl(250deg, 80%, 70%),
     hsl(300deg, 80%, 70%)
   );
-  background-size: 200% 200%;
+  background-size: 200% 400%;
   animation: gradient-move 10s ease alternate infinite;
 }
 
