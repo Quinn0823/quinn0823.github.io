@@ -16,8 +16,8 @@ body {
     hsl(250deg, 80%, 70%),
     hsl(300deg, 80%, 70%)
   );
-  background-size: 200% 400%;
-  animation: gradient-move 10s ease alternate infinite;
+  background-size: 200% 300%;
+  animation: gradient-move 10s cubic-bezier(0.46, 0.03, 0.52, 0.96) alternate infinite;
 }
 
 @keyframes gradient-move {
