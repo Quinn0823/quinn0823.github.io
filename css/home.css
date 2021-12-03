@@ -6,6 +6,8 @@
 }
 
 main {
+    width: 100vw;
+    height: 100vh;
     display: grid;
     place-items: center;
 }
@@ -20,7 +22,7 @@ h1 {
 }
 
 h2 {
-    color: hsl(0deg, 0%, 80%);
-    font-size: 18px;
-    margin-top: 18px;
+    color: hsl(0deg, 0%, 90%);
+    font-size: 24px;
+    margin-top: 24px;
 }

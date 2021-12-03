@@ -8,13 +8,16 @@ body {
   background-attachment: fixed;
   background: linear-gradient(
     135deg,
-    hsl(170deg, 80%, 70%),
-    hsl(190deg, 80%, 70%),
+    hsl(0deg, 80%, 70%),
+    hsl(50deg, 80%, 70%),
+    hsl(100deg, 80%, 70%),
+    hsl(150deg, 80%, 70%),
+    hsl(200deg, 80%, 70%),
     hsl(250deg, 80%, 70%),
-    hsl(320deg, 80%, 70%)
+    hsl(300deg, 80%, 70%)
   );
   background-size: 200% 200%;
-  animation: gradient-move 15s ease alternate infinite;
+  animation: gradient-move 10s ease alternate infinite;
 }
 
 @keyframes gradient-move {
