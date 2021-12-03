@@ -1,9 +1,10 @@
 jQuery(document).ready(function($) {
     $("body").click(function(e) {
-        self.location = 'https://quinn0823.github.io/';
+        self.location = 'https://quinn0823.github.io/home';
     });
 });
-/*let title = document.querySelector(".title");
+
+let title = document.querySelector(".title");
 let subTitle = document.querySelector(".subtitle");
 let fadeAndMove = [
     {
@@ -47,4 +48,4 @@ document.addEventListener("click", () => {
     if (subTitleChange.playState !== "finished") {
         subTitleChange.play();
     }
-});*/
+});
