@@ -32,14 +32,15 @@ hr {
 
 table {
     margin-left: 12%;
-    border-collapse: collapse;
+    border-radius: 10px;
+    background-color: #F8F8FA
 }
-table, td, th {
-    border: 1px solid #F8F8FA;
-}
-td {
+td, th {
     padding: 6px;
     text-align: center;
+}
+td a img, th a img {
+    border-radius: 20px;
 }
 
 iframe {
