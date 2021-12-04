@@ -52,20 +52,34 @@ iframe.first {
     margin-top: 10px;
 }
 
-ul.contact{
+ul.see {
     padding: 0;
     margin: 0 auto;
     list-style-type: none;
     margin-left: 12%;
 }
-ul.contact li{
+ul.see li {
+    float: left;
+    width: 100px;
+    height: 50px;
+    position: relative;
+    margin-right: 7.5px;
+}
+
+ul.contact {
+    padding: 0;
+    margin: 0 auto;
+    list-style-type: none;
+    margin-left: 12%;
+}
+ul.contact li {
     float: left;
     width: 50px;
     height: 50px;
     position: relative;
     margin-right: 7.5px;
 }
-ul.contact li a{
+ul.contact li a {
     display: block;
     color: #000000;
     line-height: 50px;
@@ -75,15 +89,15 @@ ul.contact li a{
     border-radius: 10px;
     text-decoration: none;
 }
-ul.contact li a:hover i.fab.fa-weixin{
+ul.contact li a:hover i.fab.fa-weixin {
     color: #2AAE67;
 }
-ul.contact li a:hover i.fab.fa-qq{
+ul.contact li a:hover i.fab.fa-qq {
     color: #ff0000;
 }
-ul.contact li a:hover i.fab.fa-weibo{
+ul.contact li a:hover i.fab.fa-weibo {
     color: #ff8200;
 }
-ul.contact li a:hover i.fab.fa-github{
+ul.contact li a:hover i.fab.fa-github {
     color: #8F8F8F;
 }
