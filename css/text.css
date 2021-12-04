@@ -74,6 +74,15 @@ ul.contact li a{
     border-radius: 10px;
     text-decoration: none;
 }
-ul.contact li a:hover{
-    background-color: #ffffff;
+ul.contact li a:hover i.fab.fa-weixin{
+    color: #2AAE67;
+}
+ul.contact li a:hover i.fab.fa-qq{
+    color: #ff0000;
+}
+ul.contact li a:hover i.fab.fa-weibo{
+    color: #ff8200;
+}
+ul.contact li a:hover i.fab.fa-github{
+    color: #8F8F8F;
 }
