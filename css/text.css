@@ -1,14 +1,6 @@
-@font-face {
-    font-family: 'segoepr';
-    src: url(/assets/segoepr.ttf);
-}
 h1, h2, h3, h4, h5, h6, p, dd, hr, ul.first, ol.first {
-    font-family: 'segoepr';
     margin-left: 10%;
     margin-right: 10%;
-}
-li, td, span {
-    font-family: 'segoepr';
 }
 
 h1 {
@@ -34,7 +26,7 @@ a:active {
 }
 
 table {
-    margin-left: 10%;
+    margin-left: 12%;
     border-collapse: collapse;
 }
 table, td, th {
@@ -43,14 +35,6 @@ table, td, th {
 td {
     padding: 6px;
     text-align: center;
-}
-
-[title="copy"] {
-    cursor: copy;
-}
-
-[title="enter"] {
-    cursor: pointer;
 }
 
 iframe {

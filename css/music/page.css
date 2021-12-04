@@ -19,7 +19,7 @@ body {
   background-size: 200% 300%;
   animation: gradient-move 10s cubic-bezier(0.46, 0.03, 0.52, 0.96) alternate infinite;
 
-  font-family: 'segoepr';
+  font-family: "SF Pro Text","SF Pro Icons","Helvetica Neue","Helvetica","Arial",sans-serif;
 }
 
 @keyframes gradient-move {
@@ -29,9 +29,4 @@ body {
   100% {
     background-position: 100% 0%;
   }
-}
-
-@font-face {
-  font-family: 'segoepr';
-  src: url(/fonts/segoepr.ttf);
 }

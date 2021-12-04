@@ -1,10 +1,6 @@
 h1, h2, h3, h4, h5, h6, p, dd, hr, ul.first, ol.first {
-    font-family: Microsoft Yahei, "Helvetica Neue", Helvetica, Hiragino Sans GB, WenQuanYi Micro Hei, sans-serif;
     margin-left: 10%;
     margin-right: 10%;
-}
-li, td, span {
-    font-family: Microsoft Yahei, "Helvetica Neue", Helvetica, Hiragino Sans GB, WenQuanYi Micro Hei, sans-serif;
 }
 
 h1 {
@@ -24,7 +20,7 @@ a:hover {
     text-decoration: underline;
 }
 a:active {
-    color: #FF0000;
+    color: #FA233B;
     text-decoration: underline;
 }
 
