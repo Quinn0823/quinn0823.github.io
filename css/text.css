@@ -6,7 +6,7 @@ h1, h2, h3, h4, h5, h6, p, dd, hr, ul.first, ol.first {
 h1 {
     color: #0000ff;
     text-align: center;
-    text-shadow: 5px 5px 10px #A8A8A8;
+    text-shadow: 5px 5px 10px #F8F8FA;
 }
 
 h2, h3, h4, h5, h6 {
@@ -30,7 +30,7 @@ table {
     border-collapse: collapse;
 }
 table, td, th {
-    border: 1px solid #DFE2E5;
+    border: 1px solid #F8F8FA;
 }
 td {
     padding: 6px;

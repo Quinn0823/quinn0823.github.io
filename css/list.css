@@ -2,7 +2,7 @@
     width: 100%;
     height: 40px;
     border-radius: 10px;
-    background-color: #ffffff;
+    background-color: #F8F8FA;
 }
 #list ul{
     padding: 0;
@@ -22,13 +22,12 @@
     color: #0000ff;
     line-height: 40px;
     text-align: center;
-    background-color: #ffffff;
     font-family: "SF Pro Text","SF Pro Icons","Helvetica Neue","Helvetica","Arial",sans-serif;
 }
 #list ul li {
     width: 10%;
     float: left;
-    position:relative;
+    position: relative;
 }
 #list ul li.about{
     float: right;
@@ -86,7 +85,6 @@
 }
 #list ul marquee span{
     color: #0000ff;
-    background-color: #ffffff;
 }
 #list ul marquee span a:link, #list ul marquee span a:visited {    
     color: #0000ff;
