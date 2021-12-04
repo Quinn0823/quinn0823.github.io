@@ -84,7 +84,18 @@
     display: block;
 }
 #list ul marquee span{
-    color: #0000ff;
+    background-image: linear-gradient(
+        90deg,
+        hsl(0deg, 100%, 50%),
+        hsl(50deg, 100%, 50%),
+        hsl(100deg, 100%, 50%),
+        hsl(150deg, 100%, 50%),
+        hsl(200deg, 100%, 50%),
+        hsl(250deg, 100%, 50%),
+        hsl(300deg, 100%, 50%)
+    );       
+    -webkit-background-clip:text;
+    color: transparent;
 }
 #list ul marquee span a:link, #list ul marquee span a:visited {    
     color: #0000ff;
