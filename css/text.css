@@ -50,3 +50,26 @@ iframe {
 iframe.first {
     margin-top: 10px;
 }
+
+ul.contact{
+    padding: 0;
+    margin: 0 auto;
+    list-style-type: none;
+    margin-left: 12%;
+}
+ul.contact li{
+    float: left;
+    width: 40px;
+    height: 40px;
+    margin-right: 5px;
+    position: relative;
+    border-radius: 10px;
+    background-color: #F8F8FA;
+}
+ul.contact li a{
+    display: block;
+    color: #000000;
+    line-height: 40px;
+    text-align: center;
+    text-decoration: none;
+}
