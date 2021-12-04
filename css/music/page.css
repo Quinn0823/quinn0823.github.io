@@ -22,6 +22,10 @@ body {
   font-family: "SF Pro Text","SF Pro Icons","Helvetica Neue","Helvetica","Arial",sans-serif;
 }
 
+* {
+  transition: 250ms;
+}
+
 @keyframes gradient-move {
   0% {
     background-position: 0% 0%;

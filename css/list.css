@@ -4,12 +4,12 @@
     border-radius: 10px;
     background-color: #F8F8FA;
 }
-#list ul{
+#list ul {
     padding: 0;
     margin: 0 auto;
     list-style-type: none;
 }
-#list ul img{
+#list ul img {
     width: 40px;
     height: 40px;
     float: left;

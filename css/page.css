@@ -20,6 +20,12 @@ body {
   animation: gradient-move 10s cubic-bezier(0.46, 0.03, 0.52, 0.96) alternate infinite;
 
   font-family: 'segoepr';
+
+
+}
+
+* {
+  transition: 250ms;
 }
 
 @keyframes gradient-move {
