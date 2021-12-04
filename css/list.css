@@ -1,12 +1,7 @@
-@font-face {
-    font-family: 'segoepr';
-    src: url(/assets/segoepr.ttf);
-}
-
 #list {
     width: 100%;
     height: 40px;
-    border-radius: 20px;
+    border-radius: 10px;
     background-color: #ffffff;
 }
 #list ul{
@@ -18,7 +13,7 @@
     width: 40px;
     height: 40px;
     float: left;
-    border-radius: 20px 0px 0px 20px
+    border-radius: 10px 0px 0px 10px;
 }
 #list ul span {
     width: 125px;
@@ -28,7 +23,7 @@
     line-height: 40px;
     text-align: center;
     background-color: #ffffff;
-    font-family: Microsoft Yahei, "Helvetica Neue", Helvetica, Hiragino Sans GB, WenQuanYi Micro Hei, sans-serif;
+    font-family: "SF Pro Text","SF Pro Icons","Helvetica Neue","Helvetica","Arial",sans-serif;
 }
 #list ul li {
     width: 10%;
@@ -37,6 +32,7 @@
 }
 #list ul li.about{
     float: right;
+    border-radius: 0px 10px 10px 0px;
 }
 
 #list ul li ul {
@@ -70,7 +66,7 @@
     color: #0066ff;
 }
 #list ul li a.music{
-    font-family: Microsoft Yahei, "Helvetica Neue", Helvetica, Hiragino Sans GB, WenQuanYi Micro Hei, sans-serif;
+    font-family: "SF Pro Text","SF Pro Icons","Helvetica Neue","Helvetica","Arial",sans-serif;
     color: #FA233B;
 }
 #list ul li a.music:hover, #list ul li ul li a.music:hover, #list ul li ul li a.music.active {
@@ -90,7 +86,6 @@
 }
 #list ul marquee span{
     color: #0000ff;
-    font-family: 'segoepr';
     background-color: #ffffff;
 }
 #list ul marquee span a:link, #list ul marquee span a:visited {    
