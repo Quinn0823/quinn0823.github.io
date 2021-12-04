@@ -59,17 +59,21 @@ ul.contact{
 }
 ul.contact li{
     float: left;
-    width: 40px;
-    height: 40px;
-    margin-right: 5px;
+    width: 50px;
+    height: 50px;
     position: relative;
-    border-radius: 10px;
-    background-color: #F8F8FA;
+    margin-right: 7.5px;
 }
 ul.contact li a{
     display: block;
     color: #000000;
-    line-height: 40px;
+    line-height: 50px;
+    font-size: 25px;
     text-align: center;
+    background-color: #F8F8FA;
+    border-radius: 10px;
     text-decoration: none;
+}
+ul.contact li a:hover{
+    background-color: #ffffff;
 }
