@@ -15,7 +15,7 @@
     float: left;
     border-radius: 10px 0px 0px 10px;
 }
-#list ul span {
+#list ul span.title {
     width: 125px;
     height: 40px;
     float: left;
