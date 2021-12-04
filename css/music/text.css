@@ -8,7 +8,6 @@ h1 {
     text-align: center;
     text-shadow: 5px 5px 10px #F8F8FA;
 }
-
 h2, h3, h4, h5, h6 {
     color: #FA233B;
 }
@@ -22,6 +21,12 @@ a:hover {
 a:active {
     color: #FA233B;
     text-decoration: underline;
+}
+
+hr {
+    background-color: #F8F8FA;
+    height: 2px;
+    border: 0;
 }
 
 table {
