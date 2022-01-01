@@ -40,8 +40,12 @@ td, th {
     text-align: center;
     border-radius: 10px;
 }
-td:hover, th:hover{
+td:hover, th:hover {
     background-color: #F0F0F0;
+}
+td a:hover, th a:hover {
+    color: #0066ff;
+    text-decoration: none;
 }
 td a img, th a img {
     border-radius: 20px;
@@ -77,7 +81,6 @@ iframe.first {
     display: block;
     text-align: center;
     color: #000000;
-  
     line-height: 50px;
     text-decoration: none;
     background-color: #F8F8FA;
