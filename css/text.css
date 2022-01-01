@@ -33,11 +33,15 @@ hr {
 table {
     margin-left: 12%;
     border-radius: 10px;
-    background-color: #F8F8FA
+    background-color: #F8F8FA;
 }
 td, th {
     padding: 6px;
     text-align: center;
+    border-radius: 10px;
+}
+td:hover, th:hover{
+    background-color: #F0F0F0;
 }
 td a img, th a img {
     border-radius: 20px;
