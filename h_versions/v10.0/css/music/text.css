@@ -1,0 +1,50 @@
+h1, h2, h3, h4, h5, h6, p, dd, hr, ul.first, ol.first {
+    margin-left: 10%;
+    margin-right: 10%;
+}
+
+h1 {
+    color: #FA233B;
+    text-align: center;
+    text-shadow: 5px 5px 10px #F8F8FA;
+}
+h2, h3, h4, h5, h6 {
+    color: #FA233B;
+}
+
+a:link, a:visited {
+    text-decoration: none;
+}
+a:hover {
+    text-decoration: underline;
+}
+a:active {
+    color: #FA233B;
+    text-decoration: underline;
+}
+
+hr {
+    background-color: #F8F8FA;
+    height: 2px;
+    border: 0;
+}
+
+table {
+    margin-left: 10%;
+    border-collapse: collapse;
+}
+table, td, th {
+    border: 1px solid #F8F8FA;
+}
+td {
+    padding: 6px;
+    text-align: center;
+}
+
+iframe {
+    margin-left: 10%;
+    margin-right: 10%;
+}
+iframe.first {
+    margin-top: 10px;
+}

@@ -1,0 +1,27 @@
+* {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+
+main {
+    width: 100vw;
+    height: 100vh;
+    display: grid;
+    place-items: center;
+}
+
+.container {
+    text-align: center;
+}
+
+h1 {
+    font-size: 72px;
+    color: white;
+}
+
+h2 {
+    color: hsl(0deg, 0%, 90%);
+    font-size: 24px;
+    margin-top: 24px;
+}

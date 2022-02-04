@@ -1,0 +1,36 @@
+body {
+  margin: 10px;
+  padding: 0px;
+  border: 0px;
+  /*background-image: url('/svgs/background.svg');*/
+  background-size: 100% 100%;
+  background-repeat: no-repeat;
+  background-attachment: fixed;
+  background: linear-gradient(
+    135deg,
+    hsl(0deg, 80%, 70%),
+    hsl(50deg, 80%, 70%),
+    hsl(100deg, 80%, 70%),
+    hsl(150deg, 80%, 70%),
+    hsl(200deg, 80%, 70%),
+    hsl(250deg, 80%, 70%),
+    hsl(300deg, 80%, 70%)
+  );
+  background-size: 200% 300%;
+  animation: gradient-move 10s cubic-bezier(0.46, 0.03, 0.52, 0.96) alternate infinite;
+
+  font-family: "SF Pro Text","SF Pro Icons","Helvetica Neue","Helvetica","Arial",sans-serif;
+}
+
+* {
+  transition: 250ms;
+}
+
+@keyframes gradient-move {
+  0% {
+    background-position: 0% 0%;
+  }
+  100% {
+    background-position: 100% 0%;
+  }
+}
