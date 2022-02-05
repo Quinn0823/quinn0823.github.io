@@ -6,14 +6,11 @@
     color: rgba(0, 0, 0, 0.6);
     font-family: "SF Pro Text","SF Pro Icons","Helvetica Neue","Helvetica","Arial",sans-serif;
 }
-body {
-    
-    background-color: #c6e7fa;
-}
 .frame {
     margin: 0px;
     display: flex;
     justify-content: left;
+    background-color: #c6e7fa;
 }
 
 .menu {
@@ -165,8 +162,8 @@ body {
 .main {
     left: 300px;
     top: 0px;
-    width:690px;
-    height: 690px;
+    width:685px;
+    height: 685px;
     position: absolute;
     background-color: #ECF6FD;
     background: #c6e7fa;
@@ -175,7 +172,7 @@ body {
 .main h2 {
     font-weight: 400;
     height: 60px;
-    width:100px;
+    width:300px;
     display: flex;
     justify-content: left;
     align-items: center;
@@ -185,10 +182,10 @@ body {
     background-color: rgba(0, 0, 0, 0.1);
 }
 .content {
-    margin-left: -100px;
+    margin-left: -300px;
     margin-top:60px;
-    width:640px;
-    height: 605px;
+    width:635px;
+    height: 600px;
     border-radius: 20px;
     background-color: #ECF6FD;
     padding:25px;
