@@ -1,172 +1,121 @@
-* {
-    margin: 0;
+#list {
+    width: 100%;
+    height: 40px;
+    border-radius: 10px;
+    background-color: #F8F8FA;
+}
+#list ul {
     padding: 0;
-    box-sizing: border-box;
-    transition: 0.5s;
-    color: rgba(0, 0, 0, 0.6);
+    margin: 0 auto;
+    list-style-type: none;
+}
+#list ul img {
+    width: 40px;
+    height: 40px;
+    float: left;
+    border-radius: 10px 0px 0px 10px;
+}
+#list ul span.title {
+    width: 125px;
+    height: 40px;
+    float: left;
+    color: #0000ff;
+    line-height: 40px;
+    text-align: center;
+    font-family: "SF Pro Text","SF Pro Icons","Helvetica Neue","Helvetica","Arial",sans-serif;
+}
+#list ul li {
+    width: 10%;
+    float: left;
+    position: relative;
+}
+#list ul li.about{
+    float: right;
+    border-radius: 0px 10px 10px 0px;
+}
 
-}
-.frame {
-    margin: 10px;
-    display: flex;
-    justify-content: left;
-}
-
-.menu {
-    width: 140px;
-    background: #c6e7fa;
-    border-radius: 20px;
-    overflow: hidden;
-}
-.menu:hover {
-    width: 300px;
-}
-.button {
-    width: 60px;
-    height: 10px;
-    display: flex;
-    justify-content: space-around;
-    margin-left: 25px;
-    margin-top: 25px;
-}
-.button1 {
-    width: 10px;
-    height: 10px;
-    border-radius: 50%;
-    background-color: #eb5a56;
+#list ul li ul {
+    top: 40px;
+    width: 100%;
+    margin: 0 auto;
+    display: none;
+    position: absolute;
     
 }
-.button2 {
-    width: 10px;
-    height: 10px;
-    border-radius: 50%;
-    background-color: #f8bc33;
+#list ul li:hover ul {
+    display: block;
 }
-.button3 {
-    width: 10px;
-    height: 10px;
-    border-radius: 50%;
-    background-color: #62cb44;
+#list ul li ul li {
+    width: 75%;
+    margin: 0 auto;
+    float: none;
 }
-.icon {
-    width: 250px;
-    height: 90px;
-    margin-left: 25px;
-    margin-top: 20px;
-    display: flex;
-    border-radius: 20px;
-}
-.icon:hover {
-    background-color: #ECF6FD;
-}
-.icon:hover .menu {
-    border-radius: 20px 0px 0px 20px;
-}
-.logo {
-    width: 70px;
-    height: 70px;
-    margin-left: 10px;
-    margin-top: 10px;
-    border-radius: 50%;
-    border: 4px solid rgba(0, 0, 0, 0.1);
-    overflow: hidden;
-}
-.logo img {
+
+#list ul li a, #list ul li a.active, #list ul li ul li a.active{
     width: 100%;
-    height: 100%;
-    border-radius: 50%;
-    object-fit: cover;
-}
-.text {
-    height: 70px;
-    margin-top: 10px;
-    margin-left: 35px;
-}
-.text p {
-    padding-top: 5px;
-}
-.text h2 {
-    font-weight: 400;
-}
-.line {
-    width: 90px;
-    height: 2px;
-    background: rgba(0, 0, 0, 0.1);
-    margin: 20px 25px;
-}
-.menu:hover .line {
-    width: 250px;
-}
-.title {
-    width: 60px;
-    margin-left: 25px;
-    margin-bottom: 20px;
-}
-.title p {
-    font-size: 14px;
-}
-.pages {
-    width: 250px;
-    margin-left: 25px;
-}
-.item {
-    display: flex;
-    position: relative;
-    border-radius: 20px;
+    height: 40px;
+    line-height: 40px;
+    display: block;
+    color: #0000ff;
+    text-align: center;
     text-decoration: none;
 }
-.item:hover {
-    background-color: #ECF6FD;
+#list ul li a:hover, #list ul li ul li a:hover{
+    text-decoration: none;
+    color: #0066ff;
+}
+#list ul li a.music{
+    font-family: "SF Pro Text","SF Pro Icons","Helvetica Neue","Helvetica","Arial",sans-serif;
+    color: #FA233B;
+}
+#list ul li a.music:hover, #list ul li ul li a.music:hover, #list ul li ul li a.music.active {
+    color: #FA233B;
+}
+#list ul li ul li a {
+    margin: 0 auto;
+    text-decoration: none;
+    background-color: #0000ff;
+}
+
+#list ul marquee {
+    height: 40px;
+    line-height: 40px;
+    color: #0000ff;
+    display: block;
+}
+#list ul marquee span{
+    background: linear-gradient(
+        135deg,
+        hsl(0deg, 100%, 50%),
+        hsl(50deg, 100%, 50%),
+        hsl(100deg, 100%, 50%),
+        hsl(150deg, 100%, 50%),
+        hsl(200deg, 100%, 50%),
+        hsl(250deg, 100%, 50%),
+        hsl(300deg, 100%, 50%)
+    );
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+}
+#list ul marquee span a:link, #list ul marquee span a:visited {    
+    color: #0000ff;
     text-decoration: none;
 }
-.licon {
-    width: 90px;
-    height: 60px;
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    font-size: large;
+#list ul marquee span a:hover {
+    text-decoration: underline;
 }
-.ltext {
-    width: 0px;
-    height: 60px;
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    overflow: hidden;
-    position: relative;
-    left: -20px;
-    opacity: 0;
+#list ul marquee span a:active {
+    color: #FF0000;
+    text-decoration: underline;
 }
-.menu:hover .ltext {
-    width: 160px;
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    opacity: 1;
+
+#list ul button {
+    float: right;
+    height: 40px;
 }
-.webside {
-    width: 90px;
-    background-color: #ECF6FD;
-    margin-left: 25px;
-    border-radius: 20px;
-}
-.menu:hover .webside {
-    width: 250px;
-}
-.light {
-    width: 10px;
-    height: 60px;
-    background: #ECF6FD;
-    position: absolute;
-    left: -25px;
-    border-radius: 0px 20px 20px 0px;
-    opacity: 0;
-}
-.item:hover .light {
-    opacity: 1;
-}
-.bottom {
-    margin-left: 25px;
-    height: 25px;
+#list ul input {
+    width: 20%;
+    float: right;
+    height: 34px;
+    text-align: center;
 }
