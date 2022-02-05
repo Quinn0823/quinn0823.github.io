@@ -190,7 +190,7 @@
 .main h2 {
     font-weight: 400;
     height: 60px;
-    width: 300px;
+    width: 185px;
     display: flex;
     justify-content: left;
     align-items: center;
@@ -200,7 +200,7 @@
     background-color: rgba(0, 0, 0, 0.1);
 }
 .content {
-    margin-left: -390px;
+    margin-left: -275px;
     margin-top: 60px;
     width: 640px;
     height: 606px;

@@ -172,17 +172,17 @@
 .main h2 {
     font-weight: 400;
     height: 60px;
-    width: 300px;
+    width: 185px;
     display: flex;
     justify-content: left;
     align-items: center;
-    margin-left: 25px
+    margin-left: -160px;
 }
 .main .button .button3 {
     background-color: rgba(0, 0, 0, 0.1);
 }
 .content {
-    margin-left: -300px;
+    margin-left: 0px;
     margin-top: 60px;
     width: 640px;
     height: 605px;
