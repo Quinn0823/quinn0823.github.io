@@ -57,7 +57,7 @@
     width: 250px;
     height: 90px;
     margin-left: 25px;
-    margin-top: 20px;
+    margin-top: 25px;
     display: flex;
     border-radius: 20px;
     text-decoration: none;
@@ -179,8 +179,8 @@
 .main {
     left: 350px;
     top: 25px;
-    width:685px;
-    height: 685px;
+    width:690px;
+    height: 690px;
     position: absolute;
     background-color: #ECF6FD;
     background: #c6e7fa;
@@ -190,7 +190,7 @@
 .main h2 {
     font-weight: 400;
     height: 60px;
-    width:300px;
+    width: 300px;
     display: flex;
     justify-content: left;
     align-items: center;
@@ -201,10 +201,10 @@
 }
 .content {
     margin-left: -390px;
-    margin-top:60px;
-    width:635px;
-    height: 600px;
+    margin-top: 60px;
+    width: 640px;
+    height: 606px;
     border-radius: 20px;
     background-color: #ECF6FD;
-    padding:25px;
+    padding: 25px;
 }
