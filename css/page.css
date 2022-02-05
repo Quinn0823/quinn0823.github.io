@@ -105,7 +105,7 @@
 .title p {
     font-size: 14px;
 }
-.menu1 {
+.pages {
     width: 250px;
     margin-left: 25px;
 }
@@ -118,7 +118,7 @@
 .item:hover {
     background-color: #ECF6FD;
 }
-.micon {
+.licon {
     width: 90px;
     height: 60px;
     display: flex;
@@ -126,7 +126,7 @@
     align-items: center;
     font-size: large;
 }
-.mtext {
+.ltext {
     width: 0px;
     height: 60px;
     display: flex;
@@ -137,21 +137,21 @@
     left: -20px;
     opacity: 0;
 }
-.menu:hover .mtext {
+.menu:hover .ltext {
     width: 160px;
     display: flex;
     justify-content: center;
     align-items: center;
     opacity: 1;
 }
-.menu2 {
+.webside {
     width: 90px;
     background-color: #ECF6FD;
     margin-left: 25px;
     border-radius: 20px;
     overflow: hidden;
 }
-.menu:hover .menu2 {
+.menu:hover .webside {
     width: 250px;
 }
 .bottom {
