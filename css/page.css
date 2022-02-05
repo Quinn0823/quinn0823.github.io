@@ -7,7 +7,7 @@
     font-family: "SF Pro Text","SF Pro Icons","Helvetica Neue","Helvetica","Arial",sans-serif;
 }
 .frame {
-    margin: 0px;
+    margin: 25px;
     display: flex;
     justify-content: left;
 }
