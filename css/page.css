@@ -22,7 +22,7 @@
     width: 300px;
 }
 .button {
-    width: 60px;
+    width: 65px;
     height: 10px;
     display: flex;
     justify-content: space-around;
@@ -30,21 +30,21 @@
     margin-top: 25px;
 }
 .button1 {
-    width: 10px;
-    height: 10px;
+    width: 12px;
+    height: 12px;
     border-radius: 50%;
     background-color: #eb5a56;
     
 }
 .button2 {
-    width: 10px;
-    height: 10px;
+    width: 12px;
+    height: 12px;
     border-radius: 50%;
     background-color: #f8bc33;
 }
 .button3 {
-    width: 10px;
-    height: 10px;
+    width: 12px;
+    height: 12px;
     border-radius: 50%;
     background-color: #62cb44;
 }
