@@ -7,7 +7,7 @@
     font-family: "SF Pro Text","SF Pro Icons","Helvetica Neue","Helvetica","Arial",sans-serif;
 }
 .frame {
-    margin: 10px;
+    margin: 25px;
     display: flex;
     justify-content: left;
 }
@@ -173,7 +173,7 @@
 
 .main {
     left: 350px;
-    top: 10px;
+    top: 25px;
     width:690px;
     height: 690px;
     position: absolute;
@@ -190,6 +190,9 @@
     justify-content: left;
     align-items: center;
     margin-left: 25px
+}
+.main button button3 {
+    background-color: rgba(0, 0, 0, 0.1);
 }
 .content {
     margin-left: -190px;
