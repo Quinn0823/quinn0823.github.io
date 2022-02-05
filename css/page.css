@@ -4,7 +4,7 @@
     box-sizing: border-box;
     transition: 0.5s;
     color: rgba(0, 0, 0, 0.6);
-
+    font-family: "SF Pro Text","SF Pro Icons","Helvetica Neue","Helvetica","Arial",sans-serif;
 }
 .frame {
     margin: 10px;
