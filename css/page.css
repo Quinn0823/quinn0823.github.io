@@ -208,3 +208,10 @@
     background-color: #ECF6FD;
     padding: 25px;
 }
+iframe {
+    margin-left: -275px;
+    margin-top: 60px;
+    width: 640px;
+    height: 605px;
+    border-radius: 20px;
+}
