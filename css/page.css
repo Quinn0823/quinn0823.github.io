@@ -171,3 +171,23 @@
     margin-left: 25px;
     height: 25px;
 }
+
+.content {
+    left: 350px;
+    top: 10px;
+    width:600px;
+    height: 690px;
+    position: absolute;
+    background-color: #ECF6FD;
+    background: #c6e7fa;
+    border-radius: 20px;
+    display: flex;
+}
+.content h2 {
+    font-weight: 400;
+    height: 60px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-left: 10px
+}
