@@ -6,6 +6,10 @@
     color: rgba(0, 0, 0, 0.6);
     font-family: "SF Pro Text","SF Pro Icons","Helvetica Neue","Helvetica","Arial",sans-serif;
 }
+body {
+    
+    background-color: #c6e7fa;
+}
 .frame {
     margin: 0px;
     display: flex;
@@ -13,13 +17,9 @@
 }
 
 .menu {
-    width: 140px;
-    background: #c6e7fa;
-    border-radius: 20px;
-    overflow: hidden;
-}
-.menu:hover {
     width: 300px;
+    background: #c6e7fa;
+    overflow: hidden;
 }
 .button {
     width: 65px;
@@ -93,13 +93,10 @@
     font-weight: 400;
 }
 .line {
-    width: 90px;
+    width: 250px;
     height: 2px;
     background: rgba(0, 0, 0, 0.1);
     margin: 20px 25px;
-}
-.menu:hover .line {
-    width: 250px;
 }
 .title {
     width: 60px;
@@ -133,7 +130,7 @@
     font-size: large;
 }
 .ltext {
-    width: 0px;
+    width: 160px;
     height: 60px;
     display: flex;
     justify-content: center;
@@ -141,23 +138,12 @@
     overflow: hidden;
     position: relative;
     left: -20px;
-    opacity: 0;
-}
-.menu:hover .ltext {
-    width: 160px;
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    opacity: 1;
 }
 .webside {
-    width: 90px;
+    width: 250px;
     background-color: #ECF6FD;
     margin-left: 25px;
     border-radius: 20px;
-}
-.menu:hover .webside {
-    width: 250px;
 }
 .light {
     width: 10px;
@@ -177,14 +163,13 @@
 }
 
 .main {
-    left: 350px;
-    top: 25px;
+    left: 300px;
+    top: 0px;
     width:690px;
     height: 690px;
     position: absolute;
     background-color: #ECF6FD;
     background: #c6e7fa;
-    border-radius: 20px;
     display: flex;
 }
 .main h2 {
@@ -200,7 +185,7 @@
     background-color: rgba(0, 0, 0, 0.1);
 }
 .content {
-    margin-left: -190px;
+    margin-left: -100px;
     margin-top:60px;
     width:640px;
     height: 605px;
