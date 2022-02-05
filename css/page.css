@@ -58,9 +58,7 @@
 }
 .icon:hover {
     background-color: #ECF6FD;
-}
-.icon:hover .menu {
-    border-radius: 20px 0px 0px 20px;
+    text-decoration: none;
 }
 .logo {
     width: 70px;
@@ -172,10 +170,10 @@
     height: 25px;
 }
 
-.content {
+.main {
     left: 350px;
     top: 10px;
-    width:600px;
+    width:690px;
     height: 690px;
     position: absolute;
     background-color: #ECF6FD;
@@ -183,11 +181,21 @@
     border-radius: 20px;
     display: flex;
 }
-.content h2 {
+.main h2 {
     font-weight: 400;
     height: 60px;
+    width:100px;
     display: flex;
     justify-content: center;
     align-items: center;
     margin-left: 10px
+}
+.content {
+    margin-left: -170px;
+    margin-top:60px;
+    width:640px;
+    height: 605px;
+    border-radius: 20px;
+    background-color: #ECF6FD;
+    padding:25px;
 }
