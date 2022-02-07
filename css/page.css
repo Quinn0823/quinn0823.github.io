@@ -15,7 +15,7 @@
 .menu {
     width: 140px;
     background: #c6e7fa;
-    border-radius: 16px;
+    border-radius: 20px;
     overflow: hidden;
 }
 .menu:hover {
@@ -23,7 +23,7 @@
 }
 .button {
     width: 65px;
-    height: 10px;
+    height: 12px;
     display: flex;
     justify-content: space-around;
     margin-left: 25px;
@@ -59,7 +59,7 @@
     margin-left: 25px;
     margin-top: 25px;
     display: flex;
-    border-radius: 16px;
+    border-radius: 10px;
     text-decoration: none;
 }
 .icon:hover {
@@ -96,15 +96,16 @@
     width: 90px;
     height: 2px;
     background: rgba(0, 0, 0, 0.1);
-    margin: 20px 25px;
+    margin: 25px 25px;
 }
 .menu:hover .line {
     width: 250px;
 }
 .title {
     width: 60px;
+    height: 20px;
     margin-left: 25px;
-    margin-bottom: 20px;
+    margin-bottom: 25px;
 }
 .title p {
     font-size: 14px;
@@ -117,7 +118,7 @@
     display: flex;
     position: relative;
     transition: 0.5s;
-    border-radius: 8px;
+    border-radius: 10px;
     text-decoration: none;
 }
 .item:hover {
@@ -155,7 +156,7 @@
     width: 90px;
     background-color: #ECF6FD;
     margin-left: 25px;
-    border-radius: 4px;
+    border-radius: 10px;
 }
 .menu:hover .webside {
     width: 250px;
@@ -167,7 +168,7 @@
     position: absolute;
     left: -25px;
     opacity: 0;
-    border-radius: 0px 20px 20px 0px;
+    border-radius: 0px 10px 10px 0px;
 }
 .item:hover .light {
     opacity: 1;
@@ -180,8 +181,8 @@
 .main {
     left: 350px;
     top: 25px;
-    width:690px;
-    height: 690px;
+    width:731px;
+    height: 731px;
     position: absolute;
     background-color: #ECF6FD;
     background: #c6e7fa;
@@ -190,7 +191,7 @@
 }
 .main h3 {
     font-weight: 400;
-    height: 60px;
+    height: 62px;
     width: 185px;
     display: flex;
     justify-content: left;
@@ -202,10 +203,10 @@
 }
 .content {
     margin-left: -275px;
-    margin-top: 60px;
-    width: 640px;
-    height: 605px;
-    border-radius: 16px;
+    margin-top: 62px;
+    width: 681px;
+    height: 644px;
+    border-radius: 10px;
     background-color: #ECF6FD;
     padding: 25px;
 }
@@ -214,5 +215,5 @@ iframe {
     margin-top: 60px;
     width: 640px;
     height: 605px;
-    border-radius: 16px;
+    border-radius: 10px;
 }
