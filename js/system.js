@@ -1,16 +1,17 @@
-function judgmentClient(PCurl,WebUel){
-    var UserClient = navigator.userAgent.toLowerCase();
-    var IsIPad = UserClient.match(/ipad/i) == "ipad";
-    var IsIphoneOs = UserClient.match(/iphone os/i) == "iphone os";
-    var IsMidp = UserClient.match(/midp/i) == "midp";
-    var IsUc7 = UserClient.match(/rv:1.2.3.4/i) == "rv:1.2.3.4";
-    var IsUc = UserClient.match(/ucweb/i) == "ucweb";
-    var IsAndroid = UserClient.match(/android/i) == "android";
-    var IsCE = UserClient.match(/windows ce/i) == "windows ce";
-    var IsWM = UserClient.match(/windows mobile/i) == "windows mobile";
-    if (IsIPad || IsIphoneOs || IsMidp || IsUc7 || IsUc || IsAndroid || IsCE || IsWM){
-        window.location = "/m";
+function browserRedirect() {
+    var sUserAgent = navigator.userAgent.toLowerCase();
+    var bIsIpad = sUserAgent.match(/ipad/i) == "ipad";
+    var bIsIphoneOs = sUserAgent.match(/iphone os/i) == "iphone os";
+    var bIsMidp = sUserAgent.match(/midp/i) == "midp";
+    var bIsUc7 = sUserAgent.match(/rv:1.2.3.4/i) == "rv:1.2.3.4";
+    var bIsUc = sUserAgent.match(/ucweb/i) == "ucweb";
+    var bIsAndroid = sUserAgent.match(/android/i) == "android";
+    var bIsCE = sUserAgent.match(/windows ce/i) == "windows ce";
+    var bIsWM = sUserAgent.match(/windows mobile/i) == "windows mobile";
+    if (bIsIpad || bIsIphoneOs || bIsMidp || bIsUc7 || bIsUc || bIsAndroid || bIsCE || bIsWM) {
+        self.location = '/m';
     } else {
         
     }
 }
+browserRedirect();
