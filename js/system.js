@@ -8,7 +8,7 @@ var bIsAndroid = sUserAgent.match(/android/i) == "android";
 var bIsCE = sUserAgent.match(/windows ce/i) == "windows ce";
 var bIsWM = sUserAgent.match(/windows mobile/i) == "windows mobile";
 if (bIsIpad || bIsIphoneOs || bIsMidp || bIsUc7 || bIsUc || bIsAndroid || bIsCE || bIsWM) {
-    var tip = confirm("You are using phone/pad to visit Quinn-Web. Do you want to go to the phone/pad version?");
+    var tip = confirm("You are using phone/pad to visit Quinn-Web. Do you want to go to the pages for phone/pad?");
     if (tip == true) {
         self.location = '/m';
     }
