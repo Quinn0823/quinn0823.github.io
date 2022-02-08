@@ -9,7 +9,7 @@ function judgmentClient(PCurl,WebUel){
     var IsCE = UserClient.match(/windows ce/i) == "windows ce";
     var IsWM = UserClient.match(/windows mobile/i) == "windows mobile";
     if (IsIPad || IsIphoneOs || IsMidp || IsUc7 || IsUc || IsAndroid || IsCE || IsWM){
-        window.location = '/m';
+        window.location = "/m";
     } else {
         
     }

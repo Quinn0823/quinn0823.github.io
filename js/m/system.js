@@ -11,6 +11,6 @@ function judgmentClient(PCurl,WebUel){
     if (IsIPad || IsIphoneOs || IsMidp || IsUc7 || IsUc || IsAndroid || IsCE || IsWM){
         
     } else {
-        window.location = '/';
+        window.location = "/";
     }
 }
