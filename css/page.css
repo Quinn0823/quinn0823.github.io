@@ -173,6 +173,7 @@
     opacity: 1;
 }
 .bottom {
+    width: 90px;
     margin-left: 25px;
     height: 25px;
 }

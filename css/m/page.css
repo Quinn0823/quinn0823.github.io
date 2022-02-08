@@ -69,10 +69,20 @@ h3 {
 }
 .content {
     width: 90%;
-    margin: 5%;
+    margin-top: 25px;
+    margin-left: 5%;
+    margin-right: 5%;
 }
 iframe {
     width: 90%;
     height: 500px;
-    margin: 5%;
+    margin-top: 25px;
+    margin-left: 5%;
+    margin-right: 5%;
+}
+.bottom {
+    width: 90%;
+    margin-left: 5%;
+    margin-right: 5%;
+    height: 75px;
 }
