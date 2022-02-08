@@ -10,5 +10,8 @@ var bIsWM = sUserAgent.match(/windows mobile/i) == "windows mobile";
 if (bIsIpad || bIsIphoneOs || bIsMidp || bIsUc7 || bIsUc || bIsAndroid || bIsCE || bIsWM) {
     
 } else {
-    self.location = '/';
+    var tip = confirm("You are using mac/PC to visit Quinn-Web. Do you want to go to the mac/PC version?");
+    if (tip == ture) {
+        self.location = '/';
+    }
 }
