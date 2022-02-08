@@ -11,7 +11,7 @@ if (bIsIpad || bIsIphoneOs || bIsMidp || bIsUc7 || bIsUc || bIsAndroid || bIsCE 
     
 } else {
     var tip = confirm("You are using mac/PC to visit Quinn-Web. Do you want to go to the mac/PC version?");
-    if (tip == ture) {
+    if (tip == true) {
         self.location = '/';
     }
 }
