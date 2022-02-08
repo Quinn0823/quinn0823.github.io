@@ -117,7 +117,6 @@
 .item {
     display: flex;
     position: relative;
-    transition: 0.5s;
     border-radius: 10px;
     text-decoration: none;
 }
@@ -152,13 +151,13 @@
     align-items: center;
     opacity: 1;
 }
-.webside {
+.website {
     width: 90px;
     background-color: #ECF6FD;
     margin-left: 25px;
     border-radius: 10px;
 }
-.menu:hover .webside {
+.menu:hover .website {
     width: 250px;
 }
 .light {
@@ -196,7 +195,7 @@
     display: flex;
     justify-content: left;
     align-items: center;
-    margin-left: 25px
+    margin-left: 25px;
 }
 .main .button .button3 {
     background-color: rgba(0, 0, 0, 0.1);
