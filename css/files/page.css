@@ -1,0 +1,38 @@
+* {
+    transition: 0.5s;
+    color: rgba(0, 0, 0, 0.6);
+    font-family: "SF Pro Text","SF Pro Icons","Helvetica Neue","Helvetica","Arial",sans-serif;
+}
+body {
+    background-color: #ECF6FD;
+    margin: 25px;
+}
+
+h1 {
+    text-align: center;
+}
+a {
+    text-decoration: none;
+}
+
+.back, .files {
+    border-radius: 5px;
+    background-color: #c6e7fa;
+    margin-bottom: 25px;
+    padding-bottom: 16px;
+}
+
+.back a, .files a {
+    display: flex;
+    font-size: 16px;
+    padding: 16px 25px 0px 25px;
+}
+i, img {
+    width: 16px;
+    height: 16px;
+    text-align: center;
+    border-radius: 4px;
+}
+t {
+    margin-left: 6px;
+}
