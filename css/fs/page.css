@@ -16,6 +16,7 @@
     width: 300px;
     background: #c6e7fa;
     overflow: hidden;
+    padding-bottom: 25px;
 }
 .button {
     width: 65px;
@@ -58,10 +59,10 @@
     border-radius: 10px;
     text-decoration: none;
 }
-.icon:hover {
+/*.icon:hover {
     background-color: #ECF6FD;
     text-decoration: none;
-}
+}*/
 .logo {
     width: 70px;
     height: 70px;
@@ -154,17 +155,12 @@
 .item:hover .light {
     opacity: 1;
 }
-.bottom {
-    margin-left: 25px;
-    height: 25px;
-    width: 90px;
-}
 
 .main {
     left: 275px;
     top: 0px;
-    width:731px;
-    height: 731px;
+    width:791px;
+    height: 791px;
     position: absolute;
     background-color: #ECF6FD;
     background: #c6e7fa;
@@ -185,8 +181,8 @@
 .content {
     margin-left: 0px;
     margin-top: 62px;
-    width: 681px;
-    height: 644px;
+    width: 741px;
+    height: 704px;
     border-radius: 10px;
     background-color: #ECF6FD;
     padding: 25px;
@@ -194,7 +190,7 @@
 iframe {
     margin-left: 0px;
     margin-top: 62px;
-    width: 681px;
-    height: 644px;
+    width: 741px;
+    height: 704px;
     border-radius: 10px;
 }

@@ -17,6 +17,7 @@
     background: #c6e7fa;
     border-radius: 20px;
     overflow: hidden;
+    padding-bottom: 25px;
 }
 .menu:hover {
     width: 300px;
@@ -62,10 +63,10 @@
     border-radius: 10px;
     text-decoration: none;
 }
-.icon:hover {
+/*.icon:hover {
     background-color: #ECF6FD;
     text-decoration: none;
-}
+}*/
 .logo {
     width: 70px;
     height: 70px;
@@ -172,17 +173,12 @@
 .item:hover .light {
     opacity: 1;
 }
-.bottom {
-    width: 90px;
-    margin-left: 25px;
-    height: 25px;
-}
 
 .main {
     left: 350px;
     top: 25px;
-    width:731px;
-    height: 731px;
+    width:791px;
+    height: 791px;
     position: absolute;
     background-color: #ECF6FD;
     background: #c6e7fa;
@@ -204,8 +200,8 @@
 .content {
     margin-left: -275px;
     margin-top: 62px;
-    width: 681px;
-    height: 644px;
+    width: 741px;
+    height: 704px;
     border-radius: 10px;
     background-color: #ECF6FD;
     padding: 25px;
@@ -213,7 +209,7 @@
 iframe {
     margin-left: -275px;
     margin-top: 62px;
-    width: 681px;
-    height: 644px;
+    width: 741px;
+    height: 704px;
     border-radius: 10px;
 }
