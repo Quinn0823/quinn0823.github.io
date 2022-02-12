@@ -8,8 +8,11 @@ body {
     margin: 25px;
 }
 
-h1 {
+.title h1 {
     text-align: center;
+}
+.title p, .title a {
+    font-style: 16px;
 }
 a {
     text-decoration: none;
