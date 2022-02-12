@@ -20,11 +20,11 @@ body {
 }
 .pages {
     margin-left: 1%;
-    width: 58%;
+    width: 78%;
     margin-top: 5px;
 }
 .pages .item {
-    width: 33.3%;
+    width: 25%;
 }
 .item {
     margin-top: 5px;
@@ -47,13 +47,13 @@ body {
 .website {
     float: left;
     margin-left: 2%;
-    width: 38%;
+    width: 18%;
     height: 50px;
     background-color: #ECF6FD;
     border-radius: 10px;
 }
 .website .item {
-    width: 50%;
+    width: 100%;
 }
 
 .main {
@@ -76,6 +76,12 @@ h3 {
 iframe {
     width: 90%;
     height: 500px;
+    margin: 25px 5% 0px 5%;
+    border-radius: 10px;
+}
+iframe.half {
+    width: 90%;
+    height: 200px;
     margin-top: 25px;
     margin-left: 5%;
     margin-right: 5%;
