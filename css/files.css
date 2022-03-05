@@ -5,7 +5,7 @@
 }
 body {
     background-color: #ECF6FD;
-    margin: 25px;
+    margin: 20px;
 }
 
 .title h1 {
@@ -18,25 +18,29 @@ body {
 a {
     text-decoration: none;
 }
+a:hover {
+    text-decoration: underline;
+}
 
 .back, .files {
     border-radius: 5px;
     background-color: #c6e7fa;
-    margin-bottom: 25px;
+    margin-bottom: 20px;
     padding-bottom: 16px;
 }
 
 .back a, .files a {
     display: flex;
     font-size: 16px;
-    padding: 16px 25px 0px 25px;
+    padding: 16px 20px 0px 20px;
+    text-decoration: none;
 }
-i, img {
+.back i, .files i, .files img {
     width: 16px;
     height: 16px;
     text-align: center;
     border-radius: 4px;
 }
-t {
+.back t, .files t {
     margin-left: 6px;
 }
