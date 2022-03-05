@@ -7,28 +7,28 @@
     font-family: "SF Pro Text","SF Pro Icons","Helvetica Neue","Helvetica","Arial",sans-serif;
 }
 .frame {
-    margin: 25px;
+    margin: 20px 0 0 20px;
     display: flex;
     justify-content: left;
 }
 
 .menu {
-    width: 140px;
+    width: 120px;
     background: #c6e7fa;
     border-radius: 20px;
     overflow: hidden;
-    padding-bottom: 25px;
+    padding-bottom: 20px;
 }
 .menu:hover {
-    width: 300px;
+    width: 270px;
 }
 .button {
     width: 65px;
     height: 12px;
     display: flex;
     justify-content: space-around;
-    margin-left: 25px;
-    margin-top: 25px;
+    margin-left: 20px;
+    margin-top: 20px;
 }
 .button1 {
     width: 12px;
@@ -56,9 +56,9 @@
 }
 .icon {
     width: 250px;
-    height: 90px;
-    margin-left: 25px;
-    margin-top: 25px;
+    height: 80px;
+    margin-left: 20px;
+    margin-top: 20px;
     display: flex;
     border-radius: 10px;
     text-decoration: none;
@@ -68,8 +68,8 @@
     text-decoration: none;
 }*/
 .logo {
-    width: 70px;
-    height: 70px;
+    width: 60px;
+    height: 60px;
     margin-left: 10px;
     margin-top: 10px;
     border-radius: 50%;
@@ -83,9 +83,9 @@
     object-fit: cover;
 }
 .text {
-    height: 70px;
+    height: 50px;
     margin-top: 10px;
-    margin-left: 35px;
+    margin-left: 30px;
 }
 .text p {
     padding-top: 10px;
@@ -94,26 +94,25 @@
     font-weight: 400;
 }
 .line {
-    width: 90px;
-    height: 2px;
+    width: 80px;
+    height: 1px;
     background: rgba(0, 0, 0, 0.1);
-    margin: 25px 25px;
+    margin: 20px 20px;
 }
 .menu:hover .line {
-    width: 250px;
+    width: 230px;
 }
 .title {
-    width: 60px;
-    height: 20px;
-    margin-left: 25px;
-    margin-bottom: 25px;
+    height: 14px;
+    margin-left: 20px;
+    margin-bottom: 20px;
 }
 .title p {
     font-size: 14px;
 }
 .pages {
-    width: 250px;
-    margin-left: 25px;
+    width: 230px;
+    margin-left: 20px;
 }
 .item {
     display: flex;
@@ -126,8 +125,8 @@
     text-decoration: none;
 }
 .licon {
-    width: 90px;
-    height: 60px;
+    width: 80px;
+    height: 50px;
     display: flex;
     justify-content: center;
     align-items: center;
@@ -135,7 +134,7 @@
 }
 .ltext {
     width: 0px;
-    height: 60px;
+    height: 50px;
     display: flex;
     justify-content: center;
     align-items: center;
@@ -146,27 +145,27 @@
     white-space: nowrap;
 }
 .menu:hover .ltext {
-    width: 160px;
+    width: 150px;
     display: flex;
     justify-content: center;
     align-items: center;
     opacity: 1;
 }
 .website {
-    width: 90px;
+    width: 80px;
     background-color: #ECF6FD;
-    margin-left: 25px;
+    margin-left: 20px;
     border-radius: 10px;
 }
 .menu:hover .website {
-    width: 250px;
+    width: 230px;
 }
 .light {
-    width: 10px;
-    height: 60px;
+    width: 8px;
+    height: 50px;
     background: #ECF6FD;
     position: absolute;
-    left: -25px;
+    left: -20px;
     opacity: 0;
     border-radius: 0px 10px 10px 0px;
 }
@@ -175,10 +174,10 @@
 }
 
 .main {
-    left: 350px;
-    top: 25px;
-    width:791px;
-    height: 791px;
+    left: 310px;
+    top: 20px;
+    width: 652px;
+    height: 652px;
     position: absolute;
     background-color: #ECF6FD;
     background: #c6e7fa;
@@ -187,29 +186,29 @@
 }
 .main h3 {
     font-weight: 400;
-    height: 62px;
+    height: 52px;
     width: 185px;
     display: flex;
     justify-content: left;
     align-items: center;
-    margin-left: 25px;
+    margin-left: 20px;
 }
 .main .button .button3 {
     background-color: rgba(0, 0, 0, 0.1);
 }
 .content {
-    margin-left: -275px;
-    margin-top: 62px;
-    width: 741px;
-    height: 704px;
+    margin-left: -270px;
+    margin-top: 52px;
+    width: 612px;
+    height: 580px;
     border-radius: 10px;
     background-color: #ECF6FD;
-    padding: 25px;
+    padding: 20px;
 }
 iframe {
-    margin-left: -275px;
-    margin-top: 62px;
-    width: 741px;
-    height: 704px;
+    margin-left: -270px;
+    margin-top: 52px;
+    width: 612px;
+    height: 580px;
     border-radius: 10px;
 }

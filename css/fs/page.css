@@ -7,24 +7,23 @@
     font-family: "SF Pro Text","SF Pro Icons","Helvetica Neue","Helvetica","Arial",sans-serif;
 }
 .frame {
-    margin: 0px 25px 25px 0px;
     display: flex;
     justify-content: left;
 }
 
 .menu {
-    width: 300px;
+    width: 270px;
     background: #c6e7fa;
     overflow: hidden;
-    padding-bottom: 25px;
+    padding-bottom: 20px;
 }
 .button {
     width: 65px;
     height: 12px;
     display: flex;
     justify-content: space-around;
-    margin-left: 25px;
-    margin-top: 25px;
+    margin-left: 20px;
+    margin-top: 20px;
 }
 .button1 {
     width: 12px;
@@ -52,9 +51,9 @@
 }
 .icon {
     width: 250px;
-    height: 90px;
-    margin-left: 25px;
-    margin-top: 25px;
+    height: 80px;
+    margin-left: 20px;
+    margin-top: 20px;
     display: flex;
     border-radius: 10px;
     text-decoration: none;
@@ -64,8 +63,8 @@
     text-decoration: none;
 }*/
 .logo {
-    width: 70px;
-    height: 70px;
+    width: 60px;
+    height: 60px;
     margin-left: 10px;
     margin-top: 10px;
     border-radius: 50%;
@@ -79,9 +78,9 @@
     object-fit: cover;
 }
 .text {
-    height: 70px;
+    height: 50px;
     margin-top: 10px;
-    margin-left: 35px;
+    margin-left: 30px;
 }
 .text p {
     padding-top: 10px;
@@ -90,28 +89,26 @@
     font-weight: 400;
 }
 .line {
-    width: 250px;
-    height: 2px;
+    width: 230px;
+    height: 1px;
     background: rgba(0, 0, 0, 0.1);
-    margin: 25px 25px;
+    margin: 20px 20px;
 }
 .title {
-    width: 60px;
-    height: 20px;
-    margin-left: 25px;
-    margin-bottom: 25px;
+    height: 14px;
+    margin-left: 20px;
+    margin-bottom: 20px;
 }
 .title p {
     font-size: 14px;
 }
 .pages {
-    width: 250px;
-    margin-left: 25px;
+    width: 230px;
+    margin-left: 20px;
 }
 .item {
     display: flex;
     position: relative;
-    transition: 0.5s;
     border-radius: 10px;
     text-decoration: none;
 }
@@ -120,35 +117,36 @@
     text-decoration: none;
 }
 .licon {
-    width: 90px;
-    height: 60px;
+    width: 80px;
+    height: 50px;
     display: flex;
     justify-content: center;
     align-items: center;
     font-size: large;
 }
 .ltext {
-    width: 160px;
-    height: 60px;
+    width: 150px;
+    height: 50px;
     display: flex;
     justify-content: center;
     align-items: center;
     overflow: hidden;
     position: relative;
+    left: -20px;
     white-space: nowrap;
 }
 .website {
-    width: 250px;
+    width: 230px;
     background-color: #ECF6FD;
-    margin-left: 25px;
+    margin-left: 20px;
     border-radius: 10px;
 }
 .light {
-    width: 10px;
-    height: 60px;
+    width: 8px;
+    height: 50px;
     background: #ECF6FD;
     position: absolute;
-    left: -25px;
+    left: -20px;
     opacity: 0;
     border-radius: 0px 10px 10px 0px;
 }
@@ -157,10 +155,10 @@
 }
 
 .main {
-    left: 275px;
+    left: 250px;
     top: 0px;
-    width:791px;
-    height: 791px;
+    width: 652px;
+    height: 652px;
     position: absolute;
     background-color: #ECF6FD;
     background: #c6e7fa;
@@ -168,29 +166,29 @@
 }
 .main h3 {
     font-weight: 400;
-    height: 62px;
-    width: 185px;
+    height: 52px;
+    width: 165px;
     display: flex;
     justify-content: left;
     align-items: center;
-    margin-left: -160px;
+    margin-left: -145px;
 }
 .main .button .button3 {
     background-color: rgba(0, 0, 0, 0.1);
 }
 .content {
     margin-left: 0px;
-    margin-top: 62px;
-    width: 741px;
-    height: 704px;
+    margin-top: 52px;
+    width: 612px;
+    height: 580px;
     border-radius: 10px;
     background-color: #ECF6FD;
-    padding: 25px;
+    padding: 20px;
 }
 iframe {
     margin-left: 0px;
-    margin-top: 62px;
-    width: 741px;
-    height: 704px;
+    margin-top: 52px;
+    width: 612px;
+    height: 580px;
     border-radius: 10px;
 }
