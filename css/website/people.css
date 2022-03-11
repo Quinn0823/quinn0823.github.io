@@ -1,21 +1,7 @@
-* {
-    transition: 0.5s;
-    color: rgba(0, 0, 0, 0.6);
-    font-family: "SF Pro Text","SF Pro Icons","Helvetica Neue","Helvetica","Arial",sans-serif;
-}
-body {
-    background-color: #ECF6FD;
-    margin: 20px;
-}
-
 .people a {
     margin: 20px;
     background-color: #c6e7fa;
     border-radius: 5px;
-    text-decoration: none;
-}
-.people a:hover {
-    background-color: #ECF6FD;
     text-decoration: none;
 }
 .people a img {
@@ -25,9 +11,10 @@ body {
     border: 2px solid rgba(0, 0, 0, 0.1);
 }
 
-a {
+.people:hover t {
     text-decoration: none;
+    font-style: 16px;
 }
-a:hover {
+.people:hover t {
     text-decoration: underline;
 }
