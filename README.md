@@ -4,12 +4,17 @@
 ### Menu
 - Pages
   > [Home](https://quinn0823.github.io/home.html)
+
   > [Program](https://quinn0823.github.io/program.html)
+
   > [Music](https://quinn0823.github.io/music.html)
+
   > [Files](https://quinn0823.github.io/files.html)
 - Website
   > [People](https://quinn0823.github.io/people.html)
+
   > [Code](https://quinn0823.github.io/code.html)
+
   > [Last Version (v10.0)](https://quinn0823.github.io/h_versions/v10.0/)
 
 ### People
@@ -45,4 +50,5 @@
   >[Download ZIP](https://github.com/Quinn0823/Quinn0823.github.io/archive/main.zip)
 - Update Log
   > [Commits](https://github.com/Quinn0823/Quinn0823.github.io/commits)
+
   > [Releases](https://github.com/Quinn0823/Quinn0823.github.io/releases)
