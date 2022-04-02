@@ -11,9 +11,9 @@
 
   > [Files](https://quinn0823.github.io/files.html)
 - Website
-  > [People](https://quinn0823.github.io/people.html)
+  > [People](https://quinn0823.github.io/people.html) [🔗](#people)
 
-  > [Code](https://quinn0823.github.io/code.html)
+  > [Code](https://quinn0823.github.io/code.html) [🔗](#code)
 
   > [Last Version (v10.0)](https://quinn0823.github.io/h_versions/v10.0/)
 
