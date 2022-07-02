@@ -38,3 +38,9 @@ hr {
 #footer {
     color: #666;
 }
+#footer a {
+    color: #666;
+}
+#footer a:active {
+    color: #ff0000;
+}
