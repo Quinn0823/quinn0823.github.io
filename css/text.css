@@ -1,10 +1,12 @@
 * {
     font-family: Helvetica, Arial;
-    font-size: 16px;
 }
 
 h1 {
     font-size: 32px;
     text-align: center;
     font-weight: bolder;
+}
+p, span, a, li {
+    font-size: 16px;
 }
