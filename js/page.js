@@ -1,7 +1,7 @@
 document.getElementById("sel").innerHTML="<hr /><div class='sel'><select id='lang' onchange='langchange(); language()'><option value='1'>English</option><option value='2'>简体中文</option></select></div>"
 
 var path = window.location.pathname;
-var title_en = "We haven't written the code for this page yet!", title_cns = "我们还没有敲到这个页面的代码！";
+var title_en = "Oops! We haven't written the code for this page yet.", title_cns = "糟糕！我们还没有敲到这个页面的代码。";
 if (path == "/" || path == "/index.html") {
     title_en = "✨ Preparing for Quinn-Web 12 ✨";
     title_cns = "✨ 正在为 Quinn-Web 12 做准备 ✨";
