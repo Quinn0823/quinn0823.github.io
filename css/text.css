@@ -3,9 +3,35 @@
 }
 
 h1 {
-    font-size: 32px;
+    font-size: 40px;
     text-align: center;
     font-weight: bolder;
+    color: #6699CC;
+}
+h2 {
+    font-size: 36px;
+    font-weight: bolder;
+    color: #6699CC;
+}
+h3 {
+    font-size: 32px;
+    font-weight: bolder;
+    color: #6699CC;
+}
+h4 {
+    font-size: 28px;
+    font-weight: bolder;
+    color: #6699CC;
+}
+h5 {
+    font-size: 24px;
+    font-weight: bolder;
+    color: #6699CC;
+}
+h6 {
+    font-size: 20px;
+    font-weight: bolder;
+    color: #6699CC;
 }
 p, span, a, li, select {
     font-size: 16px;
