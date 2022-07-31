@@ -7,40 +7,48 @@ body{
     background-attachment: fixed;
 }
 
+* {
+    transition: 0.25s;
+}
+
 hr {
     border: 0;
     width: 100%;
-    height: 1.5px;
-    background-color: #d5d5d5;
+    height: 3px;
+    background-color: #6699CC;
+}
+
+#footer {
+    padding: 10px;
+    color: #fff;
+    background-color: #99CCFF;
+    border-radius: 10px;
+    border: 3px solid #6699CC;
+}
+#footer a {
+    color: #fff;
+}
+#footer a:active {
+    color: #ff0000;
 }
 
 .sel {
     margin:0 auto;
-    width: 150px;
+    width: 220px;
     height: 40px;
-    background-color: #efefef;
-    color: #000;
-    border: 1px solid #666;
-    border-radius: 10px;
-    transition: 0.25s;
-}
-.sel:hover {
     background-color: #fff;
+    border: 3px solid #6699CC;
+    border-radius: 10px;
 }
 .sel select {
+    color: #6699CC;
     text-align: center;
     padding: 10px;
     width: 100%;
     border: none;
-    background: transparent;
+    border-radius: 10px;
 }
-
-#footer {
-    color: #666;
-}
-#footer a {
-    color: #666;
-}
-#footer a:active {
-    color: #ff0000;
+.sel select option {
+    color: #6699CC;
+    background-color: #fff;
 }
