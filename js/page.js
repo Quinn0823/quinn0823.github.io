@@ -17,7 +17,7 @@ if(path == "/index.html" || path == "/") {
 }
 
 
-var news_en = "<ul><li>⚙ <sup class='new'>NEW</sup>Provided ''Forever'', ''This Visit Only'' and ''This Page Only'' 3 language setting options. </li><li>🔛 Even if you close your browser or computer, your language settings can be valid on all pages. </li><li>💻 Introduces new code while keeping the old style, faster access and more stable language settings. </li>";
+var news_en = "<ul><li>⚙ <sup class='new'>NEW</sup>Provided ''Forever'', ''This Visit Only'' and ''This Page Only'' 3 language setting options. </li><li>🔛 Even if you close your browser or computer, your language settings can be valid on all pages. </li><li>💻 Introduced new code while keeping the old style, faster access and more stable language settings. </li>";
 var news_cns = "<ul><li>⚙ <sup class='new'>新增</sup>提供「永久」「仅本次访问」和「仅本页面」三个语言设置选项。</li><li>🔛 即使您关闭浏览器或计算机，您的语言设置在所有页面上也可以有效。</li><li>💻 在保持旧风格的同时引入新代码，访问速度更快，语言设置更稳定。</li>";
 
 var next_en = "<ul><li>👦🏻 Content about me will be written. </li><li>🗑 You can clear the language setting data. </li></ul>";
