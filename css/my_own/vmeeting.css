@@ -4,6 +4,7 @@ body {
 * {
     font-family: Helvetica, Arial;
 }
+
 marquee {
     margin: 0;
     padding: 0;
@@ -12,12 +13,17 @@ marquee {
     border: 3px solid #6699CC;
     background-color: #99CCFF;
 }
+img {
+    margin: 5px;
+    float: left;
+    width: 30px;
+    height: 30px;
+}
 span {
+    margin: 0 auto;
     font-size: 20px;
-    margin: 0;
     height: 40px;
     line-height: 40px;
     color: #fff;
     text-align: center;
-    text-decoration: none;
 }
