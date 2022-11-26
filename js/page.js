@@ -1,4 +1,5 @@
-var path = window.location.pathname, title_en = document.title, title_cns = document.title;
+var path = window.location.pathname
+var title_en = document.title, title_cns = document.title;
 
 if(path == "/index.html" || path == "/") {
     title_cns = "首页";
