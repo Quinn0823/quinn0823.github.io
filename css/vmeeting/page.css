@@ -5,6 +5,13 @@ body {
     font-family: Helvetica, Arial;
 }
 
+h1 {
+    margin: 20px;
+    text-align: center;
+    font-size: 52px;
+    font-weight: bolder;
+    color: #6699CC;
+}
 marquee {
     margin: 0;
     padding: 0;
