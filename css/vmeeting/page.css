@@ -47,5 +47,15 @@ li {
     list-style-type: none;
 }
 li.ad {
+    height: 28px;
+    line-height: 28px;
+    color: #fff;
+    border: 3px solid #fff;
     background-color: #99CCFF;
+}
+li.v {
+    margin-top: 16px;
+    height: 21px;
+    line-height: 21px;
+    font-size: 12px;
 }
