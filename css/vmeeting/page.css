@@ -21,10 +21,16 @@ marquee {
     background-color: #99CCFF;
 }
 img {
-    margin: 5px;
+    background-color: #fff;
+    border-radius: 7px;
+    margin: 3px;
     float: left;
-    width: 30px;
-    height: 30px;
+    width: 34px;
+    height: 34px;
+}
+ul {
+    margin: 0;
+    padding: 0;
 }
 li {
     float: left;
