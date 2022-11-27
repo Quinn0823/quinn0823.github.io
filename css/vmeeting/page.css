@@ -41,8 +41,11 @@ li {
     border-radius: 7px;
     padding-left: 7px;
     padding-right: 7px;
-    background-color: #fff;
     color: #6699CC;
+    background-color: #fff;
     text-align: center;
     list-style-type: none;
+}
+li.ad {
+    background-color: #99CCFF;
 }
