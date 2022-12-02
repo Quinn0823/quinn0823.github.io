@@ -15,47 +15,53 @@ h1 {
 marquee {
     margin: 0;
     padding: 0;
-    height: 100px;
-    border-radius: 10px;
+    height: 200px;
+    border-radius: 30px;
     border: 3px solid #6699CC;
     background-color: #99CCFF;
+    overflow: hidden;
 }
 img {
+    overflow: hidden;
     background-color: #fff;
-    border-radius: 7px;
+    border-radius: 21px;
     margin: 3px;
+    padding-top: 80px;
+    padding-bottom: 80px;
     float: left;
-    width: 94px;
-    height: 94px;
+    width: 34px;
+    height: 34px;
 }
 ul {
     margin: 0;
     padding: 0;
+    border-radius: 17px;
 }
 li {
+    overflow: hidden;
     float: left;
     margin: 3px;
-    font-size: 40px;
-    height: 94px;
-    line-height: 94px;
-    border-radius: 7px;
-    padding-left: 27px;
-    padding-right: 27px;
+    font-size: 20px;
+    height: 194px;
+    line-height: 194px;
+    border-radius: 17px;
+    padding-left: 7px;
+    padding-right: 7px;
     color: #6699CC;
     background-color: #fff;
     text-align: center;
     list-style-type: none;
 }
 li.ad {
-    height: 88px;
-    line-height: 88px;
+    height: 188px;
+    line-height: 188px;
     color: #fff;
     border: 3px dashed #fff;
     background-color: #99CCFF;
 }
 li.v {
     padding-left: 0;
-    margin-top: 76px;
+    margin-top: 176px;
     height: 21px;
     line-height: 21px;
     font-size: 14px;
