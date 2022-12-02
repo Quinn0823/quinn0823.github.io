@@ -15,7 +15,7 @@ h1 {
 marquee {
     margin: 0;
     padding: 0;
-    height: 40px;
+    height: 100px;
     border-radius: 10px;
     border: 3px solid #6699CC;
     background-color: #99CCFF;
@@ -25,8 +25,8 @@ img {
     border-radius: 7px;
     margin: 3px;
     float: left;
-    width: 34px;
-    height: 34px;
+    width: 94px;
+    height: 94px;
 }
 ul {
     margin: 0;
@@ -35,27 +35,27 @@ ul {
 li {
     float: left;
     margin: 3px;
-    font-size: 20px;
-    height: 34px;
-    line-height: 34px;
+    font-size: 40px;
+    height: 94px;
+    line-height: 94px;
     border-radius: 7px;
-    padding-left: 7px;
-    padding-right: 7px;
+    padding-left: 27px;
+    padding-right: 27px;
     color: #6699CC;
     background-color: #fff;
     text-align: center;
     list-style-type: none;
 }
 li.ad {
-    height: 28px;
-    line-height: 28px;
+    height: 88px;
+    line-height: 88px;
     color: #fff;
     border: 3px dashed #fff;
     background-color: #99CCFF;
 }
 li.v {
-    margin-left: 0;
-    margin-top: 16px;
+    padding-left: 0;
+    margin-top: 76px;
     height: 21px;
     line-height: 21px;
     font-size: 14px;
