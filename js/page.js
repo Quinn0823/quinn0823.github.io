@@ -26,13 +26,13 @@ var next_cns = "<ul><li>👦🏻 关于我的内容将被写入。</li><li>🗑 
 
 var n_version = "Quinn-Web 12.3";
 
-var date_en = "Nov. 20, 2022";
-var date_cns = "2022年11月20日";
+var date_en = "Dec. 3, 2022";
+var date_cns = "2022年12月3日";
 
-var progress = 60;
+var progress = 40;
 
-var header_en = "<div class='list'><ul><img src='/images/logo.png'/><li><a href='/index.html'>Home</a></li><li><a href='/projects.html'>Projects</a></li><li><a>Media</a><ul><li><a href='/media/music.html'>Music</a></li><li><a href='/media/photos.html'>Photos</a></li><li><a href='/media/videos.html'>Videos</a></li></ul></li><li><a href='/lab.html'>Lab</a></li><li class='about'><a href='/about.html'>About</a></li></ul></div><h1>" + title_en + "</h1><hr />";
-var header_cns = "<div class='list'><ul><img src='/images/logo.png'/><li><a href='/index.html'>首页</a></li><li><a href='/projects.html'>项目</a></li><li><a>媒体</a><ul><li><a href='/media/music.html'>音乐</a></li><li><a href='/media/photos.html'>照片</a></li><li><a href='/media/videos.html'>视频</a></li></ul></li><li><a href='/lab.html'>实验室</a></li><li class='about'><a href='/about.html'>关于</a></li></ul></div><h1>" + title_cns + "</h1><hr />";
+var header_en = "<div class='list'><ul><img src='/images/logo.png'/><li><a href='/index.html'>Home</a></li><li><a href='/projects.html'>Projects</a></li><li><a>Media</a><ul><li><a href='/media/music.html'>Music</a></li><li><a href='/media/photos.html'>Photos</a></li><li><a href='/media/videos.html'>Videos</a></li></ul></li><li><a href='/lab.html'>Lab</a></li><li class='about'><a href='/about.html'>About</a></li></ul></div><h1>" + title_en + "</h1><hr><h2 style='color: red;' align=center>⚠ Quinn-Web will not be updated until Jul. 2023.</h2><hr>";
+var header_cns = "<div class='list'><ul><img src='/images/logo.png'/><li><a href='/index.html'>首页</a></li><li><a href='/projects.html'>项目</a></li><li><a>媒体</a><ul><li><a href='/media/music.html'>音乐</a></li><li><a href='/media/photos.html'>照片</a></li><li><a href='/media/videos.html'>视频</a></li></ul></li><li><a href='/lab.html'>实验室</a></li><li class='about'><a href='/about.html'>关于</a></li></ul></div><h1>" + title_cns + "</h1><hr><h2 style='color: red;' align=center>⚠ Quinn-Web will not be updated until Jul. 2023.</h2><hr>";
 
 var langset_en = "<input type='radio' name='lset' id='for' onclick='langset(this.id)'>Forever<input type='radio' name='lset' id='vis' onclick='langset(this.id)'>This Visit Only<input type='radio' name='lset' id='pag' onclick='langset(this.id)'>This Page Only";
 var langset_cns = "<input type='radio' name='lset' id='for' onclick='langset(this.id)'>永远<input type='radio' name='lset' id='vis' onclick='langset(this.id)'>仅本次访问<input type='radio' name='lset' id='pag' onclick='langset(this.id)'>仅本页面";
