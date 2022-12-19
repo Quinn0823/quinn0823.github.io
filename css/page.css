@@ -17,14 +17,14 @@ hr {
     height: 3px;
     margin-top: 10px;
     margin-bottom: 10px;
-    background-color: #6699CC;
+    background-color: #6699cc;
 }
 #footeri {
     padding: 10px;
     color: #fff;
-    background-color: #99CCFF;
+    background-color: #99ccff;
     border-radius: 10px;
-    border: 3px solid #6699CC;
+    border: 3px solid #6699cc;
 }
 #footeri a {
     color: #fff;
@@ -38,11 +38,11 @@ hr {
     width: 220px;
     height: 40px;
     background-color: #fff;
-    border: 3px solid #6699CC;
+    border: 3px solid #6699cc;
     border-radius: 10px;
 }
 .sel select {
-    color: #6699CC;
+    color: #6699cc;
     text-align: center;
     padding: 10px;
     width: 100%;
@@ -50,15 +50,15 @@ hr {
     border-radius: 10px;
 }
 .sel select option {
-    color: #6699CC;
+    color: #6699cc;
     background-color: #fff;
 }
 
 details {
     margin-top: 10px;
     margin-bottom: 10px;
-    border: 3px solid #6699CC;
-    color: #6699CC;
+    border: 3px solid #6699cc;
+    color: #6699cc;
     background-color: #fff;
     border-radius: 10px;
     padding: 10px;
