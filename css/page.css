@@ -7,10 +7,6 @@ body{
     background-attachment: fixed;
 }
 
-* {
-    transition: 0.25s;
-}
-
 hr {
     border: 0;
     width: 100%;
@@ -19,6 +15,10 @@ hr {
     margin-bottom: 10px;
     background-color: #6699cc;
 }
+hr.whi {
+    background-color: #fff;
+}
+
 #footeri {
     padding: 10px;
     color: #fff;
@@ -31,6 +31,16 @@ hr {
 }
 #footeri a:active {
     color: #ff0000;
+}
+
+details {
+    margin-top: 10px;
+    margin-bottom: 10px;
+    border: 3px solid #6699cc;
+    color: #6699cc;
+    background-color: #fff;
+    border-radius: 10px;
+    padding: 10px;
 }
 
 .sel {
@@ -52,14 +62,4 @@ hr {
 .sel select option {
     color: #6699cc;
     background-color: #fff;
-}
-
-details {
-    margin-top: 10px;
-    margin-bottom: 10px;
-    border: 3px solid #6699cc;
-    color: #6699cc;
-    background-color: #fff;
-    border-radius: 10px;
-    padding: 10px;
 }

@@ -38,7 +38,9 @@ ul, ol {
     margin: 0;
 }
 
-sup.new {
-    font-size: 24px;
-    color: #ff0000;
+sup.nw {
+    color: #fff;
+}
+sup.nt {
+    color: #6699cc;
 }
