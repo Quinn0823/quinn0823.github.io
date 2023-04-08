@@ -30,7 +30,7 @@
         <h2 align="center">Hi! I'm Quinn Qiu.</h2>
         <hr>
         <h3>About Me</h3>
-        <p>⛹️ <span id="age"></span> <span class="com">(Calculated by JavaScript)</span>, Boy</p>
+        <p>⛹️ <span id="age_en"></span> <span class="com">(Calculated by JavaScript)</span>, Boy</p>
         <p>✒️ Student</p>
         <p>⚙️ Inventor</p>
         <p>🧪 Scientist</p>
@@ -72,7 +72,7 @@
         <h2 align="center">嗨! 我是 Quinn Qiu.</h2>
         <hr>
         <h3>关于我</h3>
-        <p>⛹️ <span id="age"></span> <span class="com">(Calculated by JavaScript)</span>, 男孩</p>
+        <p>⛹️ <span id="age_cns"></span> <span class="com">(Calculated by JavaScript)</span>, 男孩</p>
         <p>✒️ 学生</p>
         <p>⚙️ 发明家</p>
         <p>🧪 科学家</p>
@@ -122,6 +122,7 @@
     <div id="footer"></div>
     <script src="/js/page.js"></script>
     <script>
-        document.getElementById("age").innerHTML = new Date(Date.parse(new Date())).getFullYear() - 2007; 
+        document.getElementById("age_en").innerHTML = new Date(Date.parse(new Date())).getFullYear() - 2007;
+        document.getElementById("age_cns").innerHTML = new Date(Date.parse(new Date())).getFullYear() - 2007; 
     </script>
 </body>
