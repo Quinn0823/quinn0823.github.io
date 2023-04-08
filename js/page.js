@@ -21,7 +21,7 @@ if (path == "/index.html" || path == "/") {
 <details><summary>Title</summary><hr /><ul><li>First</li><li>Secend</li><li>Third</li></ul></details>
 */
 var news_en = "<span>Quinn-Web 12.2.2<sup class='nt'>NEXT</sup></span><details><summary>⏩ What will update next?</summary><hr /><ul><li>🈴 All Chinese content will be translated.</li></ul></details>" + "<hr class='whi' /><span>Quinn-Web 12.2.1<sup class='nw'>NOW</sup></span><details><summary>✨ What HAVE BEEN UPDATED now? </summary><hr /><ul><li>🏹 Brand new TIMELINE function.</li><li>👦🏻 New self-introduction.</li></ul></details><details><summary>🥚 Stinger</summary><hr /><ul><li>🕯 Age is calculated by JavaScript.</li></ul></details>";
-var news_cns = "<span>Quinn-Web 12.2.2<sup class='nt'>NEXT</sup></span><details><summary>⏩ What will update next?</summary><hr /><ul><li>🈴 All Chinese content will be translated.</li></ul></details>" + "<hr class='whi' /><span>Quinn-Web 12.2.1<sup class='nw'>NOW</sup></span><details><summary>✨ What HAVE BEEN UPDATED now? </summary><hr /><ul><li>🏹 Brand new TIMELINE function.</li><li>👦🏻 New self-introduction.</li></ul></details><details><summary>🥚 Stinger</summary><hr /><ul><li>🕯 Age is calculated by JavaScript.</li></ul></details>";
+var news_cns = "<span>Quinn-Web 12.2.2<sup class='nt'>下一</sup></span><details><summary>⏩ 即将更新</summary><hr /><ul><li>🈴 所有中文内容将被翻译.</li></ul></details>" + "<hr class='whi' /><span>Quinn-Web 12.2.1<sup class='nw'>当前</sup></span><details><summary>✨ 现已更新</summary><hr /><ul><li>🏹 新时间线功能.</li><li>👦🏻 新自我介绍.</li></ul></details><details><summary>🥚 彩蛋</summary><hr /><ul><li>🕯 年龄由 JavaScript 计算.</li></ul></details>";
 
 var date_en = "Apr. 9, 2023";
 var date_cns = "2023年4月9日";
@@ -32,8 +32,8 @@ var header_cns = "<div class='list'><ul><img src='/images/logo.png'/><li><a href
 var langset_en = "<input type='radio' name='lset' id='for' onclick='langset(this.id)'>Forever<input type='radio' name='lset' id='vis' onclick='langset(this.id)'>This Visit Only<input type='radio' name='lset' id='pag' onclick='langset(this.id)'>This Page Only";
 var langset_cns = "<input type='radio' name='lset' id='for' onclick='langset(this.id)'>永远<input type='radio' name='lset' id='vis' onclick='langset(this.id)'>仅本次访问<input type='radio' name='lset' id='pag' onclick='langset(this.id)'>仅本页面";
 
-var footer_en = "<hr><div id='footeri'>" + news_en + "Language Setting (Except United States - English): " + langset_en + "<div class='sel'><select id='lang' onchange='langchange()'><option value='1' selected='selected'>United States - English</option><option value='2'>简体中文 (中国大陆) </option></select></div><div class='g_url'><span style='text-align: center; display:block; '>📅 Last Update: " + date_en + " | Copyright © 2019-" + new Date(Date.parse(new Date())).getFullYear() + " Quinn Qiu All Rights Reserved. | <a href='https://github.com/Quinn0823/quinn0823.github.io'  target='_blank'><i class='fa-brands fa-github'></i></a></span></div>";
-var footer_cns = "<hr><div id='footeri'>" + news_cns + "语言设置 (除 United States - English 外) ：" + langset_cns + "<div class='sel'><select id='lang' onchange='langchange()'><option value='1'>United States - English</option><option value='2' selected='selected'>简体中文 (中国大陆) </option></select></div><div class='g_url'><span style='text-align: center; display:block; '>📅 最近更新：" + date_cns + " | Copyright © 2019-" + new Date(Date.parse(new Date())).getFullYear() + " Quinn Qiu 保留所有权利。 | <a href='https://github.com/Quinn0823/quinn0823.github.io'  target='_blank'><i class='fa-brands fa-github'></i></a></span></div>";
+var footer_en = "<hr><div id='footeri'>" + news_en + "Language Setting (United States - English is the default): " + langset_en + "<div class='sel'><select id='lang' onchange='langchange()'><option value='1' selected='selected'>United States - English</option><option value='2'>简体中文 (中国大陆) </option></select></div><div class='g_url'><span style='text-align: center; display:block; '>📅 Last Update: " + date_en + " | Copyright © 2019-" + new Date(Date.parse(new Date())).getFullYear() + " Quinn Qiu All Rights Reserved. | <a href='https://github.com/Quinn0823/quinn0823.github.io'  target='_blank'><i class='fa-brands fa-github'></i></a></span></div>";
+var footer_cns = "<hr><div id='footeri'>" + news_cns + "语言设置 (United States - English 是默认的) ：" + langset_cns + "<div class='sel'><select id='lang' onchange='langchange()'><option value='1'>United States - English</option><option value='2' selected='selected'>简体中文 (中国大陆) </option></select></div><div class='g_url'><span style='text-align: center; display:block; '>📅 最近更新：" + date_cns + " | Copyright © 2019-" + new Date(Date.parse(new Date())).getFullYear() + " Quinn Qiu 保留所有权利。 | <a href='https://github.com/Quinn0823/quinn0823.github.io'  target='_blank'><i class='fa-brands fa-github'></i></a></span></div>";
 
 var ldate = 1;
 
@@ -51,8 +51,6 @@ function langset(set) {
         sessionStorage.langdate = "";
     }
 }
-
-langdate();
 
 function langdate() {
     if (localStorage.langdate == 2 || sessionStorage.langdate == 2 || ldate == 2) { //Chinese
@@ -114,3 +112,5 @@ function langchange() {
     }
     langdate();
 }
+
+langdate();
