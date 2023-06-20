@@ -21,17 +21,17 @@ var header_cns = "<div class='list'><ul><img src='/images/logo.png'/><li><a href
 /*
 <details><summary>Title</summary><hr /><ul><li>First</li><li>Secend</li><li>Third</li></ul></details>
 */
-var now_ver = "12.2.2";
-var next_ver = "12.3";
+var now_ver = "Quinn-Web 12.3";
+var next_ver = "--- Quinn-Web 12 ---";
 
-var next_cont_en = "<li>🎉 New Page - Project (of scratch)!</li><li>➰ New corner angle which looks more beautiful and comfortable;</li><li>⏸️ New indentation between the text, more conducive to visitors to read;</li><li>🎵 The media and its subpages are changed to the music page, making access more direct and fast.</li>";
-var next_cont_cns = "<li>🎉 新页面——（Scratch的）项目!</li><li>➰ 新的,看起来更漂亮,更舒适的圆角角度;</li><li>⏸️ 文字之间新增缩进,更有利于浏览者阅读;</li><li>🎵 将媒体及其子页面更改为音乐页面,使访问更加直接和快速.</li>";
+var next_cont_en = "<li>Welcome</li>";
+var next_cont_cns = "<li>欢迎您</li>";
 
-var now_cont_en = "<li>🈴 All Chinese contents have been translated.</li>";
-var now_cont_cns = "<li>🈴 所有中文内容已被翻译.</li>";
+var now_cont_en = "<li>🎉 New page - Project (of scratch)!</li><li>➰ New corner angle which looks more beautiful and comfortable;</li><li>⏸️ New indentation between the text, more conducive to visitors to read;</li><li>🎵 The media and its subpages have been changed to the music page, making access more direct and fast.</li>";
+var now_cont_cns = "<li>🎉 新页面——（Scratch 的）项目!</li><li>➰ 新的,看起来更漂亮,更舒适的圆角角度;</li><li>⏸️ 文字之间新增缩进,更有利于浏览者阅读;</li><li>🎵 将媒体及其子页面更改为音乐页面,使访问更加直接和快速.</li>";
 
-var news_en = "<span>Quinn-Web " + next_ver + "<sup class='nt'>NEXT</sup></span><div class='cont'><details><summary>⏩ What will be updated?</summary><hr /><ul>" +next_cont_en + "</ul></details></div><hr /><span>Quinn-Web " + now_ver + "<sup class='nw'>NOW</sup></span><div class='cont'><details><summary>✨ What have been update? </summary><hr /><ul>" + now_cont_en + "</ul></details></div>";
-var news_cns = "<span>Quinn-Web " + next_ver + "<sup class='nt'>下一</sup></span><div class='cont'><details><summary>⏩ 即将更新</summary><hr /><ul>" +next_cont_cns + "</ul></details></div><hr /><span>Quinn-Web " + now_ver + "<sup class='nw'>当前</sup></span><div class='cont'><details><summary>✨ 现已更新</summary><hr /><ul>" + now_cont_cns + "</ul></details></div>";
+var news_en = "<span>" + next_ver + "<sup class='nt'>NEXT</sup></span><div class='cont'><details><summary>⏩ What will be updated?</summary><hr /><ul>" +next_cont_en + "</ul></details></div><hr /><span>" + now_ver + "<sup class='nw'>NOW</sup></span><div class='cont'><details open><summary>✨ What have been update? </summary><hr /><ul>" + now_cont_en + "</ul></details></div>";
+var news_cns = "<span>" + next_ver + "<sup class='nt'>下一</sup></span><div class='cont'><details><summary>⏩ 即将更新</summary><hr /><ul>" +next_cont_cns + "</ul></details></div><hr /><span>" + now_ver + "<sup class='nw'>当前</sup></span><div class='cont'><details open><summary>✨ 现已更新</summary><hr /><ul>" + now_cont_cns + "</ul></details></div>";
 
 
 var date_en = "Jun. 20, 2023";
