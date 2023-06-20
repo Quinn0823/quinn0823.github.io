@@ -24,7 +24,7 @@ details hr {
     padding: 5px;
     color: #fff;
     background-color: #99ccff;
-    border-radius: 20px;
+    border-radius: 18px;
     border: 3px solid #6699cc;
 }
 #footeri a {
@@ -41,7 +41,7 @@ details hr {
     color: #fff;
     background-color: #fff;
     border: 3px solid #6699cc;
-    border-radius: 12px;
+    border-radius: 10px;
     overflow: hidden;
 }
 .sel select {
@@ -51,5 +51,5 @@ details hr {
     width: 100%;
     height: 30px;
     border: 0;
-    border-radius: 12px;
+    border-radius: 10px;
 }

@@ -84,7 +84,7 @@ details {
     border: 3px solid #6699cc;
     color: #6699cc;
     background-color: #fff;
-    border-radius: 20px;
+    border-radius: 18px;
     padding: 5px;
 }
 details details {
@@ -94,7 +94,7 @@ details details {
     padding: 0;
 }
 #footeri details {
-    border-radius: 12px;
+    border-radius: 10px;
 }
 
 .scratch h3 {
