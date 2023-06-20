@@ -6,7 +6,6 @@
     border-radius: 20px;
     border: 3px solid #6699cc;
     background-color: #99ccff;
-    
 }
 .list ul {
     padding: 0;
@@ -33,18 +32,18 @@
 }
 .list ul li a, .list ul li a.active {
     margin: 0;
-    height: 24px;
-    line-height: 24px;
+    height: 30px;
+    line-height: 30px;
     border-radius: 12px;
     display: block;
     color: #6699cc;
-    border: 3px solid #6699cc;
+    border: 0px solid #6699cc;
     background-color: #fff;
     text-align: center;
     text-decoration: none;
+    transition: 0.2s;
 }
 .list ul li a:hover {
-    text-decoration: none;
     color: #fff;
     background-color: #6699cc;
 }
