@@ -66,7 +66,6 @@
 	padding: 6px 10px;
 	border-radius: 10px;
 	color: #6699cc;
-	font-weight: 600;
 	text-align: left;
 }
 
@@ -164,7 +163,6 @@
 	display: inline;
 
 	line-height: 1em;
-	font-size: 0.66666em;
 	color: #6699cc;
 	vertical-align: middle;
 }
@@ -192,7 +190,6 @@
 
 .desc {
 	margin: 1em 0.75em 0 0;
-	font-style: italic;
 	line-height: 1.5em;
 }
 
@@ -297,8 +294,10 @@
 	.direction-l .desc,
 	.direction-r .desc {
 		position: relative;
-		margin: 20px 20px 10px 20px;
-		padding: 1em;
+		margin: 10px;
+		margin-left: 20px;
+		margin-right: 20px;
+		padding: 0.5em;
 
 		z-index: 15;
 	}
