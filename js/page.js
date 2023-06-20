@@ -23,8 +23,8 @@ if (path == "/index.html" || path == "/") {
 var news_en = "<span>Quinn-Web 12.2.2<sup class='nt'>NEXT</sup></span><details><summary>⏩ What will update next?</summary><hr /><ul><li>🈴 All Chinese content will be translated.</li></ul></details>" + "<hr /><span>Quinn-Web 12.2.1<sup class='nw'>NOW</sup></span><details><summary>✨ What HAVE BEEN UPDATED now? </summary><hr /><ul><li>🏹 Brand new TIMELINE function.</li><li>👦🏻 New self-introduction.</li></ul></details><details><summary>🥚 Stinger</summary><hr /><ul><li>🕯 Age is calculated by JavaScript.</li></ul></details>";
 var news_cns = "<span>Quinn-Web 12.2.2<sup class='nt'>下一</sup></span><details><summary>⏩ 即将更新</summary><hr /><ul><li>🈴 所有中文内容将被翻译.</li></ul></details>" + "<hr /><span>Quinn-Web 12.2.1<sup class='nw'>当前</sup></span><details><summary>✨ 现已更新</summary><hr /><ul><li>🏹 新时间线功能.</li><li>👦🏻 新自我介绍.</li></ul></details><details><summary>🥚 彩蛋</summary><hr /><ul><li>🕯 年龄由 JavaScript 计算.</li></ul></details>";
 
-var date_en = "Apr. 9, 2023";
-var date_cns = "2023年4月9日";
+var date_en = "Jun. 20, 2023";
+var date_cns = "2023年6月20日";
 
 var header_en = "<div class='list'><ul><img src='/images/logo.png'/><li><a href='/index.html'>Home</a></li><li><a href='/projects.html'>Projects</a></li><li><a>Media</a><ul><li><a href='/media/music.html'>Music</a></li><li><a href='/media/photos.html'>Photos</a></li><li><a href='/media/videos.html'>Videos</a></li></ul></li><li><a href='/lab.html'>Lab</a></li><li class='about'><a href='/about.html'>About</a></li></ul></div><h1>" + title_en + "</h1><hr>";
 var header_cns = "<div class='list'><ul><img src='/images/logo.png'/><li><a href='/index.html'>首页</a></li><li><a href='/projects.html'>项目</a></li><li><a>媒体</a><ul><li><a href='/media/music.html'>音乐</a></li><li><a href='/media/photos.html'>照片</a></li><li><a href='/media/videos.html'>视频</a></li></ul></li><li><a href='/lab.html'>实验室</a></li><li class='about'><a href='/about.html'>关于</a></li></ul></div><h1>" + title_cns + "</h1><hr>";
