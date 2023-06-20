@@ -1,7 +1,22 @@
-* {
-    font-family: Helvetica, Arial;
+@font-face {
+	font-family:'PingFang SC';
+	src:url("/fonts/PingFangSC-Regular.woff2") format("woff2");
 }
-
+@font-face {
+	font-family:'SF Pro Display';
+	src:url("/fonts/sf-pro-display_regular.woff2") format("woff2");
+}
+@font-face {
+	font-family:'SF Pro Icons';
+	src:url("/fonts/sf-pro-icons_regular.woff2") format("woff2");
+}
+@font-face {
+	font-family:'SF Pro Text';
+	src:url("/fonts/sf-pro-text_regular.woff2") format("woff2");
+}
+* {
+    font-family: "SF Pro Text", "SF Pro Icons", "PingFang SC", Helvetica, Arial, sans-serif;
+}
 h1 {
     margin: 20px;
     text-align: center;
@@ -26,9 +41,7 @@ p, span, a, li, select {
     font-size: 16px;
     margin: 0;
 }
-p {
-    margin: 2.5px 0 2.5px 20px;
-}
+
 span.com {
     font-style: italic;
     color: #99ccff;
@@ -36,6 +49,19 @@ span.com {
 
 ul, ol {
     margin: 0;
+    padding-left: 40px;
+}
+li {
+    margin: 0;
+}
+.pj ul{
+    padding-left: 25px;
+    list-style-type: none;
+    
+}
+.pj ul li ul{
+    padding-left: 40px;
+    list-style-type: circle;
 }
 
 sup.nw {
@@ -43,4 +69,9 @@ sup.nw {
 }
 sup.nt {
     color: #6699cc;
+}
+
+a {
+    color: #6699cc;
+    text-decoration: underline;
 }
