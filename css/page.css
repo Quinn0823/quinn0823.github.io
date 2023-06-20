@@ -27,29 +27,23 @@ details hr {
     border-radius: 18px;
     border: 3px solid #6699cc;
 }
-#footeri a {
-    color: #fff;
-}
-#footeri a:active {
-    color: #ff0000;
-}
 
 .sel {
     margin: 0 auto;
     margin-top: 10px;
+    height: 30px;
     width: 220px;
     color: #fff;
     background-color: #fff;
     border: 3px solid #6699cc;
     border-radius: 10px;
+    padding: 0;
     overflow: hidden;
 }
 .sel select {
     color: #6699cc;
-    text-align: center;
-    padding: 10px;
+    border: 0;
     width: 100%;
     height: 30px;
-    border: 0;
-    border-radius: 10px;
+    margin: 0 auto;
 }
