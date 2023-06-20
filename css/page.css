@@ -15,15 +15,16 @@ hr {
     margin-bottom: 10px;
     background-color: #6699cc;
 }
-hr.whi {
-    background-color: #fff;
+details hr {
+    margin-top: 5px;
+    margin-bottom: 5px;
 }
 
 #footeri {
-    padding: 10px;
+    padding: 5px;
     color: #fff;
     background-color: #99ccff;
-    border-radius: 10px;
+    border-radius: 20px;
     border: 3px solid #6699cc;
 }
 #footeri a {
@@ -33,33 +34,22 @@ hr.whi {
     color: #ff0000;
 }
 
-details {
-    margin-top: 10px;
-    margin-bottom: 10px;
-    border: 3px solid #6699cc;
-    color: #6699cc;
-    background-color: #fff;
-    border-radius: 10px;
-    padding: 10px;
-}
-
 .sel {
     margin: 0 auto;
+    margin-top: 10px;
     width: 220px;
-    height: 40px;
+    color: #fff;
     background-color: #fff;
     border: 3px solid #6699cc;
-    border-radius: 10px;
+    border-radius: 12px;
+    overflow: hidden;
 }
 .sel select {
     color: #6699cc;
     text-align: center;
     padding: 10px;
     width: 100%;
-    border: none;
-    border-radius: 10px;
-}
-.sel select option {
-    color: #6699cc;
-    background-color: #fff;
+    height: 30px;
+    border: 0;
+    border-radius: 12px;
 }
