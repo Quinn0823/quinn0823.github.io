@@ -2,7 +2,7 @@
     margin: 0 0 10px 0;
     padding: 0;
     width: 100%;
-    height: 40px;
+    height: 46px;
     border-radius: 18px;
     border: 3px solid #6699cc;
     background-color: #99ccff;
@@ -13,10 +13,9 @@
     list-style-type: none;
 }
 .list ul img {
-    width: 40px;
-    height: 40px;
+    width: 46px;
+    height: 46px;
     float: left;
-    border-radius: 10px 0px 0px 10px;
 }
 .list ul li {
     width: 10%;
@@ -37,7 +36,7 @@
     border-radius: 10px;
     display: block;
     color: #6699cc;
-    border: 0px solid #6699cc;
+    border: 3px solid #6699cc;
     background-color: #fff;
     text-align: center;
     text-decoration: none;
