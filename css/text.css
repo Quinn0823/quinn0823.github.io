@@ -37,6 +37,9 @@ h3 {
     font-weight: bolder;
     color: #6699cc;
 }
+h3.scratch {
+    color: #f4972d;
+}
 
 p, span, a, li, select {
     font-size: 16px;
@@ -70,6 +73,9 @@ a {
     color: #6699cc;
     text-decoration: underline;
 }
+a:hover {
+    color: #99ccff;
+}
 
 details {
     margin-top: 10px;
@@ -89,4 +95,19 @@ details details {
 }
 #footeri details {
     border-radius: 12px;
+}
+
+.scratch h3 {
+    color: #f4972d;
+}
+.scratch hr {
+    background-color: #f4972d;
+}
+.scratch details {
+    color: #f4972d;
+    border: 3px solid #f4972d;
+}
+.scratch details details {
+    color: #6699cc;
+    border: 0;
 }
