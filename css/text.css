@@ -21,20 +21,20 @@ h1 {
     margin: 20px;
     text-align: center;
     font-size: 34px;
-    font-weight: bolder;
+    font-weight: bold;
     color: #6699cc;
 }
 h2 {
     margin: 15px;
     font-size: 28px;
-    font-weight: bolder;
+    font-weight: bold;
     color: #6699cc;
 }
 h3 {
     margin-top: 10px;
     margin-bottom: 5px;
     font-size: 22px;
-    font-weight: bolder;
+    font-weight: bold;
     color: #6699cc;
 }
 h3.scratch {
