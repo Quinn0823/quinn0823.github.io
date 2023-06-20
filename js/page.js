@@ -33,8 +33,8 @@ var next_cont_cns = "<li>None</li>";
 var now_cont_en = "<li>🈴 All Chinese contents have been translated.</li>";
 var now_cont_cns = "<li>🈴 所有中文内容已被翻译.</li>";
 
-var news_en = "<span>Quinn-Web " + next_ver + "<sup class='nt'>NEXT</sup></span><details><summary>⏩ What will be updated?</summary><hr /><ul>" +next_cont_en + "</ul></details><hr /><span>Quinn-Web " + now_ver + "<sup class='nw'>NOW</sup></span><details><summary>✨ What have been update? </summary><hr /><ul>" + now_cont_en + "</ul></details>";
-var news_cns = "<span>Quinn-Web " + next_ver + "<sup class='nt'>下一</sup></span><details><summary>⏩ 即将更新</summary><hr /><ul>" +next_cont_cns + "</ul></details><hr /><span>Quinn-Web " + now_ver + "<sup class='nw'>当前</sup></span><details><summary>✨ 现已更新</summary><hr /><ul></ul></details>";
+var news_en = "<span>Quinn-Web " + next_ver + "<sup class='nt'>NEXT</sup></span><div class='cont'><details><summary>⏩ What will be updated?</summary><hr /><ul>" +next_cont_en + "</ul></details></div><hr /><span>Quinn-Web " + now_ver + "<sup class='nw'>NOW</sup></span><div class='cont'><details><summary>✨ What have been update? </summary><hr /><ul>" + now_cont_en + "</ul></details></div>";
+var news_cns = "<span>Quinn-Web " + next_ver + "<sup class='nt'>下一</sup></span><div class='cont'><details><summary>⏩ 即将更新</summary><hr /><ul>" +next_cont_cns + "</ul></details></div><hr /><span>Quinn-Web " + now_ver + "<sup class='nw'>当前</sup></span><div class='cont'><details><summary>✨ 现已更新</summary><hr /><ul></ul></details></div>";
 
 
 var date_en = "Jun. 20, 2023";
