@@ -22,23 +22,23 @@ var header_cns = "<div class='list'><ul><img src='/images/logo.png'/><li><a href
 <details><summary>Title</summary><hr /><ul><li>First</li><li>Secend</li><li>Third</li></ul></details>
 */
 var now_ver = "Quinn-Web 12.3";
-var next_ver = "--- Quinn-Web 12 ---";
+var next_ver = "Quinn-Web 12";
 
-var next_cont_en = "<li>Welcome</li>";
-var next_cont_cns = "<li>欢迎您</li>";
+var next_cont_en = "<p><i class='fa-solid fa-door-open'></i> Welcome</p>";
+var next_cont_cns = "<p><i class='fa-solid fa-door-open'></i> 欢迎您</p>";
 
-var now_cont_en = "<li>🎉 New page - Project (of scratch)!</li><li>➰ New corner angle which looks more beautiful and comfortable;</li><li>⏸️ New indentation between the text, more conducive to visitors to read;</li><li>🎵 The media and its subpages have been changed to the music page, making access more direct and fast.</li>";
-var now_cont_cns = "<li>🎉 新页面——（Scratch 的）项目!</li><li>➰ 新的,看起来更漂亮,更舒适的圆角角度;</li><li>⏸️ 文字之间新增缩进,更有利于浏览者阅读;</li><li>🎵 将媒体及其子页面更改为音乐页面,使访问更加直接和快速.</li>";
+var now_cont_en = "<p><i class='fa-solid fa-file-code'></i> New page - Project (of scratch)!</p><p><i class='fa-solid fa-circle-half-stroke'></i> New corner angle which looks more beautiful and comfortable;</p><p><i class='fa-solid fa-indent'></i> New indentation between the text, more conducive to visitors to read;</p><p><i class='fa-solid fa-music'></i> The media and its subpages have been changed to the music page, making access more direct and fast.</p>";
+var now_cont_cns = "<p><i class='fa-solid fa-file-code'></i> 新页面 -- (Scratch 的) 项目!</p><p><i class='fa-solid fa-circle-half-stroke'></i> 新的,看起来更漂亮,更舒适的圆角角度;</p><p><i class='fa-solid fa-indent'></i> 文字之间新增缩进,更有利于浏览者阅读;</p><p><i class='fa-solid fa-music'></i> 将媒体及其子页面更改为音乐页面,使访问更加直接和快速.</p>";
 
-var news_en = "<span>" + next_ver + "<sup class='nt'>NEXT</sup></span><div class='cont'><details><summary>⏩ What will be updated?</summary><hr /><ul>" +next_cont_en + "</ul></details></div><hr /><span>" + now_ver + "<sup class='nw'>NOW</sup></span><div class='cont'><details open><summary>✨ What have been update? </summary><hr /><ul>" + now_cont_en + "</ul></details></div>";
-var news_cns = "<span>" + next_ver + "<sup class='nt'>下一</sup></span><div class='cont'><details><summary>⏩ 即将更新</summary><hr /><ul>" +next_cont_cns + "</ul></details></div><hr /><span>" + now_ver + "<sup class='nw'>当前</sup></span><div class='cont'><details open><summary>✨ 现已更新</summary><hr /><ul>" + now_cont_cns + "</ul></details></div>";
+var news_en = "<span>" + next_ver + " <sup><i class='fa-solid fa-forward'></i> NEXT</sup></span><div class='cont'><details><summary><i class='fa-solid fa-diagram-next'></i> What will be updated?</summary><hr /><div class='cont'>" +next_cont_en + "</div></details></div><hr /><span>" + now_ver + " <sup><i class='fa-solid fa-forward-step'></i> NOW</sup></span><div class='cont'><details open><summary><i class='fa-solid fa-newspaper'></i> What have been update? </summary><hr /><div class='cont'>" + now_cont_en + "</div></details></div>";
+var news_cns = "<span>" + next_ver + " <sup><i class='fa-solid fa-forward'></i> 下一</sup></span><div class='cont'><details><summary><i class='fa-solid fa-diagram-next'></i> 即将更新</summary><hr /><div class='cont'>" +next_cont_cns + "</div></details></div><hr /><span>" + now_ver + " <sup><i class='fa-solid fa-forward-step'></i> 当前</sup></span><div class='cont'><details open><summary><i class='fa-solid fa-newspaper'></i> 现已更新</summary><hr /><div class='cont'>" + now_cont_cns + "</div></details></div>";
 
 
 var date_en = "Jun. 20, 2023";
 var date_cns = "2023年6月20日";
 
-var footer_en = "<hr><div id='footeri'>" + news_en + "<hr /><div class='sel'><select id='lang' onchange='langchange()'><option value='1' selected='selected'>United States - English</option><option value='2'>简体中文 (中国大陆) </option></select></div><div class='g_url'><span style='text-align: center; display:block; '>📅 Last Update: " + date_en + " | Copyright © 2019-" + new Date(Date.parse(new Date())).getFullYear() + " Quinn Qiu All Rights Reserved. | <a href='https://github.com/Quinn0823/quinn0823.github.io'  target='_blank'><i class='fa-brands fa-github'></i></a></span></div>";
-var footer_cns = "<hr><div id='footeri'>" + news_cns + "<hr /><div class='sel'><select id='lang' onchange='langchange()'><option value='1'>United States - English</option><option value='2' selected='selected'>简体中文 (中国大陆) </option></select></div><div class='g_url'><span style='text-align: center; display:block; '>📅 最近更新：" + date_cns + " | Copyright © 2019-" + new Date(Date.parse(new Date())).getFullYear() + " Quinn Qiu 保留所有权利. | <a href='https://github.com/Quinn0823/quinn0823.github.io'  target='_blank'><i class='fa-brands fa-github'></i></a></span></div>";
+var footer_en = "<hr><div id='footeri'>" + news_en + "<hr /><div class='sel'><select id='lang' onchange='langchange()'><option value='1' selected='selected'>United States - English</option><option value='2'>简体中文 (中国大陆) </option></select></div><div class='g_url'><span style='text-align: center; display:block; '><i class='fa-solid fa-calendar-days'></i> Last Update: " + date_en + " | Copyright © 2019-" + new Date(Date.parse(new Date())).getFullYear() + " Quinn Qiu All Rights Reserved. | <a href='https://github.com/Quinn0823/quinn0823.github.io'  target='_blank'><i class='fa-brands fa-github'></i></a></span></div>";
+var footer_cns = "<hr><div id='footeri'>" + news_cns + "<hr /><div class='sel'><select id='lang' onchange='langchange()'><option value='1'>United States - English</option><option value='2' selected='selected'>简体中文 (中国大陆) </option></select></div><div class='g_url'><span style='text-align: center; display:block; '><i class='fa-solid fa-calendar-days'></i> 最近更新：" + date_cns + " | Copyright © 2019-" + new Date(Date.parse(new Date())).getFullYear() + " Quinn Qiu 保留所有权利. | <a href='https://github.com/Quinn0823/quinn0823.github.io'  target='_blank'><i class='fa-brands fa-github'></i></a></span></div>";
 
 var ldate = 1;
 
