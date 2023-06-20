@@ -25,13 +25,14 @@ h1 {
     color: #6699cc;
 }
 h2 {
-    margin: 10px 0 10px 0;
+    margin: 15px;
     font-size: 28px;
     font-weight: bolder;
     color: #6699cc;
 }
 h3 {
-    margin: 10px 0 10px 0;
+    margin-top: 10px;
+    margin-bottom: 5px;
     font-size: 22px;
     font-weight: bolder;
     color: #6699cc;
@@ -41,7 +42,9 @@ p, span, a, li, select {
     font-size: 16px;
     margin: 0;
 }
-
+.cont {
+    margin-left: 20px;
+}
 span.com {
     font-style: italic;
     color: #99ccff;
@@ -54,15 +57,7 @@ ul, ol {
 li {
     margin: 0;
 }
-.pj ul{
-    padding-left: 25px;
-    list-style-type: none;
-    
-}
-.pj ul li ul{
-    padding-left: 40px;
-    list-style-type: circle;
-}
+
 
 sup.nw {
     color: #fff;
@@ -74,4 +69,24 @@ sup.nt {
 a {
     color: #6699cc;
     text-decoration: underline;
+}
+
+details {
+    margin-top: 10px;
+    margin-bottom: 0px;
+    margin-left: 0;
+    border: 3px solid #6699cc;
+    color: #6699cc;
+    background-color: #fff;
+    border-radius: 20px;
+    padding: 5px;
+}
+details details {
+    border: 0px;
+    margin: 0;
+    margin-top: 5px;
+    padding: 0;
+}
+#footeri details {
+    border-radius: 12px;
 }
