@@ -1,5 +1,6 @@
 * {
     font-family: Helvetica, Arial, sans-serif;
+    font-size: 16px;
 }
 h1 {
     margin: 20px;
@@ -22,11 +23,12 @@ h3{
     color: #6699cc;
 }
 h3 i {
+    font-size: 22px;
     height: 22px;
     width: 22px;
 }
 
-p, span, a, li, select {
+p, span, a, li, select{
     font-weight: normal;
     font-size: 16px;
     margin-top: 5px;
