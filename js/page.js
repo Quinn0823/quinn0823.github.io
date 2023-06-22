@@ -20,7 +20,7 @@ if (path == "/index.html" || path == "/") {
 }
 
 var header_en = "<div class='list'><ul><img src='/images/logo.png'/><li><a href='/index.html'>Home</a></li><li><a href='/projects.html'>Projects</a></li><li><a href='/music.html'>Music</a></li><li><a href='/lab.html'>Lab</a></li><li class='about'><a href='/about.html'>About</a></li><li class='about'><a href='/snapshot.html'>Snapshot</a></li></ul></div><h1>" + title_en + "</h1><hr>";
-var header_cns = "<div class='list'><ul><img src='/images/logo.png'/><li><a href='/index.html'>首页</a></li><li><a href='/projects.html'>项目</a></li><li><a href='/music.html'>Music</a></li><li><a href='/lab.html'>实验室</a></li><li class='about'><a href='/about.html'>关于</a></li><li class='about'><a href='/snapshot.html'>快照</a></li></ul></div><h1>" + title_cns + "</h1><hr>";
+var header_cns = "<div class='list'><ul><img src='/images/logo.png'/><li><a href='/index.html'>首页</a></li><li><a href='/projects.html'>项目</a></li><li><a href='/music.html'>音乐</a></li><li><a href='/lab.html'>实验室</a></li><li class='about'><a href='/about.html'>关于</a></li><li class='about'><a href='/snapshot.html'>快照</a></li></ul></div><h1>" + title_cns + "</h1><hr>";
 
 
 /*
