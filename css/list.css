@@ -19,30 +19,36 @@
 }
 .list ul li {
     width: 10%;
+    height: 30px;
+    background-color: #fff;
+    border: 3px solid #6699cc;
+    border-radius: 10px;
     float: left;
     margin-left: 5px;
     margin-top: 5px;
     margin-bottom: 5px;
-    position: relative;
 }
 .list ul li.about {
     float: right;
+    margin-left: 0;
     margin-right: 5px;
 }
 .list ul li a, .list ul li a.active {
-    margin: 0;
-    height: 30px;
-    line-height: 30px;
-    border-radius: 10px;
-    display: block;
     color: #6699cc;
-    border: 3px solid #6699cc;
-    background-color: #fff;
-    text-align: center;
+    margin: 0;
+    margin-top: -3px;
+    line-height: 36px;
+    width: 100%;
     text-decoration: none;
-    transition: 0.2s;
+    display:flex;
+    justify-content:center;
+    white-space: nowrap;
 }
-.list ul li a:hover {
+.list ul li:hover{
     color: #fff;
+    transition: 0.2s;
     background-color: #6699cc;
+}
+.list ul li:hover a, .list ul li a:hover {
+    color: #fff;
 }
