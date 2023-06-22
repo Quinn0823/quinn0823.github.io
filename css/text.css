@@ -1,25 +1,26 @@
 * {
-    font-family: Helvetica, Arial, sans-serif;
+    font-family: SF Pro SC, SF Pro Text, SF Pro Icons, PingFang SC, Helvetica Neue, Helvetica, Arial, sans-serif;
     font-size: 16px;
+    font-weight: 400;
 }
 h1 {
     margin: 20px;
     text-align: center;
     font-size: 34px;
-    font-weight: bold;
+    font-weight: 600;
     color: #6699cc;
 }
 h2 {
     margin: 15px;
     font-size: 28px;
-    font-weight: bold;
+    font-weight: 600;
     color: #6699cc;
 }
 h3{
     margin-top: 10px;
     margin-bottom: 5px;
     font-size: 22px;
-    font-weight: bold;
+    font-weight: 600;
     color: #6699cc;
     padding: 0;
 }
@@ -28,10 +29,11 @@ h3 i {
     height: 22px;
     width: 22px;
 }
+h3.am, h3.am i {
+    color: #f50e39;
+}
 
 p, span, a, li, select{
-    font-weight: normal;
-    font-size: 16px;
     margin-top: 5px;
     margin-bottom: 5px;
 }
