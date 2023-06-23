@@ -1,4 +1,5 @@
 <!DOCTYPE html>
+
 <head>
     <meta charset="utf-8" />
 
@@ -20,20 +21,162 @@
     <link rel="stylesheet" type="text/css" href="/css/text.css" />
 
     <script src="https://kit.fontawesome.com/deaa988485.js" crossorigin="anonymous"></script>
+
+    <style>
+        #content {
+            text-align: center;
+        }
+        section.timeline-outer {
+            margin: 0 auto;
+        }
     
+        
+    
+        /* Timeline */
+    
+        .timeline {
+            margin-left: 61px;
+            border: 3px solid #6699cc;
+            border-left: 6px solid #6699cc;
+            border-top-right-radius: 18px;
+            border-bottom-right-radius: 18px;
+            color: #000;
+            line-height: 1.4em;
+            padding-left: 20px;
+            padding-right: 5px;
+            list-style: none;
+            text-align: left;
+        }
+        .timeline span {
+            font-weight: 600;
+            color: #6699cc;
+        }
+    
+        .timeline .event {
+            margin-top: 10px;
+            border-bottom: 3px solid #6699cc;
+            padding-bottom: 10px;
+            position: relative;
+        }
+    
+        .timeline .event:last-of-type {
+            padding-bottom: 0;
+            margin-bottom: 0;
+            border: none;
+        }
+    
+        .timeline .event:before,
+        .timeline .event:after {
+            position: absolute;
+            display: block;
+            top: 0;
+        }
+    
+        .timeline .event:before {
+            left: -90px;
+            width: 50px;
+            display: block;
+            color: #6699cc;
+            content: attr(data-date);
+            text-align: center;
+        }
+    
+        .timeline .event:after {
+            box-shadow: 0 0 0 6px #6699cc;
+            left: -27px;
+            background: #99ccff;
+            border-radius: 50%;
+            height: 8px;
+            width: 8px;
+            content: "";
+            top: 7px;
+        }
+        .timeline #pre_en:after, 
+        .timeline #pre_cns:after {
+            animation: twinkle_a 1.5s ease infinite;
+        }
+
+        .timeline #fu_en:before, .timeline #fu_en *,
+        .timeline #fu_cns:before, .timeline #fu_cns * {
+            color: #99ccff;
+        }
+        .timeline #fu_en:after, 
+        .timeline #fu_cns:after {
+            box-shadow: 0 0 0 6px #99ccff;
+        }
+        
+        
+        @keyframes twinkle_a {
+            0% {
+                box-shadow: 0 0 0 6px #6699cc;
+                background-color: #99ccff;
+            }
+            50% {
+                box-shadow: 0 0 0 8px #99ccff;
+                background-color: #6699cc;
+            }
+        }
+    </style>
+
     <title>Lab</title>
 </head>
+
 <body>
     <div id="header"></div>
     <div id="en">
+        <h3><i class="fa-solid fa-timeline"></i> Timeline - BETA</h3>
         <div class="cont">
-            <p><span class="com">There's nothing to be tested So far.</span></p>
+            <ul class="timeline">
+                <li class="event" data-date="2007">
+                    <span><i class='fa-solid fa-baby'></i> Came To the World</span>
+                    <p>Nothing to say.</p>
+                </li>
+                <li class="event" data-date="2014">
+                    <span><i class='fa-solid fa-graduation-cap'></i> YY Student</span>
+                    <p>A student of Chongqing Yuying Primary School.</p>
+                </li>
+                <li class="event" data-date="2020">
+                    <span><i class='fa-solid fa-graduation-cap'></i> HF Student</span>
+                    <p>A student of Hongfan School Attached to Chongqing No.8 Secondary School.</p>
+                </li>
+                <li class="event" id="pre_en" data-date="2023">
+                    <span><i class='fa-solid fa-graduation-cap'></i> BZ Student</span>
+                    <p>A student of Chongqing No.8 Secondary School.</p>
+                </li>
+                <li class="event" id="fu_en" data-date="2026">
+                    <span>?</span>
+                    <p>I have no idea yet.</p>
+                </li>
+            </ul>
         </div>
     </div>
     <div id="cns">
+        <h3><i class="fa-solid fa-timeline"></i> 时间线 - 预览</h3>
         <div class="cont">
-            <p><span class="com">目前没有什么需要测试的。</span></p>
+            <ul class="timeline">
+                <li class="event" data-date="2007">
+                    <span><i class='fa-solid fa-baby'></i> Came To the World</span>
+                    <p>Nothing to say.</p>
+                </li>
+                <li class="event" data-date="2014">
+                    <span><i class='fa-solid fa-graduation-cap'></i> YY Student</span>
+                    <p>A student of Chongqing Yuying Primary School.</p>
+                </li>
+                <li class="event" data-date="2020">
+                    <span><i class='fa-solid fa-graduation-cap'></i> HF Student</span>
+                    <p>A student of Hongfan School Attached to Chongqing No.8 Secondary School.</p>
+                </li>
+                <li class="event" id="pre_cns" data-date="2023">
+                    <span><i class='fa-solid fa-graduation-cap'></i> BZ Student</span>
+                    <p>A student of Chongqing No.8 Secondary School.</p>
+                </li>
+                <li class="event" id="fu_cns" data-date="2026">
+                    <span>?</span>
+                    <p>I have no idea yet.</p>
+                </li>
+            </ul>
         </div>
+        
     </div>
     <div id="footer"></div>
     <script src="/js/page.js"></script>
