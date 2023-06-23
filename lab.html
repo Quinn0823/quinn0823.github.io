@@ -35,21 +35,25 @@
         /* Timeline */
     
         .timeline {
-            margin-left: 61px;
+            margin-left: 55px;
             border: 3px solid #6699cc;
             border-left: 6px solid #6699cc;
             border-top-right-radius: 18px;
             border-bottom-right-radius: 18px;
             color: #000;
             line-height: 1.4em;
-            padding-left: 20px;
+            padding-left: 5px;
             padding-right: 5px;
             list-style: none;
             text-align: left;
         }
         .timeline span {
+            margin-left: 15px;
             font-weight: 600;
             color: #6699cc;
+        }
+        .timeline p {
+            margin-left: 15px;
         }
     
         .timeline .event {
@@ -73,17 +77,17 @@
         }
     
         .timeline .event:before {
-            left: -90px;
-            width: 50px;
+            left: -60px;
+            width: 40px;
             display: block;
             color: #6699cc;
             content: attr(data-date);
-            text-align: center;
+            text-align: left;
         }
     
         .timeline .event:after {
             box-shadow: 0 0 0 6px #6699cc;
-            left: -27px;
+            left: -12px;
             background: #99ccff;
             border-radius: 50%;
             height: 8px;
@@ -94,6 +98,14 @@
         .timeline #pre_en:after, 
         .timeline #pre_cns:after {
             animation: twinkle_a 1.5s ease infinite;
+            box-shadow: 0 0 0 8px #6699cc;
+            background-color: #99ccff;
+        }
+        .timeline #pre_en:before,
+        .timeline #pre_cns:before,
+        .timeline #pre_en span,
+        .timeline #pre_cns span {
+            animation: twinkle_b 1.5s ease infinite;
         }
 
         .timeline #fu_en:before, .timeline #fu_en *,
@@ -108,12 +120,20 @@
         
         @keyframes twinkle_a {
             0% {
-                box-shadow: 0 0 0 6px #6699cc;
+                box-shadow: 0 0 0 8px #6699cc;
                 background-color: #99ccff;
             }
             50% {
-                box-shadow: 0 0 0 8px #99ccff;
+                box-shadow: 0 0 0 6px #99ccff;
                 background-color: #6699cc;
+            }
+        }
+        @keyframes twinkle_b {
+            0% {
+                color: #6699cc;
+            }
+            50% {
+                color: #99ccff;
             }
         }
     </style>
@@ -133,7 +153,7 @@
                 </li>
                 <li class="event" data-date="2014">
                     <span><i class='fa-solid fa-graduation-cap'></i> YY Student</span>
-                    <p>A student of Chongqing Yuying Primary School.</p>
+                    <p>A student of Chongqing Yuying Primary School (Chongqing University of Proparatory School).</p>
                 </li>
                 <li class="event" data-date="2020">
                     <span><i class='fa-solid fa-graduation-cap'></i> HF Student</span>
@@ -155,24 +175,24 @@
         <div class="cont">
             <ul class="timeline">
                 <li class="event" data-date="2007">
-                    <span><i class='fa-solid fa-baby'></i> Came To the World</span>
-                    <p>Nothing to say.</p>
+                    <span><i class='fa-solid fa-baby'></i> 来到这个世界</span>
+                    <p>没什么可说的.</p>
                 </li>
                 <li class="event" data-date="2014">
-                    <span><i class='fa-solid fa-graduation-cap'></i> YY Student</span>
-                    <p>A student of Chongqing Yuying Primary School.</p>
+                    <span><i class='fa-solid fa-graduation-cap'></i> YY 学生</span>
+                    <p>重庆市沙坪坝区育英小学校 (重庆大学附属小学) 的一个学生.</p>
                 </li>
                 <li class="event" data-date="2020">
-                    <span><i class='fa-solid fa-graduation-cap'></i> HF Student</span>
-                    <p>A student of Hongfan School Attached to Chongqing No.8 Secondary School.</p>
+                    <span><i class='fa-solid fa-graduation-cap'></i> HF 学生</span>
+                    <p>重庆八中宏帆中学校 的一个学生.</p>
                 </li>
                 <li class="event" id="pre_cns" data-date="2023">
-                    <span><i class='fa-solid fa-graduation-cap'></i> BZ Student</span>
-                    <p>A student of Chongqing No.8 Secondary School.</p>
+                    <span><i class='fa-solid fa-graduation-cap'></i> BZ 学生</span>
+                    <p>重庆市第八中学校 的一个学生.</p>
                 </li>
                 <li class="event" id="fu_cns" data-date="2026">
                     <span>?</span>
-                    <p>I have no idea yet.</p>
+                    <p>我还没有想法.</p>
                 </li>
             </ul>
         </div>
