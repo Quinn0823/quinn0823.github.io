@@ -2,22 +2,22 @@ var path = window.location.pathname
 var title_en = document.title
 var title_cns = document.title;
 
-if (path == "/index.html" || path == "/") {
+if (path == "/" || path == "/index.html") {
     title_cns = "首页";
-} else if (path == "/projects.html") {
+} else if (path == "/projects/" || path == "/projects/index.html") {
     title_cns = "项目";
+} else if (path == "/qs/" || path == "/qs/index.html") {
+    //
 } else if (path == "/music.html") {
     title_cns = "音乐";
 } else if (path == "/lab.html") {
     title_cns = "实验室";
 } else if (path == "/website.html") {
     title_cns = "此网站";
-} else if (path == "/qs/index.html") {
-    title_cns = "QuinnStandard";
-}
+} 
 
-var header_en = "<div class='list'><ul><img src='/images/logo.png'/><li><a href='/index.html'>Home</a></li><li><a href='/projects.html'>Projects</a></li><li><a href='/qs/index.html'>QS</a></li><li><a href='/music.html'>Music</a></li><li><a href='/lab.html'>Lab</a></li><li class='about'><a href='/website.html'>Website</a></li></ul></div><h1>" + title_en + "</h1><hr>";
-var header_cns = "<div class='list'><ul><img src='/images/logo.png'/><li><a href='/index.html'>首页</a></li><li><a href='/projects.html'>项目</a></li><li><a href='/qs/index.html'>标准</a></li><li><a href='/music.html'>音乐</a></li><li><a href='/lab.html'>实验室</a></li><li class='about'><a href='/website.html'>此网站</a></li></ul></div><h1>" + title_cns + "</h1><hr>";
+var header_en = "<div class='list'><ul><img src='/images/logo.png'/><li><a href='/'>Home</a></li><li><a href='/projects/index.html'>Projects</a></li><li><a href='/qs/index.html'>QS</a></li><li><a href='/music.html'>Music</a></li><li><a href='/lab.html'>Lab</a></li><li class='about'><a href='/website.html'>Website</a></li></ul></div><h1>" + title_en + "</h1><hr>";
+var header_cns = "<div class='list'><ul><img src='/images/logo.png'/><li><a href='/'>首页</a></li><li><a href='/projects/index.html'>项目</a></li><li><a href='/qs/index.html'>标准</a></li><li><a href='/music.html'>音乐</a></li><li><a href='/lab.html'>实验室</a></li><li class='about'><a href='/website.html'>此网站</a></li></ul></div><h1>" + title_cns + "</h1><hr>";
 
 
 
@@ -37,8 +37,8 @@ var news_en = "<span><i class='fa-solid fa-forward'></i> " + next_ver + " - NEXT
 var news_cns = "<span><i class='fa-solid fa-forward'></i> " + next_ver + " - 下一</span><div class='cont'><details><summary><i class='fa-solid fa-diagram-next'></i> 即将更新</summary><hr /><div class='cont'>" +next_cont_cns + "</div></details></div><hr /><span><i class='fa-solid fa-forward-step'></i> " + now_ver + " - 当前</span><div class='cont'><details open><summary><i class='fa-solid fa-newspaper'></i> 现已更新</summary><hr /><div class='cont'>" + now_cont_cns + "</div></details></div>";
 
 
-var date_en = "Jul 24, 2023";
-var date_cns = "2023年6月20日";
+var date_en = "Jul 25, 2023";
+var date_cns = "2023年7月25日";
 
 var footer_en = "<hr><div id='footeri'>" + news_en + "<hr /><div class='sel'><select id='lang' onchange='langchange()'><option value='1' selected='selected'>United States - English</option><option value='2'>简体中文 (中国大陆) </option></select></div><div class='g_url'><span style='text-align: center; display:block; '><i class='fa-solid fa-calendar-days'></i> Last Update: " + date_en + " | Copyright © 2019-" + new Date(Date.parse(new Date())).getFullYear() + " Quinn Qiu All Rights Reserved. | <a href='https://github.com/Quinn0823/quinn0823.github.io'  target='_blank'><i class='fa-brands fa-github'></i></a></span></div>";
 var footer_cns = "<hr><div id='footeri'>" + news_cns + "<hr /><div class='sel'><select id='lang' onchange='langchange()'><option value='1'>United States - English</option><option value='2' selected='selected'>简体中文 (中国大陆) </option></select></div><div class='g_url'><span style='text-align: center; display:block; '><i class='fa-solid fa-calendar-days'></i> 最近更新：" + date_cns + " | Copyright © 2019-" + new Date(Date.parse(new Date())).getFullYear() + " Quinn Qiu 保留所有权利. | <a href='https://github.com/Quinn0823/quinn0823.github.io'  target='_blank'><i class='fa-brands fa-github'></i></a></span></div>";
