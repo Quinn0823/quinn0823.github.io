@@ -6,6 +6,8 @@ if (path == "/" || path == "/index.html") {
     title_cns = "首页";
 } else if (path == "/projects/" || path == "/projects/index.html") {
     title_cns = "项目";
+} else if (path == "/projects/tdh.html"){
+    title_cns = "教材下载助手"
 } else if (path == "/qs/" || path == "/qs/index.html") {
     //
 } else if (path == "/music.html") {
@@ -37,8 +39,8 @@ var news_en = "<span><i class='fa-solid fa-forward'></i> " + next_ver + " - NEXT
 var news_cns = "<span><i class='fa-solid fa-forward'></i> " + next_ver + " - 下一</span><div class='cont'><details><summary><i class='fa-solid fa-diagram-next'></i> 即将更新</summary><hr /><div class='cont'>" +next_cont_cns + "</div></details></div><hr /><span><i class='fa-solid fa-forward-step'></i> " + now_ver + " - 当前</span><div class='cont'><details open><summary><i class='fa-solid fa-newspaper'></i> 现已更新</summary><hr /><div class='cont'>" + now_cont_cns + "</div></details></div>";
 
 
-var date_en = "Jul 25, 2023";
-var date_cns = "2023年7月25日";
+var date_en = "Jul 26, 2023";
+var date_cns = "2023年7月26日";
 
 var footer_en = "<hr><div id='footeri'>" + news_en + "<hr /><div class='sel'><select id='lang' onchange='langchange()'><option value='1' selected='selected'>United States - English</option><option value='2'>简体中文 (中国大陆) </option></select></div><div class='g_url'><span style='text-align: center; display:block; '><i class='fa-solid fa-calendar-days'></i> Last Update: " + date_en + " | Copyright © 2019-" + new Date(Date.parse(new Date())).getFullYear() + " Quinn Qiu All Rights Reserved. | <a href='https://github.com/Quinn0823/quinn0823.github.io'  target='_blank'><i class='fa-brands fa-github'></i></a></span></div>";
 var footer_cns = "<hr><div id='footeri'>" + news_cns + "<hr /><div class='sel'><select id='lang' onchange='langchange()'><option value='1'>United States - English</option><option value='2' selected='selected'>简体中文 (中国大陆) </option></select></div><div class='g_url'><span style='text-align: center; display:block; '><i class='fa-solid fa-calendar-days'></i> 最近更新：" + date_cns + " | Copyright © 2019-" + new Date(Date.parse(new Date())).getFullYear() + " Quinn Qiu 保留所有权利. | <a href='https://github.com/Quinn0823/quinn0823.github.io'  target='_blank'><i class='fa-brands fa-github'></i></a></span></div>";
@@ -69,8 +71,6 @@ function langdate() {
 
         document.getElementById("en").style.display = "none";
         document.getElementById("cns").style.display = "inline";
-
-        localStorage.langdate = 2;
     } else { //English
         document.title = title_en + " | Quinn-Web";
 
@@ -79,8 +79,6 @@ function langdate() {
 
         document.getElementById("en").style.display = "inline";
         document.getElementById("cns").style.display = "none";
-
-        localStorage.langdate = 1;
     }
 }
 
