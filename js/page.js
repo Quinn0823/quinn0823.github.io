@@ -6,7 +6,7 @@ if (path == "/" || path == "/index.html") {
     title_cns = "首页";
 } else if (path == "/projects/" || path == "/projects/index.html") {
     title_cns = "项目";
-} else if (path == "/projects/tdh" || path == "/projects/tdh/index.html"){
+} else if (path == "/projects/tdh/" || path == "/projects/tdh/index.html"){
     title_cns = "教材下载助手"
 } else if (path == "/qs/" || path == "/qs/index.html") {
     //
