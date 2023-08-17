@@ -1,54 +1,54 @@
-@font-face {
-	font-family: "SF Pro Round";
+/* @font-face {
+	font-family: "PingFangSC";
 	font-style: normal;
 	font-weight: 100;
-	src: url("/fonts/sfpr/SF-Pro-Rounded-Thin.otf");
+	src: url("/fonts/PingFangSC-Thin.otf");
 }
 @font-face {
-	font-family: "SF Pro Round";
+	font-family: "PingFangSC";
 	font-style: normal;
 	font-weight: 200;
-	src: url("/fonts/sfpr/SF-Pro-Rounded-Ultralight.otf");
-}
+	src: url("/fonts/PingFangSC-Ultralight.otf");
+} */
 @font-face {
-	font-family: "SF Pro Round";
+	font-family: "PingFangSC";
 	font-style: normal;
 	font-weight: 300;
-	src: url("/fonts/sfpr/SF-Pro-Rounded-Light.otf");
+	src: url("/fonts/pfsc/PingFangSC-Light.ttf");
 }
 @font-face {
-	font-family: "SF Pro Round";
+	font-family: "PingFangSC";
 	font-style: normal;
 	font-weight: 400;
-	src: url("/fonts/sfpr/SF-Pro-Rounded-Regular.otf");
+	src: url("/fonts/pfsc/PingFangSC-Regular.ttf");
 }
 @font-face {
-	font-family: "SF Pro Round";
+	font-family: "PingFangSC";
 	font-style: normal;
 	font-weight: 500;
-	src: url("/fonts/sfpr/SF-Pro-Rounded-Medium.otf");
+	src: url("/fonts/pfsc/PingFangSC-Medium.woff2");
 }
 @font-face {
-	font-family: "SF Pro Round";
+	font-family: "PingFangSC";
 	font-style: normal;
 	font-weight: 600;
-	src: url("/fonts/sfpr/SF-Pro-Rounded-Semibold.otf");
+	src: url("/fonts/pfsc/PingFangSC-Semibold.woff");
 }
-@font-face {
-	font-family: "SF Pro Round";
+/* @font-face {
+	font-family: "PingFangSC";
 	font-style: normal;
 	font-weight: 700;
-	src: url("/fonts/sfpr/SF-Pro-Rounded-Bold.otf");
+	src: url("/fonts/PingFangSC-Bold.otf");
 }
 @font-face {
-	font-family: "SF Pro Round";
+	font-family: "PingFangSC";
 	font-style: normal;
 	font-weight: 800;
-	src: url("/fonts/sfpr/SF-Pro-Rounded-Black.otf");
+	src: url("/fonts/PingFangSC-Black.otf");
 }
 @font-face {
-	font-family: "SF Pro Round";
+	font-family: "PingFangSC";
 	font-style: normal;
 	font-weight: 900;
-	src: url("/fonts/sfpr/SF-Pro-Rounded-Heavy.otf");
-}
+	src: url("/fonts/PingFangSC-Heavy.otf");
+} */

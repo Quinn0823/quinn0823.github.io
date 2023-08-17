@@ -25,12 +25,12 @@ h3{
     color: #6699cc;
     padding: 0;
 }
-h3 i {
+h3 i, h3 img {
     font-size: 22px;
     height: 22px;
     width: 22px;
 }
-h3.am, h3.am i {
+h3.am, h3.am i, h3.am img {
     color: #f50e39;
 }
 
@@ -44,12 +44,15 @@ i {
     height: 16px;
     text-align: center;
 }
+img {
+    width: 16px;
+    height: 16px;
+}
 
 .cont {
     margin-left: 20px;
 }
 span.com {
-    font-style: italic;
     color: #99ccff;
 }
 
@@ -61,7 +64,7 @@ li {
     margin: 0;
 }
 
-a, a i{
+a, a i, a img{
     color: #6699cc;
     text-decoration: underline;
 }
@@ -70,7 +73,7 @@ a:hover, a:hover i {
     color: #99ccff;
 }
 
-details {
+details, #footeri .result {
     margin-top: 5px;
     margin-bottom: 0px;
     margin-left: 0px;
@@ -105,7 +108,7 @@ details.nosnsh hr {
 }
 
 
-#footeri details {
+#footeri details, #footeri .result {
     border: 3px solid #6699cc;
     color: #6699cc;
     border-radius: 10px;
@@ -117,7 +120,7 @@ details.nosnsh hr {
 #footeri span i {
     color: #fff;
 }
-#footeri a i {
+#footeri a i, #footeri span img {
     text-decoration: underline;
 }
 #footeri a:hover i {
@@ -177,8 +180,7 @@ thead {
     color: #fff;
 }
 tr td:nth-child(1), 
-tr:nth-child(1) td:nth-child(2), 
-tr:nth-child(13) td:nth-child(2) {
+tr:nth-child(1) td:nth-child(2) {
     background-color: #99ccff;
     color: #fff;
 }
