@@ -10,7 +10,7 @@
     <meta name="theme-color" content="#99ccff" media="(prefers-color-scheme: light)">
     <meta name="theme-color" content="#6699cc" media="(prefers-color-scheme: dark)">
 
-    <meta property="og:title" content="Download Helper | Quinn-Web" />
+    <meta property="og:title" content="Textbook Download Helper | Quinn-Web" />
     <meta property="og:type" content="GitHub-Page" />
     <meta property="og:image" content="/favicon.ico" />
     <meta property="og:description" content="Quinn-Web" />
@@ -18,6 +18,8 @@
     <link rel="stylesheet" type="text/css" href="/css/page.css" />
     <link rel="stylesheet" type="text/css" href="/css/list.css" />
     <link rel="stylesheet" type="text/css" href="/css/text.css" />
+
+    <link rel="stylesheet" type="text/css" href="/css/projects/tdh.css" />
     
     <link rel="stylesheet" type="text/css" href="/css/fonts/sfpr.css" />
     <link rel="stylesheet" type="text/css" href="/css/fonts/pfsc.css" />
@@ -30,16 +32,20 @@
     <div id="header"></div> 
     <input id="url_i" type="text"/>
     <div id="en">
-        <p>Paste the URL here.<button id="create_en" onclick="output()">create</button><a id="url_o_en" target="_blank"></a></p>
-        <hr />
-        <p style="text-align: center; color: #99ccff;">Copyright © 2023 Chickie Hu, Quinn Qiu All Rights Reserved. | <a href="/projects/tdh/cv.html">Clean Version</a></p>
+        <form>
+            <p>Paste the URL here.<button id="create_en" onclick="output()">create</button><a id="url_o_en" target="_blank"></a></p>
+            <hr />
+            <p style="text-align: center; color: #99ccff;">Copyright © 2023 Chickie Hu, Quinn Qiu All Rights Reserved. | <a href="/projects/tdh/cv.html">Clean Version</a></p>
+        </form>
     </div>
     <div id="cns">
-        <p>在这里粘贴 URL.<button id="create_cns" onclick="output()">转换</button><a id="url_o_cns" target="_blank"></a></p>
-        <hr />
-        <p style="text-align: center; color: #99ccff;">Copyright © 2023 Chickie Hu, Quinn Qiu 保留所有权利. | <a href="/projects/tdh/cv.html">Clean Version (英文 (美利坚合众国))</a></p>
+        <form>
+            <p>在这里粘贴 URL.<button id="create_cns" onclick="output()">转换</button><a id="url_o_cns" target="_blank"></a></p>
+            <hr />
+            <p style="text-align: center; color: #99ccff;">Copyright © 2023 Chickie Hu, Quinn Qiu 保留所有权利. | <a href="/projects/tdh/cv.html">Clean Version (英文 (美利坚合众国))</a></p>
+        </form>
     </div>
     <div id="footer"></div>
     <script src="/js/page.js"></script>
-    <script src="/js/tdh.js"></script>
-</body>
+    <script src="/js/projects/tdh.js"></script>
+</body>p
