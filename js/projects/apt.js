@@ -1,8 +1,8 @@
 function count(in_class, out_id) {
-    var aDiv = document.getElementsByClassName(in_class);
+    var class_cont = document.getElementsByClassName(in_class);
     var sum = 0;
-    for (var i = 0; i < aDiv.length; i++) {
-        sum += Number(aDiv[i].value);
+    for (var i = 0; i < class_cont.length; i++) {
+        sum += Number(class_cont[i].value);
     }
     document.getElementById(out_id).innerText = sum + " 元";
 }
