@@ -29,6 +29,7 @@ h3 i, h3 img {
     font-size: 22px;
     height: 22px;
     width: 22px;
+    object-fit: contain;
 }
 h3.am, h3.am i, h3.am img {
     color: #f50e39;
@@ -47,6 +48,7 @@ i {
 img {
     width: 16px;
     height: 16px;
+    object-fit: contain;
 }
 
 .cont {
