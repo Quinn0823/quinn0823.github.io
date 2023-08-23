@@ -6,13 +6,11 @@ if (title_en == "Home") {
     title_cns = "首页";
 } else if (title_en == "Projects") {
     title_cns = "项目";
+} else if (title_en == "App Library") {
+    title_cns = "App 资源库"
 } else if (title_en == "QuinnStandard") {
     title_cns = "Quinn 标准";
-} else if (title_en == "QS2023 01-E3") {
-    
-} else if (title_en == "QS2023 02") {
-    
-} else if (title_en == "Music") {
+}  else if (title_en == "Music") {
     title_cns = "音乐";
 } else if (title_en == "Lab") {
     title_cns = "实验室";
@@ -22,9 +20,13 @@ if (title_en == "Home") {
     title_cns = "教材下载助手";
 } else if (title_en == "Digital Dot Matrix Tool") {
     title_cns = "数字点阵工具";
-} 
-var header_en = "<div class='list'><ul><img src='/images/logo.png'/><li><a href='/'>Home</a></li><li><a href='/projects/index.html'>Projects</a></li><li><a href='/qs/index.html'>QS</a></li><li><a href='/music.html'>Music</a></li><li class='about'><a href='/website.html'>Website</a></li></ul></div><h1>" + title_en + "</h1><hr>";
-var header_cns = "<div class='list'><ul><img src='/images/logo.png'/><li><a href='/'>首页</a></li><li><a href='/projects/index.html'>项目</a></li><li><a href='/qs/index.html'>标准</a></li><li><a href='/music.html'>音乐</a></li><li class='about'><a href='/website.html'>此网站</a></li></ul></div><h1>" + title_cns + "</h1><hr>";
+} else if (title_en == "QS2023 01-E3") {
+    
+} else if (title_en == "QS2023 02") {
+    
+}
+var header_en = "<div class='list'><ul><img src='/images/logo.png'/><li><a href='/'>Home</a></li><li><a href='/projects/index.html'>Projects</a></li><li><a href='/apps/index.html'>Apps</a></li><li><a href='/qs/index.html'>QS</a></li><li><a href='/music.html'>Music</a></li><li class='about'><a href='/website.html'>Website</a></li></ul></div><h1>" + title_en + "</h1><hr>";
+var header_cns = "<div class='list'><ul><img src='/images/logo.png'/><li><a href='/'>首页</a></li><li><a href='/projects/index.html'>项目</a></li><li><a href='/apps/index.html'>软件</a></li><li><a href='/qs/index.html'>标准</a></li><li><a href='/music.html'>音乐</a></li><li class='about'><a href='/website.html'>此网站</a></li></ul></div><h1>" + title_cns + "</h1><hr>";
 
 
 
