@@ -25,8 +25,8 @@ if (title_en == "Home") {
 } else if (title_en == "QS2023 02") {
     
 }
-var header_en = "<div class='list'><ul><img src='/images/logo.png'/><li><a href='/'>Home</a></li><li><a href='/projects/index.html'>Projects</a></li><li><a href='/apps/index.html'>Apps</a></li><li><a href='/qs/index.html'>QS</a></li><li><a href='/music.html'>Music</a></li><li class='about'><a href='/website.html'>Website</a></li></ul></div><h1>" + title_en + "</h1><hr>";
-var header_cns = "<div class='list'><ul><img src='/images/logo.png'/><li><a href='/'>首页</a></li><li><a href='/projects/index.html'>项目</a></li><li><a href='/apps/index.html'>软件</a></li><li><a href='/qs/index.html'>标准</a></li><li><a href='/music.html'>音乐</a></li><li class='about'><a href='/website.html'>此网站</a></li></ul></div><h1>" + title_cns + "</h1><hr>";
+var header_en = "<div class='list'><ul><img src='/images/logo.png'/><li><a href='/'>Home</a></li><li><a href='/projects/index.html'>Projects</a></li><li><a href='/qs/index.html'>QS</a></li><li><a href='/music.html'>Music</a></li><li class='about'><a href='/website.html'>Website</a></li><li class='about'><a href='/markdown/index.md'>Markdown</a></li></ul></div><h1>" + title_en + "</h1><hr>";
+var header_cns = "<div class='list'><ul><img src='/images/logo.png'/><li><a href='/'>首页</a></li><li><a href='/projects/index.html'>项目</a></li><li><a href='/qs/index.html'>标准</a></li><li><a href='/music.html'>音乐</a></li><li class='about'><a href='/website.html'>此网站</a></li><li class='about'><a href='/markdown/index.md'>Markdown</a></li></ul></div><h1>" + title_cns + "</h1><hr>";
 
 
 
