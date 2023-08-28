@@ -1,5 +1,9 @@
+@font-face {
+	font-family: "Source Han Sans";
+	src: url("/fonts/SourceHanSansSC-VF.ttf");
+}
 * {
-    font-family: "SF Pro Round", "PingFang SC",  Helvetica, Arial, sans-serif;
+    font-family: "Source Han Sans", Arial, Helvetica, sans-serif;
     font-size: 16px;
     font-weight: 400;
 }
