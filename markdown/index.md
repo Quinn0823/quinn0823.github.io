@@ -25,14 +25,21 @@
         - [QS](https://quinn0823.github.io/qs/)
         - [Music](https://quinn0823.github.io/music/)
         - [Website](https://quinn0823.github.io/website/)
+        
     - ![](/images/svgs/tertiary/markdown.svg) Markdown Version
 	    - [Home](https://quinn0823.github.io/markdown/)
         - [Projects](https://quinn0823.github.io/markdown/projects/)
         - [QS](https://quinn0823.github.io/markdown/qs/)
         - [Music](https://quinn0823.github.io/markdown/music/)
         - [Website](https://quinn0823.github.io/markdown/website/)
-    - ![](/images/svgs/tertiary/note.text.svg) Montaigne Version
+
+    - <details><summary><img src=/images/svgs/tertiary/note.text.svg" /> Montaigne Version</summary>
+
 	    - [Home](https://quinn0823.montaigne.io/)
         - [Projects](https://quinn0823.montaigne.io/projects/)
         - [Music](https://quinn0823.montaigne.io/music/)
         - [Website](https://quinn0823.montaigne.io/website/)
+
+    </details>
+
+        
