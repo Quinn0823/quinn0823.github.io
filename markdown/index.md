@@ -1,8 +1,6 @@
 <link rel="stylesheet" type="text/css" href="/css/page.css" />
 <link rel="stylesheet" type="text/css" href="/css/text.css" />
 
-Home | Quinn-Web
-
 # Home
 ## Hi! I'm Quinn Qiu.
 ### ![](/images/svgs/primary/person.crop.rectangle.stack.svg) Profile
