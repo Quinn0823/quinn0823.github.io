@@ -1,10 +1,7 @@
 <link rel="stylesheet" type="text/css" href="/css/page.css" />
-<link rel="stylesheet" type="text/css" href="/css/list.css" />
 <link rel="stylesheet" type="text/css" href="/css/text.css" />
 
-<title>Home | Quinn-Web markdown version</title>
-
-<div class='list'><ul><img src="/images/logo.png"/><li><a href="/">Home</a></li><li><a href="/projects/index.html">Projects</a></li><li><a href="/qs/index.html">QS</a></li><li><a href="/music.html">Music</a></li><li class="about"><a href="/website.html">Website</a></li><li class="about"><a href="/markdown/index">Markdown</a></li></ul></div>
+Home | Quinn-Web
 
 # Home
 ## Hi! I'm Quinn Qiu.
