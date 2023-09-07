@@ -2,11 +2,9 @@ body{
     margin: 20px;
     padding: 0px;
     border: 0px;
-    background-size: 100% 100%;
-    background-repeat: no-repeat;
-    background-attachment: fixed;
 }
 
+/* 分隔线  */
 hr {
     border: 0;
     width: 100%;
@@ -16,6 +14,78 @@ hr {
     background-color: #6699cc;
 }
 
+/* 标题图标 */
+h3 img {
+    height: 24px;
+}
+
+/* --- 隐藏菜单 --- */
+details {
+    margin-left: 20px;
+    margin-top: 5px;
+    padding: 5px;
+    border-radius: 18px;
+    border: 3px solid #6699cc;
+    color: #6699cc;
+}
+details summary {
+    font-weight: 600;
+    cursor: pointer;
+    line-height: 20px;
+}
+details hr {
+    margin-top: 5px;
+    margin-bottom: 5px;
+}
+details details {
+    border: 0;
+    padding: 0;
+}
+
+
+/* --- 网页嵌套 --- */
+iframe {
+    margin-bottom: -4px;
+    width: 100%;
+    height: 450px;
+    border-radius: 18px;
+    width: calc(100% - 6px);
+    border: 3px solid #6699cc;
+}
+
+/* --- 进度条 --- */
+progress{
+    height: 20px;
+    width: 100%;
+    margin: 0;
+    border-radius: 10px;
+    border: 3px solid #6699cc;
+    overflow: hidden;
+}
+/* 已完成 */
+progress::-webkit-progress-value {
+    background-color: #fff;
+}
+/* 未完成 */
+progress::-webkit-progress-bar {
+    background-color: #99ccff;
+}
+/* 动画 */
+progress::-webkit-progress-inner-element {
+    width: 100%;
+    animation: 2s ease 0s prog;
+}
+@keyframes prog {
+    0% {
+        width: 0;  
+    }
+    100% {
+        width: 100%;
+    }
+}
+
+
+/* --- 页脚 --- */
 #footeri {
     padding: 5px;
     color: #fff;
@@ -23,42 +93,136 @@ hr {
     border-radius: 18px;
     border: 3px solid #6699cc;
 }
-
-.sel {
-    margin: 0 auto;
-    margin-top: 10px;
+#footeri .lmr {
+    display: flex;
+}
+#footeri .left {
+    flex: 0 0 auto;
+}
+#footeri .middle {
+    flex: 1 1 auto;
+    margin-left: 10px;
+    margin-right: 10px;
+    width: calc(100%-5px);
+}
+#footeri .enlmr {
+    margin-top: 3px;
+}
+#footeri .enlmr .middle {
+    margin-top: -3px;
+}
+#footeri a {
+    color: #fff;
+}
+#footeri a:link,
+#footeri a:visited,
+#footeri a:active {
+    color: #fff;
+}
+#footeri a:hover {
+    color: #6699cc;
+}
+#footeri hr {
+    margin-top: 5px;
+    margin-bottom: 5px;
+}
+/* 更新信息 */
+#footeri details {
+    background-color: #fff;
+    border-radius: 10px;
+}
+/* 语言选项 */
+#footeri .sel {
     height: 30px;
     width: 220px;
+    padding: 0;
+    margin: 0 auto;
+    margin-top: 10px;
+    border-radius: 10px;
+    overflow: hidden;
     color: #fff;
     background-color: #fff;
     border: 3px solid #6699cc;
-    border-radius: 10px;
-    padding: 0;
-    overflow: hidden;
 }
-.sel select {
-    color: #6699cc;
+#footeri .sel select {
+    text-align: center;
     border: 0;
     width: 100%;
     height: 30px;
-    margin: 0 auto;
+    border-radius: 10px;
+    color: #6699cc;
+    cursor: pointer;
 }
 
-iframe {
-    margin-top: 0px;
-    margin-bottom: 0;
-    padding: 0;
-    width: 100%;
-    height: 450px;
+
+/* --- 特殊页面 --- */
+/* Scratch */
+.scratch h3 {
+    color: #855cd6;
+}
+.scratch span.com {
+    color: #7854c0;
+}
+.scratch a {
+    color: #855cd6;
+}
+.scratch a:link, 
+.scratch a:visited, 
+.scratch a:active {
+    color: #855cd6;
+}
+.scratch a:hover {
+    color: #7854c0;
+}
+.scratch details {
+    border-color: #855cd6;
+}
+.scratch summary {
+    color: #855cd6;
+}
+.scratch hr {
+    background-color: #855cd6;
+}
+#zh-cn .scratch details details details {
     border: 0;
-    border-radius: 18px;
-    width: calc(100% - 6px); 
-    border: 3px solid #6699cc;
+    padding: 0;
 }
-iframe.scr {
-    margin-top: 10px;
-    border-color: #f4972d;
+#zh-cn .scratch details details {
+    padding: 5px;
+    border-radius: 10px;
+    border: 3px solid #855cd6;
 }
-iframe.am {
-    border-color: #f50e39;
+
+/* Apple Music */
+.am h3 {
+    color: #f50e39;
+}
+.am iframe {
+    border: 3px solid #f50e39;
+}
+
+/* 网页快照 */
+.nosnsh {
+    border: 3px solid #000;
+    color: #000;
+}
+.nosnsh hr {
+    background-color: #000;
+}
+.nosnsh details {
+    color: #000;
+}
+.nosnsh summary {
+    font-weight: 400;
+}
+.nosnsh a {
+    color: #000;
+}
+.nosnsh a:link, 
+.nosnsh a:visited,
+.nosnsh a:active {
+    color: #000;
+}
+.nosnsh a:hover {
+    color: #000;
 }

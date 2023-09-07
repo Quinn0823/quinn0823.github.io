@@ -1,7 +1,12 @@
+@font-face {
+    font-family: "Emoji Fonts";
+    src: local("Apple Color Emoji"),
+         local("Segoe UI Emoji"), 
+         local("Segoe UI Symbol"),
+         local("Noto Color Emoji");
+  }
 * {
-    font-family: Arial, Helvetica, sans-serif;
-    font-size: 16px;
-    font-weight: 400;
+    font-family: Arial, Helvetica, sans-serif, Emoji Fonts;
 }
 h1 {
     margin: 20px;
@@ -25,144 +30,40 @@ h3{
     color: #6699cc;
     padding: 0;
 }
-h3 i, h3 img {
-    font-size: 22px;
-    height: 22px;
-    width: 22px;
-    object-fit: contain;
-}
-h3.am, h3.am i, h3.am img {
-    color: #f50e39;
-}
 
-p, span, a, li, select{
-    margin-top: 5px;
-    margin-bottom: 5px;
+p, span, li, summary, select {
+    font-size: 16px;
+    font-weight: 400;
 }
-i {
-    color: #6699cc;
-    width: 16px;
-    height: 16px;
-    text-align: center;
+p, li {
+    margin-top: 3px;
+    margin-bottom: 3px;
 }
-img {
-    width: 16px;
-    height: 16px;
-    object-fit: contain;
-}
-
-.cont {
-    margin-left: 20px;
+p {
+    text-indent: 20px;
 }
 span.com {
     color: #99ccff;
 }
 
-ul, ol {
+ol, ul {
     margin: 0;
-    padding-left: 40px;
-}
-li {
-    margin: 0;
+    list-style-position: inside;
+    padding-left: 20px;
 }
 
-a, a i, a img{
+a {
     color: #6699cc;
     text-decoration: underline;
 }
-a:hover, a:hover i {
-    transition: 0.2s;
+a:link, a:visited, a:active {
+    color: #6699cc;
+    text-decoration: underline;
+}
+a:hover {
     color: #99ccff;
-}
-
-details, #footeri .result {
-    margin-top: 5px;
-    margin-bottom: 0px;
-    margin-left: 0px;
-    border: 3px solid #6699cc;
-    background-color: #fff;
-    color: #6699cc;
-    border-radius: 18px;
-    padding: 5px;
-}
-details hr {
-    background-color: #6699cc;
-    margin-top: 5px;
-    margin-bottom: 5px;
-}
-summary {
-    line-height: 20px;
-    -moz-user-select: none;
-    -webkit-user-select: none;
-    -ms-user-select: none;
-    -khtml-user-select: none;
-    user-select: none;
-}
-details.nosnsh, details.nosnsh *{
-    color: #000;
-    border-color: #000;
-}
-details.nosnsh a, a.nosnsh {
-    color: #000;
-}
-details.nosnsh hr {
-    background-color: #000;
-}
-
-
-#footeri details, #footeri .result {
-    border: 3px solid #6699cc;
-    color: #6699cc;
-    border-radius: 10px;
-}
-#footeri details hr {
-    background-color: #6699cc;
-    border-radius: 10px;
-}
-#footeri span i {
-    color: #fff;
-}
-#footeri a i, #footeri span img {
+    transition: 0.2s;
     text-decoration: underline;
-}
-#footeri a:hover i {
-    color: #6699cc;
-}
-
-.scratch h3 {
-    color: #f4972d;
-}
-.scratch hr {
-    background-color: #f4972d;
-}
-.scratch h3 i, .scratch summary i {
-    color: #f4972d;
-}
-.scratch details {
-    color: #f4972d;
-    border: 3px solid #f4972d;
-}
-.scratch details details, #cns .scratch details details details {
-    color: #6699cc;
-    border: 0;
-}
-#cns .scratch details details {
-    color: #f4972d;
-    border: 3px solid #f4972d;
-    border-radius: 10px;
-    padding: 5px;
-}
-#en .scratch details details, 
-#cns .scratch details details details,
-details details {
-    border: 0;
-    margin: 0;
-    margin-top: 5px;
-    padding: 0;
-}
-#en .scratch details details summary i, 
-#cns .scratch details details details summary i{
-    color: #6699cc;
 }
 
 td, 
