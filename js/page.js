@@ -1,3 +1,5 @@
+/* --- 网页标题 --- */
+
 var path = window.location.pathname
 var title_en_us = document.title
 var title_zh_cn = document.title;
@@ -25,50 +27,64 @@ if (title_en_us == "Home") {
 } else if (title_en_us == "QS2023 02") {
     
 }
-var header_en_us = "<div class='list'><ul><img src='/images/logo.png'/><li><a href='/'>Home</a></li><li><a href='/projects/index.html'>Projects</a></li><li><a href='/qs/index.html'>QS</a></li><li><a href='/music.html'>Music</a></li><li class='about'><a href='/website.html'>Website</a></li><li class='about'><a href='/markdown/'>Markdown</a></li></ul></div><h1>" + title_en_us + "</h1><hr>";
-var header_zh_cn = "<div class='list'><ul><img src='/images/logo.png'/><li><a href='/'>首页</a></li><li><a href='/projects/index.html'>项目</a></li><li><a href='/qs/index.html'>标准</a></li><li><a href='/music.html'>音乐</a></li><li class='about'><a href='/website.html'>此网站</a></li><li class='about'><a href='/markdown/'>Markdown</a></li></ul></div><h1>" + title_zh_cn + "</h1><hr>";
+
+
+
+/* --- 页眉 --- */
+
+// 菜单栏
+var header_en_us = "<div class='list'><ul><img src='/images/favicon.png'/><li><a href='/'>Home</a></li><li><a href='/projects/index.html'>Projects</a></li><li><a href='/qs/index.html'>QS</a></li><li><a href='/music.html'>Music</a></li><li class='right'><a href='/website.html'>Website</a></li></ul></div><h1>" + title_en_us + "</h1><hr>";
+var header_zh_cn = "<div class='list'><ul><img src='/images/favicon.png'/><li><a href='/'>首页</a></li><li><a href='/projects/index.html'>项目</a></li><li><a href='/qs/index.html'>标准</a></li><li><a href='/music.html'>音乐</a></li><li class='right'><a href='/website.html'>此网站</a></li></ul></div><h1>" + title_zh_cn + "</h1><hr>";
 
 
 
 /*
-<details><summary>Title</summary><hr /><ul><li>First</li><li>Secend</li><li>Third</li></ul></details>
+<details><summary>Title</summary><hr><ul><li>First</li><li>Secend</li><li>Third</li></ul></details>
 */
-var now_ver = "Quinn-Web 12.4";
-var next_ver = "Quinn-Web 12.5";
-
-var next_cont_en_us = "<p>All symbols will be refactored;</p><p>New round font.</p><p>...</p>";
-var next_cont_zh_cn = "<p>所有符号将被重构;</p><p>新的圆角字体</p><p>...</p>";
-
-var now_cont_en_us = "<p>Welcome! </p>";
-var now_cont_zh_cn = "<p>欢迎! </p>";
-
-var news_en_us = "<span> " + next_ver + " - NEXT</span><div class='cont'><details><summary><img src='/images/svgs/primary/sparkles.rectangle.stack.svg' /> What will be updated?</summary><hr /><div class='cont'>" +next_cont_en_us + "</div></details></div><hr /><span>" + now_ver + "  - NOW</span><div class='cont'><details open><summary><img src='/images/svgs/primary/checkmark.rectangle.stack.fill.svg' /> What have been update? </summary><hr /><div class='cont'>" + now_cont_en_us + "</div></details></div>";
-var news_zh_cn = "<span> " + next_ver + " - 下一</span><div class='cont'><details><summary><img src='/images/svgs/primary/sparkles.rectangle.stack.svg' /> 即将更新</summary><hr /><div class='cont'>" +next_cont_zh_cn + "</div></details></div><hr /><span>" + now_ver + " - 当前</span><div class='cont'><details open><summary><img src='/images/svgs/primary/checkmark.rectangle.stack.fill.svg' /> 现已更新</summary><hr /><div class='cont'>" + now_cont_zh_cn + "</div></details></div>";
 
 
-var date_en_us = "Aug. 18, 2023";
-var date_zh_cn = "2023年8月18日";
 
-var footer_en_us = "<hr><div id='footeri'>" + news_en_us + "<hr /><div class='sel'><select id='lang' onchange='langchange()'><option value='1' selected='selected'>United States - English</option><option value='2'>简体中文 (中国大陆) </option></select></div><div class='g_url'><span style='text-align: center; display:block; '><img src='/images/svgs/primary/calendar.badge.clock.svg' /> Last Update: " + date_en_us + " | Copyright © 2019-" + new Date(Date.parse(new Date())).getFullYear() + " Quinn Qiu All Rights Reserved. </span></div>";
-var footer_zh_cn = "<hr><div id='footeri'>" + news_zh_cn + "<hr /><div class='sel'><select id='lang' onchange='langchange()'><option value='1'>United States - English</option><option value='2' selected='selected'>简体中文 (中国大陆) </option></select></div><div class='g_url'><span style='text-align: center; display:block; '><img src='/images/svgs/primary/calendar.badge.clock.svg' /> 最近更新：" + date_zh_cn + " | Copyright © 2019-" + new Date(Date.parse(new Date())).getFullYear() + " Quinn Qiu 保留所有权利. </span></div>";
+/* --- 页脚填写部分 --- */
+// 版本 Tag
+var now_tag = "12.4";
+var next_tag = "12.5";
 
-var ldate = 1;
+// 发行内容
+var now_up_en_us = "<p>Welcome! </p>";
+var now_up_zh_cn = "<p>欢迎! </p>";
+// 修复内容
+var now_fix_en_us = "<p>Welcome! </p>";
+var now_fix_zh_cn = "<p>欢迎! </p>";
+// 预览内容
+var next_up_en_us = "<p>Welcome! </p>";
+var next_up_zh_cn = "<p>欢迎! </p>";
+
+// 进度
+var progress = 95;
+
+// 更新时间
+var up_year = "2023";
+var up_month_en_us = "Sep.";
+var up_month_zh_cn = "9";
+var up_day = "18"
+
+var date_en_us = up_month_en_us + " " + up_day + ", " + up_year;
+var date_zh_cn = up_year + "年" + up_month_zh_cn + "月" + up_day + "日";
 
 
-function langset(set) {
-    if (set == "for") {
-        localStorage.lset = 1;
-        sessionStorage.langdate = "";
-    } else if (set == "vis") {
-        localStorage.lset = 2;
-        localStorage.langdate = "";
-    } else if (set == "pag") {
-        localStorage.lset = 3;
-        localStorage.langdate = "";
-        sessionStorage.langdate = "";
-    }
-}
 
+/* --- 页脚框架部分 --- */
+// 新闻框架
+var news_en_us = "<div class='lmr enlmr'><div class='left'><span>Quinn-Web " + next_tag + " - NEXT</span></div><div class='middle'><progress max='100' value='" + progress + "'></progress></div><div class='right'><span>Progress: " + progress + "%</span></div></div><details><summary>⏩ What will be updated?</summary><hr>" +next_up_en_us + "</details><hr><div class='lmr'><div class='left'><span>Quinn-Web " + now_tag + " - NOW</span></div><div class='middle'></div><div class='right'><span><a href='https://github.com/Quinn0823/quinn0823.github.io/releases/tag/" + now_tag + "'  target=;'_blank;'><i class='fa-brands fa-github'></i>Releases</a></span></div></div><details open><summary>✨ What has been update? </summary><hr>" + now_up_en_us + "</details><details open><summary>🧰 What has been repaired?</summary><hr>" + now_fix_en_us + "</details>";
+var news_zh_cn = "<div class='lmr'><div class='left'><span>Quinn-Web " + next_tag + " - 下一版本</span></div><div class='middle'><progress max='100' value='" + progress + "'></progress></div><div class='right'><span>进展: " + progress + "%</span></div></div><details><summary>⏩ 即将更新</summary><hr>" + next_up_zh_cn + "</details><hr><div class='lmr'><div class='left'><span>Quinn-Web " + now_tag + " - 当前版本</span></div><div class='middle'></div><div class='right'><span><a href='https://github.com/Quinn0823/quinn0823.github.io/releases/tag/" + now_tag + "'  target=;'_blank;'><i class='fa-brands fa-github'></i>发行页</a></span></div></div><details open><summary>✨ 现已更新</summary><hr>" + now_up_zh_cn + "</details><details open><summary>🧰 现已解决</summary><hr>" + now_fix_zh_cn + "</details>";
+// 页脚框架
+var footer_en_us = "<hr><div id='footeri'>" + news_en_us + "<hr><div class='sel'><select id='lang' onchange='langchange()'><option value='1' selected='selected'>United States - English</option><option value='2'>简体中文 (中国大陆) </option></select></div><div class='g_url'><span style='text-align: center; display:block; '>📅 Last Update: " + date_en_us + " | Copyright © 2019-" + new Date(Date.parse(new Date())).getFullYear() + " Quinn Qiu All Rights Reserved. </span></div>";
+var footer_zh_cn = "<hr><div id='footeri'>" + news_zh_cn + "<hr><div class='sel'><select id='lang' onchange='langchange()'><option value='1'>United States - English</option><option value='2' selected='selected'>简体中文 (中国大陆) </option></select></div><div class='g_url'><span style='text-align: center; display:block; '>📅 最近更新：" + date_zh_cn + " | Copyright © 2019-" + new Date(Date.parse(new Date())).getFullYear() + " Quinn Qiu 保留所有权利. </span></div>";
+
+
+
+/* --- 语言设置功能 --- */
+// 显示语言
 function langdate() {
     if (localStorage.langdate == 2) { //Chinese
         document.title = title_zh_cn + " | Quinn-Web";
@@ -89,7 +105,7 @@ function langdate() {
     }
 }
 
-
+// 语言切换
 function langchange() {
     if (document.getElementById("lang").value == "1") {
         localStorage.langdate = 1;
