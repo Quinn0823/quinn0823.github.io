@@ -1,78 +1,80 @@
 <!DOCTYPE html>
 <head>
-    <meta charset="utf-8" />
+    <meta charset="utf-8">
 
-    <meta name="keywords" content="Quinn-Web" />
-    <meta name="author" content="Quinn0823" />
-    <meta name="description" content="Quinn-Web" />
-    <meta name="generator" content="Visual Studio Code" />
-    <meta name="copyright" content="©2019-2023 Quinn0823" />
+    <meta name="keywords" content="Quinn-Web">
+    <meta name="author" content="Quinn0823">
+    <meta name="description" content="Quinn-Web">
+    <meta name="generator" content="Visual Studio Code">
+    <meta name="copyright" content="©2019-2023 Quinn0823">
     <meta name="theme-color" content="#99ccff" media="(prefers-color-scheme: light)">
     <meta name="theme-color" content="#6699cc" media="(prefers-color-scheme: dark)">
 
-    <meta property="og:title" content="Accounts Proofreading Tool | Quinn-Web" />
-    <meta property="og:type" content="GitHub-Page" />
-    <meta property="og:image" content="/favicon.ico" />
-    <meta property="og:description" content="Quinn-Web" />
+    <meta property="og:title" content="Accounts Proofreading Tool | Quinn-Web">
+    <meta property="og:type" content="GitHub-Page">
+    <meta property="og:image" content="/favicon.ico">
+    <meta property="og:description" content="Quinn-Web">
 
-    <link rel="stylesheet" type="text/css" href="/css/page.css" />
-    <link rel="stylesheet" type="text/css" href="/css/list.css" />
-    <link rel="stylesheet" type="text/css" href="/css/text.css" />
+    <link rel="stylesheet" type="text/css" href="/css/page.css">
+    <link rel="stylesheet" type="text/css" href="/css/list.css">
+    <link rel="stylesheet" type="text/css" href="/css/text.css">
 
-    <link rel="stylesheet" type="text/css" href="/css/projects/apt.css" />
+    <link rel="stylesheet" type="text/css" href="/css/projects/apt.css">
+    
+    <script src="/js/font_awesome.js" crossorigin="anonymous"></script>
     
     <title>Accounts Proofreading Tool | Quinn-Web</title>
 </head>
 <body>
     <h1>账目校对工具</h1>
-    <hr />
+    <hr>
     <h3>线下手续费</h3>
     <div class="cont">
-        <p>缴费: <input type="number" class="offline" onchange="count('offline', 'offline_sum')" />元</p>
-        <p>公交: <input type="number" class="offline" onchange="count('offline', 'offline_sum')" />元</p>
-        <p>电话: <input type="number" class="offline" onchange="count('offline', 'offline_sum')" />元</p>
-        <p>其他: <input type="number" class="offline" onchange="count('offline', 'offline_sum')" />元</p>
+        <p>缴费: <input type="number" class="offline" onchange="count('offline', 'offline_sum')">元</p>
+        <p>公交: <input type="number" class="offline" onchange="count('offline', 'offline_sum')">元</p>
+        <p>电话: <input type="number" class="offline" onchange="count('offline', 'offline_sum')">元</p>
+        <p>其他: <input type="number" class="offline" onchange="count('offline', 'offline_sum')">元</p>
         <p class="result">总计: <span id="offline_sum"></span></p>
     </div>
-    <hr />
+    <hr>
     <h3>缴费外的现金收入</h3>
     <div class="cont">
-        <p>公交: <input type="number" class="other_cash" onchange="count('other_cash', 'other_cash_sum')" />元</p>
-        <p>手机充值: <input type="number" class="other_cash" onchange="count('other_cash', 'other_cash_sum')" />元</p>
-        <p>卡片: <input type="number" class="other_cash" onchange="count('other_cash', 'other_cash_sum')" />元</p>
-        <p>其他: <input type="number" class="other_cash" onchange="count('other_cash', 'other_cash_sum')" />元</p>
+        <p>公交: <input type="number" class="other_cash" onchange="count('other_cash', 'other_cash_sum')">元</p>
+        <p>手机充值: <input type="number" class="other_cash" onchange="count('other_cash', 'other_cash_sum')">元</p>
+        <p>卡片: <input type="number" class="other_cash" onchange="count('other_cash', 'other_cash_sum')">元</p>
+        <p>其他: <input type="number" class="other_cash" onchange="count('other_cash', 'other_cash_sum')">元</p>
         <p class="result">总计: <span id="other_cash_sum"></span></p>
     </div>
-    <hr />
+    <hr>
     <h3>平台流水</h3>
     <div class="cont">
-        <p>公众通: <input type="number" class="software" onchange="count('software', 'software_sum')" />元</p>
-        <p>邮政: <input type="number" class="software" onchange="count('software', 'software_sum')" />元</p>
+        <p>公众通: <input type="number" class="software" onchange="count('software', 'software_sum')">元</p>
+        <p>邮政: <input type="number" class="software" onchange="count('software', 'software_sum')">元</p>
         <p class="result">总计: <span id="software_sum"></span></p>
     </div>
-    <hr />
+    <hr>
     <h3>账目</h3>
     <div class="cont">
-        <p>微信: <input type="number" class="account" onchange="count('account', 'account_sum')" />元</p>
-        <p>农行: <input type="number" class="account" onchange="count('account', 'account_sum')" />元</p>
-        <p>农行扫码/刷卡: <input type="number" class="account" onchange="count('account', 'account_sum')" />元</p>
-        <p>支付宝: <input type="number" class="account" onchange="count('account', 'account_sum')" />元</p>
+        <p>微信: <input type="number" class="account" onchange="count('account', 'account_sum')">元</p>
+        <p>农行: <input type="number" class="account" onchange="count('account', 'account_sum')">元</p>
+        <p>农行扫码/刷卡: <input type="number" class="account" onchange="count('account', 'account_sum')">元</p>
+        <p>支付宝: <input type="number" class="account" onchange="count('account', 'account_sum')">元</p>
         <p class="result">总计: <span id="account_sum"></span></p>
     </div>
-    <hr />
+    <hr>
     <h3>现金</h3>
     <div class="cont">
-        <p>已存: <input type="number" class="end_cash" onchange="count_cash()" />元</p>
-        <p>手上整钱: <input type="number" class="end_cash" onchange="count_cash()" />元</p>
-        <p>手上零钱: <input type="number" class="end_cash"  onchange="count_cash()" />元</p>
-        <p>备用金: <input type="number" class="start_cash" onchange="count_cash()" />元</p>
-        <p>硬币: <input type="number"  class="start_cash"  onchange="count_cash()" />元</p>
-        <p>换零: <input type="number" class="end_cash" onchange="count_cash()" />元</p>
+        <p>已存: <input type="number" class="end_cash" onchange="count_cash()">元</p>
+        <p>手上整钱: <input type="number" class="end_cash" onchange="count_cash()">元</p>
+        <p>手上零钱: <input type="number" class="end_cash"  onchange="count_cash()">元</p>
+        <p>备用金: <input type="number" class="start_cash" onchange="count_cash()">元</p>
+        <p>硬币: <input type="number"  class="start_cash"  onchange="count_cash()">元</p>
+        <p>换零: <input type="number" class="end_cash" onchange="count_cash()">元</p>
         <p>始: <span id="start_sum"></span></p>
         <p>末: <span id="end_sum"></span></p>
         <p class="result">流水: <span id="cash_sum"></span></p>
     </div>
-    <hr />
+    <hr>
     <div id="butt">
         <button onclick="jisuan()">计算! </button>
     </div>
@@ -80,11 +82,11 @@
         <span>结果</span>
         <div class="result">
             <span>公式 1: <span id="func1"></span></span>
-            <br />
+            <br>
             <span>公式 2: <span id="func2"></span></span>
         </div>
     </div>
-    <hr />
+    <hr>
     <p style="text-align: center; color: #6699cc;">Copyright © 2023  Quinn Qiu All Rights Reserved. </p>
     <script src="/js/projects/apt.js"></script>
 </body>
