@@ -1,5 +1,5 @@
-<link rel="stylesheet" type="text/css" href="/css/page.css" />
-<link rel="stylesheet" type="text/css" href="/css/text.css" />
+<link rel="stylesheet" type="text/css" href="/css/page.css">
+<link rel="stylesheet" type="text/css" href="/css/text.css">
 
 # Home
 ## Hi! I'm Quinn Qiu.
