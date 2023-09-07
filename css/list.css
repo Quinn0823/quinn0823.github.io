@@ -14,8 +14,10 @@
     width: 46px;
     height: 46px;
     float: left;
+    margin-right: -5px;
 }
 .list ul li {
+    margin-top: 5px;
     width: 10%;
     height: 30px;
     background-color: #fff;
@@ -23,14 +25,18 @@
     border-radius: 10px;
     float: left;
     margin-left: 5px;
-    margin-top: 5px;
-    margin-bottom: 5px;
 }
-.list ul li.about {
+.list ul li.right {
     float: right;
     margin-left: 0;
     margin-right: 5px;
 }
+.list ul li:hover{
+    color: #fff;
+    transition: 0.2s;
+    background-color: #6699cc;
+}
+
 .list ul li a, .list ul li a.active {
     color: #6699cc;
     margin: 0;
@@ -41,11 +47,6 @@
     display:flex;
     justify-content:center;
     white-space: nowrap;
-}
-.list ul li:hover{
-    color: #fff;
-    transition: 0.2s;
-    background-color: #6699cc;
 }
 .list ul li:hover a, .list ul li a:hover {
     color: #fff;
