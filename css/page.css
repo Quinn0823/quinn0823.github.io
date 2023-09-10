@@ -80,7 +80,7 @@ progress::-moz-progress-bar {
 progress::-webkit-progress-bar {
     background-color: #99ccff;
 }
-/* 动画（仅包含 webkit） */
+/* 动画（仅 Safari） */
 progress::-webkit-progress-inner-element {
     width: 100%;
     animation: 2s ease 0s prog;
