@@ -1,6 +1,6 @@
 body{
-    margin: 20px;
-    padding: 0px;
+    margin: 0;
+    padding: 10px 20px 10px 20px;
     border: 0px;
 }
 
@@ -57,20 +57,30 @@ iframe {
 progress{
     height: 20px;
     width: 100%;
+    height: 20px;
     margin: 0;
     border-radius: 10px;
     border: 3px solid #6699cc;
+    background-color: #99ccff;
     overflow: hidden;
 }
+@-moz-document url-prefix() { /* Ff 高度适配 */
+    progress {
+        height: 14px;
+    }
+} 
 /* 已完成 */
 progress::-webkit-progress-value {
+    background-color: #fff;
+}
+progress::-moz-progress-bar {
     background-color: #fff;
 }
 /* 未完成 */
 progress::-webkit-progress-bar {
     background-color: #99ccff;
 }
-/* 动画 */
+/* 动画（仅包含 webkit） */
 progress::-webkit-progress-inner-element {
     width: 100%;
     animation: 2s ease 0s prog;
@@ -92,6 +102,7 @@ progress::-webkit-progress-inner-element {
     background-color: #99ccff;
     border-radius: 18px;
     border: 3px solid #6699cc;
+    margin-bottom: 10px;
 }
 #footeri .lmr {
     display: flex;
