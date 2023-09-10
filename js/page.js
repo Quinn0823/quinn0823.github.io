@@ -89,8 +89,8 @@ var footer_zh_cn = "<hr><div id='footeri'>" + news_zh_cn + "<hr><div class='sel'
 /* --- 浏览器检测 --- */
 var userAgent = navigator.userAgent;
 if (userAgent.indexOf("Firefox") > -1) {
-    footer_en_us = footer_en_us + "<span class='com'>⚠️ You are using Firefox to access Quinn-Web. We highly recommend that you use <a href='https://www.google.com/chrome/' target='_blank'>Chrome</a>, <a href='https://www.microsoft.com/en-us/edge/download/' target='_blank'>Edge</a>, or <a href='https://www.apple.com/safari/' target='_blank'>Safari</a> for a better style. Although we have tried our best to adapt the CSS code of Firefox to let Quinn-Web in Firefox look similar to the others.</span>";
-    footer_zh_cn = footer_zh_cn + "<span class='com'>⚠️ 你正在使用 Firefox 访问 Quinn-Web. 我们强烈建议你使用 <a href='https://www.google.cn/chrome/' target='_blank'>Chrome</a>, <a href='https://www.microsoft.com/zh-cn/edge/download/' target='_blank'>Edge</a>, 或者 <a href='https://www.apple.com.cn/safari/' target='_blank'>Safari 浏览器</a> 以获得更好的样式. 尽管我们已经尽了最大的努力让 Quinn-Web 在 Firefox 中看起来和其他的相似. (URLs 已针对中国大陆地区做出适应性调整)</span>";
+    header_en_us = "<span class='com'>⚠️ You are using Firefox to access Quinn-Web. We highly recommend that you use <a href='https://www.google.com/chrome/' target='_blank'>Chrome</a>, <a href='https://www.microsoft.com/en-us/edge/download/' target='_blank'>Edge</a>, or <a href='https://www.apple.com/safari/' target='_blank'>Safari</a> for a better style. Although we have tried our best to adapt the CSS code of Firefox to let Quinn-Web in Firefox look similar to the others.</span>" + header_en_us;
+    header_zh_cn = "<span class='com'>⚠️ 你正在使用 Firefox 访问 Quinn-Web. 我们强烈建议你使用 <a href='https://www.google.cn/chrome/' target='_blank'>Chrome</a>, <a href='https://www.microsoft.com/zh-cn/edge/download/' target='_blank'>Edge</a>, 或者 <a href='https://www.apple.com.cn/safari/' target='_blank'>Safari 浏览器</a> 以获得更好的样式. 尽管我们已经尽了最大的努力让 Quinn-Web 在 Firefox 中看起来和其他的相似. (URLs 已针对中国大陆地区做出适应性调整)</span>" + header_zh_cn;
 } 
 
 
