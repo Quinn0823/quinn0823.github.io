@@ -3,6 +3,7 @@ body {
 }
 * {
     font-family: Helvetica, Arial;
+    font-size: 20px;
 }
 
 h1 {
@@ -12,13 +13,17 @@ h1 {
     font-weight: bolder;
     color: #6699cc;
 }
-marquee {
+/* marquee {
     margin: 0;
     padding: 0;
     height: 40px;
     border-radius: 10px;
     border: 3px solid #6699cc;
     background-color: #99ccff;
+}
+ul {
+    margin: 0;
+    padding: 0;
 }
 img {
     background-color: #fff;
@@ -27,10 +32,6 @@ img {
     float: left;
     width: 34px;
     height: 34px;
-}
-ul {
-    margin: 0;
-    padding: 0;
 }
 li {
     float: left;
@@ -45,19 +46,52 @@ li {
     background-color: #fff;
     text-align: center;
     list-style-type: none;
-}
+} */
 li.ad {
-    height: 28px;
-    line-height: 28px;
     color: #fff;
     border: 3px dashed #fff;
     background-color: #99ccff;
 }
 li.v {
-    padding-left: 0;
-    margin-top: 16px;
-    height: 21px;
-    line-height: 21px;
+    border: 0;
+    margin-top: 21px;
+    height: 20px;
+    line-height: 20px;
     font-size: 14px;
     background-color: #99ccff;
+}
+
+marquee {
+    margin: 0;
+    padding: 0;
+    height: 46px;
+    border-radius: 18px;
+    border: 3px solid #6699cc;
+    background-color: #99ccff;
+}
+marquee ul {
+    padding: 0;
+    margin: 0 auto;
+    list-style-type: none;
+}
+marquee ul img {
+    width: 46px;
+    height: 46px;
+    float: left;
+    margin-right: -5px;
+}
+marquee ul li {
+    margin-top: 5px;
+    height: 30px;
+    line-height: 30px;
+    color: #6699cc;
+    background-color: #fff;
+    border: 3px solid #6699cc;
+    border-radius: 10px;
+    float: left;
+    margin-left: 5px;
+    padding-left: 5px;
+    padding-right: 5px;
+    text-align: center;
+    list-style-type: none;
 }
