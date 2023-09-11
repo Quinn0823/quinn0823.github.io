@@ -220,10 +220,8 @@ progress::-webkit-progress-inner-element {
 .nosnsh hr {
     background-color: #000;
 }
-.nosnsh details {
-    color: #000;
-}
 .nosnsh summary {
+    color: #000;
     font-weight: 400;
 }
 .nosnsh a {
