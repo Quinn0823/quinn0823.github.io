@@ -123,6 +123,11 @@
     border-color: rgb(13, 17, 23);
     color: rgb(13, 17, 23);
 }
+.contact ul li:hover:has(svg.fa-envelope),
+.contact ul li:hover:has(svg.fa-envelope) svg {
+    border-color: rgb(52, 140, 246);
+    color: rgb(52, 140, 246);
+}
 .contact ul li:hover:has(svg.fa-x-twitter),
 .contact ul li:hover:has(svg.fa-x-twitter) svg {
     border-color: rgb(4, 4, 0);
