@@ -1,6 +1,5 @@
 /* --- 网页标题 --- */
 
-var path = window.location.pathname
 var title_en_us = document.title
 var title_zh_cn = document.title;
 
@@ -33,8 +32,8 @@ if (title_en_us == "Home") {
 /* --- 页眉 --- */
 
 // 菜单栏
-var header_en_us = "<div class='list'><ul><img src='/images/favicon.png'/><li><a href='/'>Home</a></li><li><a href='/projects/index.html'>Projects</a></li><li><a href='/qs/index.html'>QS</a></li><li><a href='/music.html'>Music</a></li><li class='right'><a href='/website.html'>Website</a></li></ul></div><h1>" + title_en_us + "</h1><hr>";
-var header_zh_cn = "<div class='list'><ul><img src='/images/favicon.png'/><li><a href='/'>首页</a></li><li><a href='/projects/index.html'>项目</a></li><li><a href='/qs/index.html'>标准</a></li><li><a href='/music.html'>音乐</a></li><li class='right'><a href='/website.html'>此网站</a></li></ul></div><h1>" + title_zh_cn + "</h1><hr>";
+var header_en_us = "<div class='list'><ul><img src='/images/favicon.png'/><li><a href=''>Home</a></li><li><a href='projects/'>Projects</a></li><li><a href='qs/'>QS</a></li><li><a href='music.html'>Music</a></li><li class='right'><a href='website.html'>Website</a></li></ul></div><h1>" + title_en_us + "</h1><hr>";
+var header_zh_cn = "<div class='list'><ul><img src='/images/favicon.png'/><li><a href=''>首页</a></li><li><a href='projects/'>项目</a></li><li><a href='qs/'>标准</a></li><li><a href='music.html'>音乐</a></li><li class='right'><a href='website.html'>此网站</a></li></ul></div><h1>" + title_zh_cn + "</h1><hr>";
 
 
 
@@ -46,8 +45,8 @@ var header_zh_cn = "<div class='list'><ul><img src='/images/favicon.png'/><li><a
 
 /* --- 页脚填写部分 --- */
 // 版本 Tag
-var now_tag = "12.4";
-var next_tag = "12.5";
+var now_tag = "12.5";
+var next_tag = "12.6";
 
 // 发行内容
 var now_up_en_us = "<p>Welcome! </p>";
@@ -66,7 +65,7 @@ var progress = 95;
 var up_year = "2023";
 var up_month_en_us = "Sep.";
 var up_month_zh_cn = "9";
-var up_day = "18"
+var up_day = "11"
 
 var date_en_us = up_month_en_us + " " + up_day + ", " + up_year;
 var date_zh_cn = up_year + "年" + up_month_zh_cn + "月" + up_day + "日";
