@@ -32,8 +32,8 @@ if (title_en_us == "Home") {
 /* --- 页眉 --- */
 
 // 菜单栏
-var header_en_us = "<div class='list'><ul><img src='/images/favicon.png'/><li><a href=''>Home</a></li><li><a href='projects/'>Projects</a></li><li><a href='qs/'>QS</a></li><li><a href='music.html'>Music</a></li><li class='right'><a href='website.html'>Website</a></li></ul></div><h1>" + title_en_us + "</h1><hr>";
-var header_zh_cn = "<div class='list'><ul><img src='/images/favicon.png'/><li><a href=''>首页</a></li><li><a href='projects/'>项目</a></li><li><a href='qs/'>标准</a></li><li><a href='music.html'>音乐</a></li><li class='right'><a href='website.html'>此网站</a></li></ul></div><h1>" + title_zh_cn + "</h1><hr>";
+var header_en_us = "<div class='list'><ul><img src='images/favicon.png'/><li><a href=''>Home</a></li><li><a href='projects/'>Projects</a></li><li><a href='qs/'>QS</a></li><li><a href='music.html'>Music</a></li><li class='right'><a href='website.html'>Website</a></li></ul></div><h1>" + title_en_us + "</h1><hr>";
+var header_zh_cn = "<div class='list'><ul><img src='images/favicon.png'/><li><a href=''>首页</a></li><li><a href='projects/'>项目</a></li><li><a href='qs/'>标准</a></li><li><a href='music.html'>音乐</a></li><li class='right'><a href='website.html'>此网站</a></li></ul></div><h1>" + title_zh_cn + "</h1><hr>";
 
 
 
@@ -49,14 +49,11 @@ var now_tag = "12.5";
 var next_tag = "12.6";
 
 // 发行内容
-var now_up_en_us = "<p>Welcome! </p>";
-var now_up_zh_cn = "<p>欢迎! </p>";
-// 修复内容
-var now_fix_en_us = "<p>Welcome! </p>";
-var now_fix_zh_cn = "<p>欢迎! </p>";
+var now_up_en_us = "<ul><li></li></ul>";
+var now_up_zh_cn = "<ul><li></li></ul>";
 // 预览内容
-var next_up_en_us = "<p>Welcome! </p>";
-var next_up_zh_cn = "<p>欢迎! </p>";
+var next_up_en_us = "<ul><li></li></ul>";
+var next_up_zh_cn = "<ul><li></li></ul>";
 
 // 进度
 var progress = 95;
@@ -74,8 +71,8 @@ var date_zh_cn = up_year + "年" + up_month_zh_cn + "月" + up_day + "日";
 
 /* --- 页脚框架部分 --- */
 // 新闻框架
-var news_en_us = "<div class='lmr enlmr'><div class='left'><span>Quinn-Web " + next_tag + " - NEXT</span></div><div class='middle'><progress max='100' value='" + progress + "'></progress></div><div class='right'><span>Progress: " + progress + "%</span></div></div><details><summary>⏩ What will be updated?</summary><hr>" +next_up_en_us + "</details><hr><div class='lmr'><div class='left'><span>Quinn-Web " + now_tag + " - NOW</span></div><div class='middle'></div><div class='right'><span><a href='https://github.com/Quinn0823/quinn0823.github.io/releases/tag/" + now_tag + "' target='_blank'><i class='fa-brands fa-github'></i>Releases</a></span></div></div><details open><summary>✨ What has been update? </summary><hr>" + now_up_en_us + "</details><details open><summary>🧰 What has been repaired?</summary><hr>" + now_fix_en_us + "</details>";
-var news_zh_cn = "<div class='lmr'><div class='left'><span>Quinn-Web " + next_tag + " - 下一版本</span></div><div class='middle'><progress max='100' value='" + progress + "'></progress></div><div class='right'><span>进展: " + progress + "%</span></div></div><details><summary>⏩ 即将更新</summary><hr>" + next_up_zh_cn + "</details><hr><div class='lmr'><div class='left'><span>Quinn-Web " + now_tag + " - 当前版本</span></div><div class='middle'></div><div class='right'><span><a href='https://github.com/Quinn0823/quinn0823.github.io/releases/tag/" + now_tag + "' target='_blank'><i class='fa-brands fa-github'></i>发行页</a></span></div></div><details open><summary>✨ 现已更新</summary><hr>" + now_up_zh_cn + "</details><details open><summary>🧰 现已解决</summary><hr>" + now_fix_zh_cn + "</details>";
+var news_en_us = "<div class='lmr enlmr'><div class='left'><span>Quinn-Web " + next_tag + " - NEXT</span></div><div class='middle'><progress max='100' value='" + progress + "'></progress></div><div class='right'><span>Progress: " + progress + "%</span></div></div><details><summary>⏩ What will be updated?</summary><hr>" +next_up_en_us + "</details><hr><div class='lmr'><div class='left'><span>Quinn-Web " + now_tag + " - NOW</span></div><div class='middle'></div><div class='right'><span><a href='https://github.com/Quinn0823/quinn0823.github.io/releases/tag/" + now_tag + "' target='_blank'><i class='fa-brands fa-github'></i>Releases</a></span></div></div><details open><summary>✨ What has been update? </summary><hr>" + now_up_en_us + "</details>";
+var news_zh_cn = "<div class='lmr'><div class='left'><span>Quinn-Web " + next_tag + " - 下一版本</span></div><div class='middle'><progress max='100' value='" + progress + "'></progress></div><div class='right'><span>进展: " + progress + "%</span></div></div><details><summary>⏩ 即将更新</summary><hr>" + next_up_zh_cn + "</details><hr><div class='lmr'><div class='left'><span>Quinn-Web " + now_tag + " - 当前版本</span></div><div class='middle'></div><div class='right'><span><a href='https://github.com/Quinn0823/quinn0823.github.io/releases/tag/" + now_tag + "' target='_blank'><i class='fa-brands fa-github'></i>发行页</a></span></div></div><details open><summary>✨ 现已更新</summary><hr>" + now_up_zh_cn + "</details>";
 
 // 联系框架
 var contact = "<div class='contact'><ul><li><a href='https://github.com/Quinn0823/' target='_blank'><i class='fa-brands fa-github'></i></a></li><li><a href='mailto:quinnqiu0823@icloud.com' target='_blank'><i class='fa-solid fa-envelope'></i></a></li><li><a href='' target='_blank'><i class='fa-brands fa-x-twitter'></i></a></li><li><a href='' target='_blank'><i class='fa-brands fa-gitter'></i></a></li><li><a href='' target='_blank'><img src='/images/logos/glitch.ico' class='fa-glitch'></a></li><li class='line'></li><li><a href='' target='_blank'><i class='fa-brands fa-weixin'></i></a></li><li><a href='' target='_blank'><i class='fa-brands fa-qq'></i></a></li><li><a href='' target='_blank'><i class='fa-brands fa-weibo'></i></a></li><li><a href='' target='_blank'><i class='fa-brands fa-bilibili'></i></a></li><li><a href='' target='_blank'><i class='fa-brands fa-zhihu'></i></a></li></ul></div>";
