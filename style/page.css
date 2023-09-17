@@ -80,7 +80,7 @@ progress::-moz-progress-bar {
 progress::-webkit-progress-bar {
     background-color: #99ccff;
 }
-/* 动画（仅 Safari） */
+/* 动画 (仅 Safari)  */
 progress::-webkit-progress-inner-element {
     width: 100%;
     animation: 2s ease 0s prog;
@@ -122,15 +122,15 @@ progress::-webkit-progress-inner-element {
 #footeri .enlmr .middle {
     margin-top: -3px;
 }
-#footeri a {
+#footeri span a {
     color: #fff;
 }
-#footeri a:link,
-#footeri a:visited,
-#footeri a:active {
+#footeri span a:link,
+#footeri span a:visited,
+#footeri span a:active {
     color: #fff;
 }
-#footeri a:hover {
+#footeri span a:hover {
     color: #6699cc;
 }
 #footeri hr {
@@ -141,6 +141,7 @@ progress::-webkit-progress-inner-element {
 #footeri details {
     background-color: #fff;
     border-radius: 10px;
+    color: #000;
 }
 /* 语言选项 */
 #footeri .sel {
