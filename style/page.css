@@ -145,7 +145,7 @@ progress::-webkit-progress-inner-element {
 /* 语言选项 */
 #footeri .sel {
     height: 30px;
-    width: 220px;
+    width: 150px;
     padding: 0;
     margin: 0 auto;
     margin-top: 10px;
@@ -194,11 +194,11 @@ progress::-webkit-progress-inner-element {
 .scratch hr {
     background-color: #855cd6;
 }
-#zh-cn .scratch details details details {
+#cn .scratch details details details {
     border: 0;
     padding: 0;
 }
-#zh-cn .scratch details details {
+#cn .scratch details details {
     padding: 5px;
     border-radius: 10px;
     border: 3px solid #855cd6;
