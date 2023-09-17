@@ -1,10 +1,7 @@
 @font-face {
     font-family: "Emoji Fonts";
-    src: local("Apple Color Emoji"),
-         local("Segoe UI Emoji"), 
-         local("Segoe UI Symbol"),
-         local("Noto Color Emoji");
-  }
+    src: local("Apple Color Emoji"), local("Segoe UI Emoji"), local("Segoe UI Symbol"), local("Noto Color Emoji");
+}
 * {
     font-family: Arial, Helvetica, sans-serif, Emoji Fonts;
 }
