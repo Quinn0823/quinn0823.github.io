@@ -1,6 +1,6 @@
 <h1 align=center>Quinn-Web 12.5 | 12.Ⅴ</h1>
 
-<p align=center>🌐 United States | <a href="https://github.com/Quinn0823/quinn0823.github.io/blob/main/releases/12/12.5/12.5-cn.md">中国大陆</a></p>
+<p align=center>🌐 United States | <a href="https://github.com/Quinn0823/quinn0823.github.io/blob/main/releases/12.5/cn.md">中国大陆</a></p>
 
 ## ✨ What has been updated in 12.5?
 
