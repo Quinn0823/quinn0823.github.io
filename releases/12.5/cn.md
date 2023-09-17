@@ -4,7 +4,7 @@
 ## ✨ 现已在 12.5 中更新
 
 * 🤣 更好的个人资料与有趣的表情符号. 你可以在那里看到更多关于我的丰富多彩的信息.
-* 📚 新项目 - [Textbook Download Helper](https://quinn0823.github.io/projects/tdh/)！这是一个由两个孩子合作完成的项目, 用于在互联网上下载电子教科书.
+* 📚 新项目 - [教材下载助手](https://quinn0823.github.io/projects/tdh/)！这是一个由两个孩子合作完成的项目, 用于在互联网上下载电子教科书.
 * 🎨 完全重写的 CSS 代码.
 * 📸 新增 4 个快照:
   * [Quinn-Web 12.4](https://quinn0823.github.io/snapshot-12.4/)
