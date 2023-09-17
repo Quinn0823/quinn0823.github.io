@@ -26,14 +26,14 @@
 
 #### 📑 Website Structure
 
-- ![](/images/svgs/secondary/house.fill.svg) Quinn-Web
+- ![](images/svgs/secondary/house.fill.svg) Quinn-Web
   - 🏠 Complete Version
-    - [Home](https://quinn0823.github.io/)
-    - [Projects](https://quinn0823.github.io/projects/)
-    - [QS](https://quinn0823.github.io/qs/)
-    - [Music](https://quinn0823.github.io/music/)
-    - [Website](https://quinn0823.github.io/website/)
+    - [Home]()
+    - [Projects](projects/)
+    - [QS](qs/)
+    - [Music](music/)
+    - [Website](website/)
   - Ⓜ️ Markdown Version
-    - [Home](https://quinn0823.github.io/markdown/)
+    - [Home](markdown/)
   - 📝 Montaigne Version
     - [Home](https://quinn0823.montaigne.io/)
