@@ -32,8 +32,8 @@ if (title_us == "Home") {
 /* --- 页眉 --- */
 
 // 菜单栏
-var header_us = "<div class='list'><ul><img src='images/favicon.png'/><li><a href=''>Home</a></li><li><a href='projects/'>Projects</a></li><li><a href='qs/'>QS</a></li><li><a href='music.html'>Music</a></li><li class='right'><a href='website.html'>Website</a></li></ul></div><h1>" + title_us + "</h1><hr>";
-var header_cn = "<div class='list'><ul><img src='images/favicon.png'/><li><a href=''>首页</a></li><li><a href='projects/'>项目</a></li><li><a href='qs/'>标准</a></li><li><a href='music.html'>音乐</a></li><li class='right'><a href='website.html'>此网站</a></li></ul></div><h1>" + title_cn + "</h1><hr>";
+var header_us = "<div class='list'><ul><img src='images/favicon.png'/><li><a href=''>Home</a></li><li><a href='projects.html'>Projects</a></li><li><a href='qs/'>QS</a></li><li><a href='music.html'>Music</a></li><li class='right'><a href='website.html'>Website</a></li></ul></div><h1>" + title_us + "</h1><hr>";
+var header_cn = "<div class='list'><ul><img src='images/favicon.png'/><li><a href=''>首页</a></li><li><a href='projects.html'>项目</a></li><li><a href='qs/'>标准</a></li><li><a href='music.html'>音乐</a></li><li class='right'><a href='website.html'>此网站</a></li></ul></div><h1>" + title_cn + "</h1><hr>";
 
 
 
