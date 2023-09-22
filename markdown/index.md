@@ -1,8 +1,8 @@
 <base href="/">
 <link rel="icon" href="favicon.ico">
 
-<link rel="stylesheet" type="text/css" href="style/page.css">
-<link rel="stylesheet" type="text/css" href="style/text.css">
+<link rel="stylesheet" type="text/css" href="css/page.css">
+<link rel="stylesheet" type="text/css" href="css/text.css">
 
 ## Home
 
