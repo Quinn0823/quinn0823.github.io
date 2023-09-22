@@ -1,0 +1,23 @@
+input {
+    width: calc(100% - 42px);
+    padding: 5px;
+    padding-left: 18px;
+    padding-right: 18px;
+    border-radius: 18px;
+    height: 20px;
+    border: 3px solid #6699cc;
+}
+button {
+    margin-left: 10px;
+    margin-right: 10px;
+    border: 3px solid #6699cc;
+    border-radius: 10px;
+    background-color: #fff;
+    transition: 0.2s;
+    color: #6699cc;
+}
+button:hover {
+    background-color: #6699cc;
+    color: #fff;
+    cursor: pointer;
+}
