@@ -3,7 +3,7 @@
     src: local("Apple Color Emoji"), local("Segoe UI Emoji"), local("Segoe UI Symbol"), local("Noto Color Emoji");
 }
 * {
-    font-family: sans-serif;
+    font-family: Arial, Helvetica, sans-serif;
 }
 h1 {
     margin: 20px;
