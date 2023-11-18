@@ -105,6 +105,7 @@
 .contact ul li a.linked {
     height: 26px;
     width: 26px;
+    line-height: 26px;
     color: #6699cc;
     text-decoration: none;
     display: block;
