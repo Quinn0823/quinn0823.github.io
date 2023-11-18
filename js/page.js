@@ -64,8 +64,8 @@ var progress = 10;
 
 // 更新时间
 var up_year = "2023";
-var up_month_us = "Sep.";
-var up_month_cn = "9";
+var up_month_us = "Nov.";
+var up_month_cn = "11";
 var up_day = "18"
 
 var date_us = up_month_us + " " + up_day + ", " + up_year;
