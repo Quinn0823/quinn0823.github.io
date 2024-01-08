@@ -48,6 +48,7 @@ ol, ul {
 a {
     color: #6699cc;
     text-decoration: underline;
+    transition: 0.25s;
 }
 a:link, a:visited, a:active {
     color: #6699cc;
@@ -55,7 +56,6 @@ a:link, a:visited, a:active {
 }
 a:hover {
     color: #99ccff;
-    transition: 0.2s;
     text-decoration: underline;
 }
 

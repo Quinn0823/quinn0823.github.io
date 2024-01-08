@@ -26,6 +26,7 @@
     border-radius: 10px;
     float: left;
     margin-left: 5px;
+    transition: 0.25s;
 }
 .list ul li.right {
     float: right;
@@ -34,7 +35,6 @@
 }
 .list ul li:hover{
     color: #fff;
-    transition: 0.2s;
     background-color: #6699cc;
 }
 
@@ -89,6 +89,7 @@
     float: left;
     margin-left: 5px;
     margin-bottom: 0;
+    transition: 0.25s;
 }
 .contact ul li.line {
     width: 3px;
@@ -113,10 +114,9 @@
 
 .contact ul li:hover {
     background-color: #fff;
-    transition: 0.2s;
 } 
 .contact ul li:hover svg {
-    transition: 0.2s;
+    transition: 0.25s;
     color: #6699cc;
 }
 
