@@ -15,8 +15,13 @@ hr {
 }
 
 /* 标题图标 */
-h3 img {
+h2 img, h2 svg {
+    height: 28px;
+    vertical-align: middle;
+}
+h3 img, h3 svg {
     height: 24px;
+    vertical-align: middle;
 }
 
 /* --- 隐藏菜单 --- */
@@ -49,8 +54,8 @@ iframe {
     width: 100%;
     height: 450px;
     border-radius: 18px;
-    width: calc(100% - 6px);
     border: 3px solid #6699cc;
+    box-sizing: border-box;
 }
 
 /* --- 进度条 --- */
@@ -235,4 +240,98 @@ progress::-webkit-progress-inner-element {
 }
 .nosnsh a:hover {
     color: #000;
+}
+
+/* PERSONALITY */
+.person h2, 
+.person h3 {
+    color: #4298b4;
+}
+.person a {
+    color: #88619a;
+}
+.person a:link, 
+.person a:visited,
+.person a:active {
+    color: #88619a;
+}
+.person a:hover {
+    color: #6c4d7b;
+}
+.person #us hr,
+.person #cn hr {
+    background-color: #4298b4;
+}
+.person .card {
+    width: 100%;
+    padding: 5px;
+    border-radius: 18px;
+    border: 3px solid #4298b4;
+    box-sizing: border-box;
+}
+.person .card span span {
+    font-weight: 600;
+}
+.person .card .bar {
+    height: 20px;
+    width: 100%;
+    height: 20px;
+    border-radius: 10px;
+    border: 3px solid #fff;
+    box-sizing: border-box;
+}
+.person .card .bar .dot {
+    height: 18px;
+    width: 18px;
+    margin-top: -2px;
+    border-radius: 9px;
+    border: 3px solid #fff;
+    box-sizing: border-box;
+}
+
+.person .card .energy span span:nth-child(1) {
+    color: #4298b4;
+}
+.person .card .mind span span:nth-child(1) {
+    color: #e4ae3a;
+}
+.person .card .nature span span:nth-child(1) {
+    color: #33a474;
+}
+.person .card .tactics span span:nth-child(1) {
+    color: #88619a;
+}
+.person .card .identity span span:nth-child(1) {
+    color: #f25e62;
+}
+
+.person .card .energy .bar {
+    background-color: #4298b4;
+}
+.person .card .energy .bar .dot {
+    margin-left: calc(60% - 9px);
+}
+.person .card .mind .bar {
+    background-color: #e4ae3a;
+}
+.person .card .mind .bar .dot {
+    margin-left: calc(64% - 9px);
+}
+.person .card .nature .bar {
+    background-color: #33a474;
+}
+.person .card .nature .bar .dot {
+    margin-left: calc(62% - 9px);
+}
+.person .card .tactics .bar {
+    background-color: #88619a;
+}
+.person .card .tactics .bar .dot {
+    margin-left: calc(56% - 9px);
+}
+.person .card .identity .bar {
+    background-color: #f25e62;
+}
+.person .card .identity .bar .dot {
+    margin-left: calc(56% - 9px);
 }
