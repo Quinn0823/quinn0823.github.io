@@ -279,6 +279,33 @@ progress::-webkit-progress-inner-element {
 .person summary {
     color: #4298b4;
 }
+.person .but {
+    margin: 0 auto;
+    width: fit-content;
+}
+.person button {
+    width: 120px;
+    height: 36px;
+    border-radius: 18px;
+    background-color: #fff;
+    border: #4298b4 3px solid;
+    box-sizing: border-box;
+    transition: 0.25s;
+    cursor: pointer;
+}
+.person button a,
+.person button a:link, 
+.person button a:visited,
+.person button a:active {
+    color: #4298b4;
+    text-decoration: none;
+}
+.person button:hover {
+    background-color: #4298b4;
+}
+.person button:hover a {
+    color: #fff;
+}
 
 .person .perImg {
     position: relative;
@@ -329,26 +356,30 @@ progress::-webkit-progress-inner-element {
     display: flex;
     justify-content: space-between;
     align-items: center;
-    color: #4298b4;
 }
 .person .card hr {
     margin-top: 5px;
     margin-bottom: 5px;
 }
 
-.person .card .energy span span:nth-child(1) {
+.person .card .energy span span:nth-child(1),
+.person .card .energy .barText {
     color: #4298b4;
 }
-.person .card .mind span span:nth-child(1) {
+.person .card .mind span span:nth-child(1),
+.person .card .mind  .barText {
     color: #e4ae3a;
 }
-.person .card .nature span span:nth-child(1) {
+.person .card .nature span span:nth-child(1),
+.person .card .nature .barText {
     color: #33a474;
 }
-.person .card .tactics span span:nth-child(1) {
+.person .card .tactics span span:nth-child(1),
+.person .card .tactics .barText {
     color: #88619a;
 }
-.person .card .identity span span:nth-child(1) {
+.person .card .identity span span:nth-child(1),
+.person .card .identity .barText {
     color: #f25e62;
 }
 
