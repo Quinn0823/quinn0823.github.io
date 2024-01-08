@@ -247,7 +247,7 @@ progress::-webkit-progress-inner-element {
 .person h3 {
     color: #4298b4;
 }
-.person a {
+/* .person a {
     color: #88619a;
 }
 .person a:link, 
@@ -257,6 +257,32 @@ progress::-webkit-progress-inner-element {
 }
 .person a:hover {
     color: #6c4d7b;
+} */
+.person a {
+    color: #4298b4;
+}
+.person a:link, 
+.person a:visited,
+.person a:active {
+    color: #4298b4;
+}
+.person a:hover {
+    color: #4298b4;
+}
+
+.person .perImg {
+    position: relative;
+    display: inline;
+    width: 22px;
+    height: 22px;
+}
+.person .perImg img {
+    width: 22px;
+    height: 22px;
+    transition: 0.5s;
+}
+.person .inPer:hover .perImg img {
+    transform: rotate(360deg);
 }
 .person hr {
     background-color: #4298b4;
