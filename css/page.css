@@ -247,6 +247,10 @@ progress::-webkit-progress-inner-element {
 .person h3 {
     color: #4298b4;
 }
+.person h2 span,
+.person h3 span {
+    color: #33a474;
+}
 /* .person a {
     color: #88619a;
 }
@@ -267,6 +271,12 @@ progress::-webkit-progress-inner-element {
     color: #4298b4;
 }
 .person a:hover {
+    color: #4298b4;
+}
+.person details {
+    border: #4298b4 3px solid;
+}
+.person summary {
     color: #4298b4;
 }
 
