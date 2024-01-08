@@ -258,13 +258,12 @@ progress::-webkit-progress-inner-element {
 .person a:hover {
     color: #6c4d7b;
 }
-.person #us hr,
-.person #cn hr {
+.person hr {
     background-color: #4298b4;
 }
 .person .card {
     width: 100%;
-    padding: 5px;
+    padding: 5px 15px 5px 15px;
     border-radius: 18px;
     border: 3px solid #4298b4;
     box-sizing: border-box;
@@ -272,21 +271,33 @@ progress::-webkit-progress-inner-element {
 .person .card span span {
     font-weight: 600;
 }
-.person .card .bar {
+.person .card .cardBar {
     height: 20px;
-    width: 100%;
-    height: 20px;
+    width: calc(100% + 6px);
+    margin-left: -3px;
+    margin-top: 2px;
+    margin-bottom: 2px;
     border-radius: 10px;
     border: 3px solid #fff;
     box-sizing: border-box;
 }
-.person .card .bar .dot {
+.person .card .cardBar .barDot {
     height: 18px;
     width: 18px;
     margin-top: -2px;
     border-radius: 9px;
     border: 3px solid #fff;
     box-sizing: border-box;
+}
+.person .card .barText {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    color: #4298b4;
+}
+.person .card hr {
+    margin-top: 5px;
+    margin-bottom: 5px;
 }
 
 .person .card .energy span span:nth-child(1) {
@@ -305,33 +316,33 @@ progress::-webkit-progress-inner-element {
     color: #f25e62;
 }
 
-.person .card .energy .bar {
+.person .card .energy .cardBar {
     background-color: #4298b4;
 }
-.person .card .energy .bar .dot {
+.person .card .energy .cardBar .barDot {
     margin-left: calc(60% - 9px);
 }
-.person .card .mind .bar {
+.person .card .mind .cardBar {
     background-color: #e4ae3a;
 }
-.person .card .mind .bar .dot {
+.person .card .mind .cardBar .barDot {
     margin-left: calc(64% - 9px);
 }
-.person .card .nature .bar {
+.person .card .nature .cardBar {
     background-color: #33a474;
 }
-.person .card .nature .bar .dot {
+.person .card .nature .cardBar .barDot {
     margin-left: calc(62% - 9px);
 }
-.person .card .tactics .bar {
+.person .card .tactics .cardBar {
     background-color: #88619a;
 }
-.person .card .tactics .bar .dot {
+.person .card .tactics .cardBar .barDot {
     margin-left: calc(56% - 9px);
 }
-.person .card .identity .bar {
+.person .card .identity .cardBar {
     background-color: #f25e62;
 }
-.person .card .identity .bar .dot {
+.person .card .identity .cardBar .barDot {
     margin-left: calc(56% - 9px);
 }
