@@ -5,7 +5,7 @@
 <link rel="stylesheet" type="text/css" href="/css/text.css">
 
 <style>
-p img {
+img {
     height: 16px;
     width: 16px;
 }
