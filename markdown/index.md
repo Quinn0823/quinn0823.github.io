@@ -29,7 +29,7 @@ img {
 
 #### 📑 Website Structure
 
-- ![](/images/svgs/secondary/house.fill.svg) Quinn-Web
+- Quinn-Web
     - 🏠 Complete Version
         - [Home](/)
             - ![](/images/logos/16personalities.png) [My 16PERSONALITIES](/personality.html)
