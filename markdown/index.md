@@ -1,8 +1,10 @@
-<base href="/">
+<base href="/markdown/">
 <link rel="icon" href="favicon.ico">
 
-<link rel="stylesheet" type="text/css" href="css/page.css">
-<link rel="stylesheet" type="text/css" href="css/text.css">
+<link rel="stylesheet" type="text/css" href="/css/page.css">
+<link rel="stylesheet" type="text/css" href="/css/text.css">
+
+<title>Home | Quinn-Web</title>
 
 ## Home
 
@@ -10,7 +12,7 @@
 
 #### 🤣 Profile
 
-- 👨 16 (Calculated by JavaScript), Boy
+- 👨 16, Boy
 - 🏫 Student
 - ⌨️ Coding Lover
 - 📱 Apple Fan
@@ -18,22 +20,20 @@
 - 🌅 Photographer (Amateurish)
 - 🎮 Minecraftor
 
-#### 🕓 Time Line
-
-- `<span class="com">` 🚧 Due to some problem with this area, it has been quarantined. 
+#### ![](/images/logos/16personalities.png) [My 16PERSONALITIES](personality.html)
 
 ---
 
 #### 📑 Website Structure
 
-- ![](images/svgs/secondary/house.fill.svg) Quinn-Web
+- ![](/images/svgs/secondary/house.fill.svg) Quinn-Web
   - 🏠 Complete Version
-    - [Home]()
-    - [Projects](projects/)
-    - [QS](qs/)
-    - [Music](music/)
-    - [Website](website/)
+    - [Home](/)
+    - [Projects](/projects/)
+    - [QS](/qs/)
+    - [Music](/music/)
+    - [Website](/website/)
   - Ⓜ️ Markdown Version
-    - [Home](markdown/)
+    - [Home](/markdown/)
   - 📝 Montaigne Version
     - [Home](https://quinn0823.montaigne.io/)
