@@ -25,8 +25,6 @@ h4 img {
 - 🌅 Photographer (Amateurish)
 - 🎮 Minecraftor
 
-#### ![](/images/logos/16personalities.png) [My 16PERSONALITIES](/personality.html)
-
 ---
 
 #### 📑 Website Structure
@@ -34,6 +32,7 @@ h4 img {
 - ![](/images/svgs/secondary/house.fill.svg) Quinn-Web
     - 🏠 Complete Version
         - [Home](/)
+            - ![](/images/logos/16personalities.png) [My 16PERSONALITIES](/personality.html)
         - [Projects](/projects/)
         - [QS](/qs/)
         - [Music](/music/)
