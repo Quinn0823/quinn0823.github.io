@@ -16,12 +16,12 @@ hr {
 
 /* 标题图标 */
 h2 img, h2 svg {
-    height: 28px;
-    vertical-align: middle;
+    height: 31px;
+    vertical-align: text-top;
 }
 h3 img, h3 svg {
-    height: 24px;
-    vertical-align: middle;
+    height: 25px;
+    vertical-align: text-top;
 }
 
 /* --- 隐藏菜单 --- */
@@ -278,8 +278,12 @@ progress::-webkit-progress-inner-element {
     width: fit-content;
 }
 .person button {
-    width: 120px;
-    height: 36px;
+    width: 100px;
+    height: 25px;
+    line-height: 19px;
+    vertical-align: text-top;
+    margin: 0;
+    padding: 0;
     border-radius: 18px;
     background-color: #fff;
     border: #4298b4 3px solid;
@@ -291,6 +295,7 @@ progress::-webkit-progress-inner-element {
 .person button a:link, 
 .person button a:visited,
 .person button a:active {
+    font-size: 14px;
     color: #4298b4;
     text-decoration: none;
 }
@@ -301,7 +306,7 @@ progress::-webkit-progress-inner-element {
     color: #fff;
 }
 .person details {
-    
+
 }
 .person summary {
     color: #000;
@@ -310,12 +315,10 @@ progress::-webkit-progress-inner-element {
 .person .perImg {
     position: relative;
     display: inline;
-    width: 22px;
-    height: 22px;
+    width: 24px;
+    height: 24px;
 }
 .person .perImg img {
-    width: 22px;
-    height: 22px;
     transition: 0.5s;
 }
 .person .inPer:hover .perImg img {
@@ -324,8 +327,27 @@ progress::-webkit-progress-inner-element {
 .person hr {
     background-color: #4298b4;
 }
-.person .card {
-
+/* .person .card {
+    width: 100%;
+    padding: 5px 15px 5px 15px;
+    border-radius: 18px;
+    border: 3px solid #4298b4;
+    box-sizing: border-box;
+} */
+#cn .person .card {
+    width: 100%;
+    padding: 5px;
+    border-radius: 18px;
+    border: 3px solid #4298b4;
+    box-sizing: border-box;
+}
+#cn .person .card .energy,
+#cn .person .card .mind,
+#cn .person .card .nature,
+#cn .person .card .tactics,
+#cn .person .card .identity {
+    margin-left: 5px;
+    margin-right: 5px;
 }
 .person .card span {
     font-weight: 400;
