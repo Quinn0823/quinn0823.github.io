@@ -62,13 +62,13 @@ var next_up_us = "<ul><li>🪪 Brand new contact footer. You can see lots of my 
 var next_up_cn = "<ul><li>🪪 全新的联系人页脚. 你可以在那里看到我的很多社交媒体联系方式.</li><li>📑新的自述文件和为所有 markdown 文件的新徽章.</li><li>🔢 新项目 - 数字点阵工具. 它通过 16 * 16 的文本矩阵显示数字.</li><li>⚓️ 三级及以上的标题将添加锚点. 这对定位和重定向很有帮助.</li></ul><p>越来越多的新功能即将推出！</p>";
 
 // 进度
-var progress = 10;
+var progress = 32;
 
 // 更新时间
-var up_year = "2023";
-var up_month_us = "Nov.";
-var up_month_cn = "11";
-var up_day = "18"
+var up_year = "2024";
+var up_month_us = "Jan.";
+var up_month_cn = "1";
+var up_day = "9"
 
 var date_us = up_month_us + " " + up_day + ", " + up_year;
 var date_cn = up_year + "年" + up_month_cn + "月" + up_day + "日";
