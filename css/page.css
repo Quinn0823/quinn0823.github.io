@@ -273,12 +273,6 @@ progress::-webkit-progress-inner-element {
 .person a:hover {
     color: #4298b4;
 }
-.person details {
-    border: #4298b4 3px solid;
-}
-.person summary {
-    color: #4298b4;
-}
 .person .but {
     margin: 0 auto;
     width: fit-content;
@@ -306,6 +300,12 @@ progress::-webkit-progress-inner-element {
 .person button:hover a {
     color: #fff;
 }
+.person details {
+    
+}
+.person summary {
+    color: #000;
+}
 
 .person .perImg {
     position: relative;
@@ -325,11 +325,10 @@ progress::-webkit-progress-inner-element {
     background-color: #4298b4;
 }
 .person .card {
-    width: 100%;
-    padding: 5px 15px 5px 15px;
-    border-radius: 18px;
-    border: 3px solid #4298b4;
-    box-sizing: border-box;
+
+}
+.person .card span {
+    font-weight: 400;
 }
 .person .card span span {
     font-weight: 600;
@@ -348,7 +347,7 @@ progress::-webkit-progress-inner-element {
     height: 18px;
     width: 18px;
     margin-top: -2px;
-    border-radius: 9px;
+    border-radius: 50%;
     border: 3px solid #fff;
     box-sizing: border-box;
 }
@@ -362,32 +361,23 @@ progress::-webkit-progress-inner-element {
     margin-bottom: 5px;
 }
 
+.person .card .energy details {
+    border: #4298b4 3px solid;
+}
 .person .card .energy span span:nth-child(1),
 .person .card .energy .barText {
     color: #4298b4;
 }
-.person .card .mind span span:nth-child(1),
-.person .card .mind  .barText {
-    color: #e4ae3a;
-}
-.person .card .nature span span:nth-child(1),
-.person .card .nature .barText {
-    color: #33a474;
-}
-.person .card .tactics span span:nth-child(1),
-.person .card .tactics .barText {
-    color: #88619a;
-}
-.person .card .identity span span:nth-child(1),
-.person .card .identity .barText {
-    color: #f25e62;
-}
-
 .person .card .energy .cardBar {
     background-color: #4298b4;
 }
 .person .card .energy .cardBar .barDot {
     margin-left: calc(60% - 9px);
+}
+
+.person .card .mind span span:nth-child(1),
+.person .card .mind  .barText {
+    color: #e4ae3a;
 }
 .person .card .mind .cardBar {
     background-color: #e4ae3a;
@@ -395,17 +385,32 @@ progress::-webkit-progress-inner-element {
 .person .card .mind .cardBar .barDot {
     margin-left: calc(64% - 9px);
 }
+
+.person .card .nature span span:nth-child(1),
+.person .card .nature .barText {
+    color: #33a474;
+}
 .person .card .nature .cardBar {
     background-color: #33a474;
 }
 .person .card .nature .cardBar .barDot {
     margin-left: calc(62% - 9px);
 }
+
+.person .card .tactics span span:nth-child(1),
+.person .card .tactics .barText {
+    color: #88619a;
+}
 .person .card .tactics .cardBar {
     background-color: #88619a;
 }
 .person .card .tactics .cardBar .barDot {
     margin-left: calc(56% - 9px);
+}
+
+.person .card .identity span span:nth-child(1),
+.person .card .identity .barText {
+    color: #f25e62;
 }
 .person .card .identity .cardBar {
     background-color: #f25e62;
