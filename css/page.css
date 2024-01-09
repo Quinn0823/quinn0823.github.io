@@ -291,6 +291,10 @@ progress::-webkit-progress-inner-element {
     transition: 0.25s;
     cursor: pointer;
 }
+#cn .person button {
+    height: 31px;
+    line-height: 25px;
+}
 .person button a,
 .person button a:link, 
 .person button a:visited,
@@ -381,6 +385,10 @@ progress::-webkit-progress-inner-element {
 .person .card hr {
     margin-top: 5px;
     margin-bottom: 5px;
+}
+.person .date {
+    margin: 0;
+    text-align: center;
 }
 
 .person .card .energy details {
