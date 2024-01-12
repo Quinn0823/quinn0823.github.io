@@ -68,7 +68,7 @@ var progress = 32;
 var up_year = "2024";
 var up_month_us = "Jan.";
 var up_month_cn = "1";
-var up_day = "9"
+var up_day = "12"
 
 var date_us = up_month_us + " " + up_day + ", " + up_year;
 var date_cn = up_year + "年" + up_month_cn + "月" + up_day + "日";
