@@ -47,6 +47,7 @@ ol, ul {
 
 a {
     color: #6699cc;
+    cursor: pointer;
     text-decoration: underline;
 }
 a:link, a:visited, a:active {
@@ -80,4 +81,14 @@ thead {
 #qs202302 tr:nth-child(1) td:nth-child(2) {
     background-color: #99ccff;
     color: #fff;
+}
+
+.act {
+    color: green;
+}
+.rep {
+    color: orange;
+}
+.inv {
+    color: red;
 }
