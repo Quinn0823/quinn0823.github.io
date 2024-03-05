@@ -99,6 +99,16 @@ progress::-webkit-progress-inner-element {
     }
 }
 
+#text_box {
+	position: absolute;
+    cursor: default;
+    top: 0;
+    left: 0;
+    width: 0;
+    height: 0;
+    opacity: 0;
+}
+
 
 /* --- 页脚 --- */
 #footeri {
@@ -231,6 +241,7 @@ progress::-webkit-progress-inner-element {
     font-weight: 400;
 }
 .nosnsh a {
+    cursor: auto;
     color: #000;
 }
 .nosnsh a:link, 
