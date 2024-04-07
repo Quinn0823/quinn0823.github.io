@@ -1,27 +1,28 @@
 <!DOCTYPE html>
-<html lang="en">
-<head>
-	<meta charset="UTF-8">
-	<title>原生 js 实现点击按钮复制文本</title>
-	<style type="text/css">
-	   .wrapper {position: relative;}
-	   #input {position: absolute;top: 0;left: 0;opacity: 0;z-index: -10;}
-	</style>
-</head>
-<body>
-    <div class="wrapper">
-       <a id="text" onclick="copyText()">123</a>
-       <textarea id="input">这是幕后黑手</textarea>
-    </div>
-</body>
-<script type="text/javascript">
-	function copyText() {
-        var text = document.getElementById("text").innerHTML;
-        var input = document.getElementById("input");
-        input.value = text;
-        input.select();//选中文本
-        document.execCommand("copy");
-        alert("Copied!");
-    }
-</script>
+<html>
+    <head>
+        <meta charset="UTF-8">
+        <title>原生 js 实现点击按钮复制文本</title>
+        <style type="text/css">
+        .wrapper {position: relative;}
+        #input {position: absolute;top: 0;left: 0;opacity: 0;z-index: -10;}
+        </style>
+
+        <script type="text/javascript">
+            function copyText() {
+                var text = document.getElementById("text").innerHTML;
+                var input = document.getElementById("input");
+                input.value = text;
+                input.select();//选中文本
+                document.execCommand("copy");
+                alert("Copied!");
+            }
+        </script>
+    </head>
+    <body>
+        <div class="wrapper">
+        <a id="text" onclick="copyText()">123</a>
+        <textarea id="input">这是幕后黑手</textarea>
+        </div>
+    </body>
 </html>

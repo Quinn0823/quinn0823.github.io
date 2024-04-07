@@ -1,211 +1,212 @@
 <!DOCTYPE html>
-<head>
-    <meta charset="utf-8">
+<html>
+    <head>
+        <meta charset="utf-8">
 
-    <meta name="author" content="Quinn0823">
-    <meta name="keywords" content="Quinn-Web, Quinn Qiu, Quinn0823, Personal Website">
-    <meta name="description" content="This is Quinn Qiu's personal website.">
+        <meta name="author" content="Quinn0823">
+        <meta name="keywords" content="Quinn-Web, Quinn Qiu, Quinn0823, Personal Website">
+        <meta name="description" content="This is Quinn Qiu's personal website.">
 
-    <meta name="theme-color" content="#99ccff" media="(prefers-color-scheme: light)">
-    <meta name="theme-color" content="#6699cc" media="(prefers-color-scheme: dark)">
-    
-    <!-- <meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1, user-scalable=yes"> -->
-
-    <meta property="og:site_name" content="Quinn-Web">
-    <meta property="og:title" content="Lab">
-    <meta property="og:description" content="This is Quinn Qiu's personal website.">
-    <meta property="og:type" content="website">
-    <meta property="og:image" content="https://quinn0823.github.io/images/icons/icon-32.png">
-
-    <base href="/">
-    
-    <link rel="icon" type="image/png" sizes="16x16" href="images/icons/icon-16.png">
-    <link rel="icon" type="image/png" sizes="32x32" href="images/icons/icon-32.png">
-    <link rel="icon" type="image/png" sizes="64x64" href="images/icons/icon-64.png">
-    <link rel="icon" type="image/png" sizes="128x128" href="images/icons/icon-128.png">
-
-    <link rel="stylesheet" type="text/css" href="css/page.css">
-    <link rel="stylesheet" type="text/css" href="css/list.css">
-    <link rel="stylesheet" type="text/css" href="css/text.css">
-
-    <style>
-        #content {
-            text-align: center;
-        }
-        section.timeline-outer {
-            margin: 0 auto;
-        }
-    
+        <meta name="theme-color" content="#99ccff" media="(prefers-color-scheme: light)">
+        <meta name="theme-color" content="#6699cc" media="(prefers-color-scheme: dark)">
         
-    
-        /* Timeline */
-    
-        .timeline {
-            margin-left: 55px;
-            border: 3px solid #6699cc;
-            border-left: 6px solid #6699cc;
-            border-top-right-radius: 18px;
-            border-bottom-right-radius: 18px;
-            color: #000;
-            line-height: 1.4em;
-            padding-left: 5px;
-            padding-right: 5px;
-            list-style: none;
-            text-align: left;
-        }
-        .timeline span {
-            margin-left: 15px;
-            font-weight: 600;
-            color: #6699cc;
-        }
-        .timeline p {
-            margin-left: 15px;
-        }
-    
-        .timeline .event {
-            margin-top: 10px;
-            border-bottom: 3px solid #6699cc;
-            padding-bottom: 10px;
-            position: relative;
-        }
-    
-        .timeline .event:last-of-type {
-            padding-bottom: 0;
-            margin-bottom: 0;
-            border: none;
-        }
-    
-        .timeline .event:before,
-        .timeline .event:after {
-            position: absolute;
-            display: block;
-            top: 0;
-        }
-    
-        .timeline .event:before {
-            left: -60px;
-            width: 40px;
-            display: block;
-            color: #6699cc;
-            content: attr(data-date);
-            text-align: left;
-        }
-    
-        .timeline .event:after {
-            box-shadow: 0 0 0 6px #6699cc;
-            left: -12px;
-            background: #99ccff;
-            border-radius: 50%;
-            height: 8px;
-            width: 8px;
-            content: "";
-            top: 7px;
-        }
-        .timeline #pre_en:after, 
-        .timeline #pre_cns:after {
-            animation: twinkle_a 1.5s ease infinite;
-            box-shadow: 0 0 0 8px #6699cc;
-            background-color: #99ccff;
-        }
-        .timeline #pre_en:before,
-        .timeline #pre_cns:before,
-        .timeline #pre_en span,
-        .timeline #pre_cns span {
-            animation: twinkle_b 1.5s ease infinite;
-        }
+        <!-- <meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1, user-scalable=yes"> -->
 
-        .timeline #fu_en:before, .timeline #fu_en *,
-        .timeline #fu_cns:before, .timeline #fu_cns * {
-            color: #99ccff;
-        }
-        .timeline #fu_en:after, 
-        .timeline #fu_cns:after {
-            box-shadow: 0 0 0 6px #99ccff;
-        }
+        <meta property="og:site_name" content="Quinn-Web">
+        <meta property="og:title" content="Lab">
+        <meta property="og:description" content="This is Quinn Qiu's personal website.">
+        <meta property="og:type" content="website">
+        <meta property="og:image" content="https://quinn0823.github.io/images/icons/icon-32.png">
+
+        <base href="/">
         
+        <link rel="icon" type="image/png" sizes="16x16" href="images/icons/icon-16.png">
+        <link rel="icon" type="image/png" sizes="32x32" href="images/icons/icon-32.png">
+        <link rel="icon" type="image/png" sizes="64x64" href="images/icons/icon-64.png">
+        <link rel="icon" type="image/png" sizes="128x128" href="images/icons/icon-128.png">
+
+        <link rel="stylesheet" type="text/css" href="css/page.css">
+        <link rel="stylesheet" type="text/css" href="css/list.css">
+        <link rel="stylesheet" type="text/css" href="css/text.css">
+
+        <style>
+            #content {
+                text-align: center;
+            }
+            section.timeline-outer {
+                margin: 0 auto;
+            }
         
-        @keyframes twinkle_a {
-            0% {
+            
+        
+            /* Timeline */
+        
+            .timeline {
+                margin-left: 55px;
+                border: 3px solid #6699cc;
+                border-left: 6px solid #6699cc;
+                border-top-right-radius: 18px;
+                border-bottom-right-radius: 18px;
+                color: #000;
+                line-height: 1.4em;
+                padding-left: 5px;
+                padding-right: 5px;
+                list-style: none;
+                text-align: left;
+            }
+            .timeline span {
+                margin-left: 15px;
+                font-weight: 600;
+                color: #6699cc;
+            }
+            .timeline p {
+                margin-left: 15px;
+            }
+        
+            .timeline .event {
+                margin-top: 10px;
+                border-bottom: 3px solid #6699cc;
+                padding-bottom: 10px;
+                position: relative;
+            }
+        
+            .timeline .event:last-of-type {
+                padding-bottom: 0;
+                margin-bottom: 0;
+                border: none;
+            }
+        
+            .timeline .event:before,
+            .timeline .event:after {
+                position: absolute;
+                display: block;
+                top: 0;
+            }
+        
+            .timeline .event:before {
+                left: -60px;
+                width: 40px;
+                display: block;
+                color: #6699cc;
+                content: attr(data-date);
+                text-align: left;
+            }
+        
+            .timeline .event:after {
+                box-shadow: 0 0 0 6px #6699cc;
+                left: -12px;
+                background: #99ccff;
+                border-radius: 50%;
+                height: 8px;
+                width: 8px;
+                content: "";
+                top: 7px;
+            }
+            .timeline #pre_en:after, 
+            .timeline #pre_cns:after {
+                animation: twinkle_a 1.5s ease infinite;
                 box-shadow: 0 0 0 8px #6699cc;
                 background-color: #99ccff;
             }
-            50% {
-                box-shadow: 0 0 0 6px #99ccff;
-                background-color: #6699cc;
+            .timeline #pre_en:before,
+            .timeline #pre_cns:before,
+            .timeline #pre_en span,
+            .timeline #pre_cns span {
+                animation: twinkle_b 1.5s ease infinite;
             }
-        }
-        @keyframes twinkle_b {
-            0% {
-                color: #6699cc;
-            }
-            50% {
+
+            .timeline #fu_en:before, .timeline #fu_en *,
+            .timeline #fu_cns:before, .timeline #fu_cns * {
                 color: #99ccff;
             }
-        }
-    </style>
+            .timeline #fu_en:after, 
+            .timeline #fu_cns:after {
+                box-shadow: 0 0 0 6px #99ccff;
+            }
+            
+            
+            @keyframes twinkle_a {
+                0% {
+                    box-shadow: 0 0 0 8px #6699cc;
+                    background-color: #99ccff;
+                }
+                50% {
+                    box-shadow: 0 0 0 6px #99ccff;
+                    background-color: #6699cc;
+                }
+            }
+            @keyframes twinkle_b {
+                0% {
+                    color: #6699cc;
+                }
+                50% {
+                    color: #99ccff;
+                }
+            }
+        </style>
 
-    <script src="js/font_awesome.js" crossorigin="anonymous"></script>
-    
-    <title>Lab</title>
-</head>
-
-<body>
-    <div id="header"></div>
-    <div id="us">
-        <h3><i class="fa-solid fa-timeline"></i> Timeline - BETA</h3>
-        <div class="cont">
-            <ul class="timeline">
-                <li class="event" data-date="2007">
-                    <span><i class='fa-solid fa-baby'></i> Came To the World</span>
-                    <p>Nothing to say.</p>
-                </li>
-                <li class="event" data-date="2014">
-                    <span><i class='fa-solid fa-graduation-cap'></i> YY Student</span>
-                    <p>A student of Chongqing Yuying Primary School (Chongqing University of Proparatory School).</p>
-                </li>
-                <li class="event" data-date="2020">
-                    <span><i class='fa-solid fa-graduation-cap'></i> HF Student</span>
-                    <p>A student of Hongfan School Attached to Chongqing No.8 Secondary School.</p>
-                </li>
-                <li class="event" id="pre_en" data-date="2023">
-                    <span><i class='fa-solid fa-graduation-cap'></i> BZ Student</span>
-                    <p>A student of Chongqing No.8 Secondary School.</p>
-                </li>
-                <li class="event" id="fu_en" data-date="2026">
-                    <span>?</span>
-                    <p>I have no idea yet.</p>
-                </li>
-            </ul>
-        </div>
-    </div>
-    <div id="cn">
-        <h3><i class="fa-solid fa-timeline"></i> 时间线 - 预览</h3>
-        <div class="cont">
-            <ul class="timeline">
-                <li class="event" data-date="2007">
-                    <span><i class='fa-solid fa-baby'></i> 来到这个世界</span>
-                    <p>没什么可说的.</p>
-                </li>
-                <li class="event" data-date="2014">
-                    <span><i class='fa-solid fa-graduation-cap'></i> YY 学生</span>
-                    <p>重庆市沙坪坝区育英小学校 (重庆大学附属小学) 的一个学生.</p>
-                </li>
-                <li class="event" data-date="2020">
-                    <span><i class='fa-solid fa-graduation-cap'></i> HF 学生</span>
-                    <p>重庆八中宏帆中学校 的一个学生.</p>
-                </li>
-                <li class="event" id="pre_cns" data-date="2023">
-                    <span><i class='fa-solid fa-graduation-cap'></i> BZ 学生</span>
-                    <p>重庆市第八中学校 的一个学生.</p>
-                </li>
-                <li class="event" id="fu_cns" data-date="2026">
-                    <span>?</span>
-                    <p>我还没有想法.</p>
-                </li>
-            </ul>
-        </div>
+        <script src="js/font_awesome.js" crossorigin="anonymous"></script>
         
-    </div>
-    <div id="footer"></div>
-    <script src="js/page.js"></script>
-</body>
+        <title>Lab</title>
+    </head>
+    <body>
+        <div id="header"></div>
+        <div id="us">
+            <h3><i class="fa-solid fa-timeline"></i> Timeline - BETA</h3>
+            <div class="cont">
+                <ul class="timeline">
+                    <li class="event" data-date="2007">
+                        <span><i class='fa-solid fa-baby'></i> Came To the World</span>
+                        <p>Nothing to say.</p>
+                    </li>
+                    <li class="event" data-date="2014">
+                        <span><i class='fa-solid fa-graduation-cap'></i> YY Student</span>
+                        <p>A student of Chongqing Yuying Primary School (Chongqing University of Proparatory School).</p>
+                    </li>
+                    <li class="event" data-date="2020">
+                        <span><i class='fa-solid fa-graduation-cap'></i> HF Student</span>
+                        <p>A student of Hongfan School Attached to Chongqing No.8 Secondary School.</p>
+                    </li>
+                    <li class="event" id="pre_en" data-date="2023">
+                        <span><i class='fa-solid fa-graduation-cap'></i> BZ Student</span>
+                        <p>A student of Chongqing No.8 Secondary School.</p>
+                    </li>
+                    <li class="event" id="fu_en" data-date="2026">
+                        <span>?</span>
+                        <p>I have no idea yet.</p>
+                    </li>
+                </ul>
+            </div>
+        </div>
+        <div id="cn">
+            <h3><i class="fa-solid fa-timeline"></i> 时间线 - 预览</h3>
+            <div class="cont">
+                <ul class="timeline">
+                    <li class="event" data-date="2007">
+                        <span><i class='fa-solid fa-baby'></i> 来到这个世界</span>
+                        <p>没什么可说的.</p>
+                    </li>
+                    <li class="event" data-date="2014">
+                        <span><i class='fa-solid fa-graduation-cap'></i> YY 学生</span>
+                        <p>重庆市沙坪坝区育英小学校 (重庆大学附属小学) 的一个学生.</p>
+                    </li>
+                    <li class="event" data-date="2020">
+                        <span><i class='fa-solid fa-graduation-cap'></i> HF 学生</span>
+                        <p>重庆八中宏帆中学校 的一个学生.</p>
+                    </li>
+                    <li class="event" id="pre_cns" data-date="2023">
+                        <span><i class='fa-solid fa-graduation-cap'></i> BZ 学生</span>
+                        <p>重庆市第八中学校 的一个学生.</p>
+                    </li>
+                    <li class="event" id="fu_cns" data-date="2026">
+                        <span>?</span>
+                        <p>我还没有想法.</p>
+                    </li>
+                </ul>
+            </div>
+            
+        </div>
+        <div id="footer"></div>
+        <script src="js/page.js"></script>
+    </body>
+</html>
