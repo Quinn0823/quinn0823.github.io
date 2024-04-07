@@ -1,34 +1,44 @@
 /* --- 网页标题 --- */
 
-var title_us = document.title
+var title_us = document.title;
 var title_cn = document.title;
+var h1_us = document.title;
+var h1_cn = document.title;
 
 if (title_us == "Home") {
-    title_cn = "首页";
+    title_us = "Hi! I'm Quinn Qiu.";
+    title_cn = "嗨! 我是 Quinn Qiu.";
+    h1_cn = "主页";
 } else if (title_us == "My 16PERSONALITIES") {
     title_cn = "我的 16PERSONALITIES (16个性)";
+    h1_cn = title_cn;
 } else if (title_us == "Projects") {
     title_cn = "项目";
+    h1_cn = title_cn;
 } else if (title_us == "App Library") {
     title_cn = "App 资源库"
+    h1_cn = title_cn;
 } else if (title_us == "QuinnStandard") {
     title_cn = "Quinn 标准";
+    h1_cn = title_cn;
 }  else if (title_us == "Music") {
     title_cn = "音乐";
+    h1_cn = title_cn;
 } else if (title_us == "Lab") {
     title_cn = "实验室";
+    h1_cn = title_cn;
 } else if (title_us == "Website") {
     title_cn = "此网站";
-} else if (title_us == "Textbook Download Helper") {
-    title_cn = "教材下载助手";
-} else if (title_us == "Digital Dot Matrix Tool") {
-    title_cn = "数字点阵工具";
+    h1_cn = title_cn;
 } else if (title_us == "QS 1 Subject Code") {
     title_cn = "QS 1 学科代号";
+    h1_cn = title_cn;
 } else if (title_us == "QS 2 Basic Text Format") {
     title_cn = "QS 2 基本文本格式";
+    h1_cn = title_cn;
 } else if (title_us == "QS 3 Subject Code And Color") {
     title_cn = "QS 3 学科代号及颜色";
+    h1_cn = title_cn;
 }
 
 
@@ -36,8 +46,8 @@ if (title_us == "Home") {
 /* --- 页眉 --- */
 
 // 菜单栏
-var header_us = "<div class='list'><ul><img src='/images/icons/icon-64.png'/><li><a href=''>Home</a></li><li><a href='projects.html'>Projects</a></li><li><a href='qs/'>QS</a></li><li><a href='music.html'>Music</a></li><li class='right'><a href='website.html'>Website</a></li></ul></div><h1>" + title_us + "</h1><hr>";
-var header_cn = "<div class='list'><ul><img src='/images/icons/icon-64.png'/><li><a href=''>首页</a></li><li><a href='projects.html'>项目</a></li><li><a href='qs/'>标准</a></li><li><a href='music.html'>音乐</a></li><li class='right'><a href='website.html'>此网站</a></li></ul></div><h1>" + title_cn + "</h1><hr>";
+var header_us = "<div class='list'><ul><img src='/images/icons/icon-64.png'/><li><a href=''>Home</a></li><li><a href='projects.html'>Projects</a></li><li><a href='qs/'>QS</a></li><li><a href='music.html'>Music</a></li><li class='right'><a href='website.html'>Website</a></li></ul></div><h1>" + h1_us + "</h1><hr>";
+var header_cn = "<div class='list'><ul><img src='/images/icons/icon-64.png'/><li><a href=''>首页</a></li><li><a href='projects.html'>项目</a></li><li><a href='qs/'>标准</a></li><li><a href='music.html'>音乐</a></li><li class='right'><a href='website.html'>此网站</a></li></ul></div><h1>" + h1_cn + "</h1><hr>";
 
 
 
@@ -105,7 +115,7 @@ if (userAgent.indexOf("Firefox") > -1) {
 // 显示语言
 function langdate() {
     if (localStorage.langdate == 2) { //Chinese
-        document.title = title_cn + " | Quinn-Web";
+        document.title = title_cn + " - Quinn-Web";
 
         document.getElementById("header").innerHTML = header_cn;
         document.getElementById("footer").innerHTML = footer_cn;
@@ -113,7 +123,7 @@ function langdate() {
         document.getElementById("us").style.display = "none";
         document.getElementById("cn").style.display = "inline";
     } else { //English
-        document.title = title_us + " | Quinn-Web";
+        document.title = title_us + " - Quinn-Web";
 
         document.getElementById("header").innerHTML = header_us;
         document.getElementById("footer").innerHTML = footer_us;
