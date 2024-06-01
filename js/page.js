@@ -81,12 +81,12 @@ var progress = 32;
 
 // 更新时间
 var up_year = "2024";
-var up_month_us = "May";
-var up_month_cn = "5";
-var up_day = "15"
+var up_month_us = "June";
+var up_month_cn = "6";
+var up_day = "1"
 
 var date_us = up_month_us + " " + up_day + ", " + up_year;
-var date_cn = up_year + "年" + up_month_cn + "月" + up_day + "日";
+var date_cn = up_year + " 年 " + up_month_cn + " 月 " + up_day + " 日";
 
 
 
@@ -100,7 +100,7 @@ var contact = "<div class='contact'><ul><li><a href='https://github.com/Quinn082
 
 // 页脚框架
 var footer_us = "<hr><div id='footeri'>" + news_us + "<hr><div class='sel'><select id='lang' onchange='langchange()'><option value='1' selected='selected'>United States</option><option value='2'>中国大陆</option></select></div><span style='text-align: center; display:block; '>📅 Last Updated: " + date_us + " | Copyright © 2019-" + new Date(Date.parse(new Date())).getFullYear() + " Quinn Qiu All Rights Reserved. </span></div>" + contact;
-var footer_cn = "<hr><div id='footeri'>" + news_cn + "<hr><div class='sel'><select id='lang' onchange='langchange()'><option value='1'>United States</option><option value='2' selected='selected'>中国大陆</option></select></div><span style='text-align: center; display:block; '>📅 最近更新：" + date_cn + " | Copyright © 2019-" + new Date(Date.parse(new Date())).getFullYear() + " Quinn Qiu 保留所有权利. </span></div>" + contact;
+var footer_cn = "<hr><div id='footeri'>" + news_cn + "<hr><div class='sel'><select id='lang' onchange='langchange()'><option value='1'>United States</option><option value='2' selected='selected'>中国大陆</option></select></div><span style='text-align: center; display:block; '>📅 最近更新: " + date_cn + " | Copyright © 2019-" + new Date(Date.parse(new Date())).getFullYear() + " Quinn Qiu 保留所有权利. </span></div>" + contact;
 
 
 /* --- 浏览器检测 --- */
