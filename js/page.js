@@ -60,7 +60,7 @@ var header_cn = "<div class='list'><ul><img src='/images/icons/icon-64.png'/><li
 /* --- 页脚填写部分 --- */
 // 版本 Tag
 var now_tag = "12.5";
-var next_tag = "12.6";
+var next_tag = "13";
 
 // 发行内容
 var now_up_us = "<ul><li>🤣 Better profile with interesting emojis. You can see more colorful information about me there.</li><li>📚 New project - <a href='https://quinn0823.github.io/projects/tdh/'>Textbook Download Helper</a>! This is a collaborative project finished by two kids which is used to download electronic textbook on the Internet.</li><li>🎨 Completely rewritten CSS code</li><li>📸 4 new snapshots have been added:<ul><li><a href='https://quinn0823.github.io/snapshot-12.4/'>Quinn-Web 12.4</a></li><li><a href='https://quinn0823.github.io/snapshot-12.3/'>Quinn-Web 12.3</a></li><li><a href='https://quinn0823.github.io/snapshot-12.2.2/'>Quinn-Web 12.2.2</a></li><li><a href='https://quinn0823.github.io/snapshot-12.1.1-alpha/'>Quinn-Web 12.1.1-alpha</a></li></ul></li><li>😸 Several new <a href='https://quinn0823.github.io/projects/'>Scratch</a> top projects and all of them have colorful emoji.</li><li>🔜 New function - Progress. You can easily check the progress of the next version now.</li><li>⛩️ New quick access - GitHub Releases. You're able to jump to <a href='https://github.com/Quinn0823/quinn0823.github.io/releases/'>GitHub Releases</a> page of this version.</li><li>🛠️ We provide 2 Quinn-Web version based on other languages or platforms:<ul><li>Ⓜ️ <a href='https://quinn0823.github.io/markdown/'>Markdown Version</a></li><li>📝 <a href='https://quinn0823.montaigne.io/'>Montaigne Version</a></li></ul></li></ul>";
@@ -73,17 +73,17 @@ var now_egg_us = "<ul><li>🐎 The progress bar is dynamic on Safari! It's avail
 var now_egg_cn = "<ul><li>🐎 Safari 上的进展条是动态的！它可在 iOS 和 macOS 上展现 (visionOS? 我不知道) .</li></ul>";
 
 // 预览内容
-var next_up_us = "<ul><li>🪪 Brand new contact footer. You can see lots of my social media contact details there.</li><li>📑 New README and new badges for all markdown files</li><li>🔢 New project - Digital Dot Matrix Tool. It displays numbers through a 16 * 16 text matrix.</li><li>⚓️ Level 3 and above headings will be added anchor points. This is helpful for positioning &amp; redirection.</li></ul><p>More and more new function will be available soon!</p>";
-var next_up_cn = "<ul><li>🪪 全新的联系人页脚. 你可以在那里看到我的很多社交媒体联系方式.</li><li>📑 新的自述文件和为所有 markdown 文件的新徽章.</li><li>🔢 新项目 - 数字点阵工具. 它通过 16 * 16 的文本矩阵显示数字.</li><li>⚓️ 三级及以上的标题将添加锚点. 这对定位和重定向很有帮助.</li></ul><p>越来越多的新功能即将推出！</p>";
+var next_up_us = "<ul><li>🪪 Brand new contact footer. You can see lots of my social media contact details there.</li><li>📑 New README and new badges for all markdown files</li><li>⚓️ Level 3 and above headings will be added anchor points. This is helpful for positioning &amp; redirection.</li></ul><p>More and more new function will be available soon!</p>";
+var next_up_cn = "<ul><li>🪪 全新的联系人页脚. 你可以在那里看到我的很多社交媒体联系方式.</li><li>📑 新的自述文件和为所有 markdown 文件的新徽章.</li><li>⚓️ 三级及以上的标题将添加锚点. 这对定位和重定向很有帮助.</li></ul><p>越来越多的新功能即将推出！</p>";
 
 // 进度
-var progress = 32;
+var progress = 0;
 
 // 更新时间
 var up_year = "2024";
-var up_month_us = "June";
-var up_month_cn = "6";
-var up_day = "1"
+var up_month_us = "Aug";
+var up_month_cn = "8";
+var up_day = "13"
 
 var date_us = up_month_us + " " + up_day + ", " + up_year;
 var date_cn = up_year + " 年 " + up_month_cn + " 月 " + up_day + " 日";
